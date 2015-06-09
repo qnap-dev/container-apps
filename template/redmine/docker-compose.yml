@@ -1,0 +1,14 @@
+postgresql:
+  image: sameersbn/postgresql:9.4
+  environment:
+    - DB_USER=redmine
+    - DB_PASS=password
+    - DB_NAME=redmine_production
+redmine:
+  image: sameersbn/redmine:3.0.3
+  links:
+    - postgresql:postgresql
+  environment:
+    - REDMINE_PORT=10083
+  ports:
+    - "10083:80"

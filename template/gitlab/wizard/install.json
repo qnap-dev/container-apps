@@ -1,0 +1,89 @@
+{
+    "app": {
+        "type": "web",
+        "entry": {"port": "app.gitlab.ports.80"}
+    },
+    "wizard": [
+        {
+            "step_title":"{{'CONFIGURE_GITLAB' | translate}}",
+            "items":[
+                {
+                    "type":"textfield",
+                    "desc":"{{'GITLAB_PASSWORD_DESC' | translate}}",
+                    "subitems":[
+                        {
+                            "key":"app.gitlab.environment.GITLAB_ROOT_PASSWORD",
+                            "desc":"{{'PASSWORD' | translate}}",
+                            "validator":{
+                                "minLength":2,
+                                "maxLength":10
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type":"textfield",
+                    "desc":"{{'GITLAB_WEB_HOST_PORT_DESC' | translate}}",
+                    "subitems":[
+                        {
+                            "key":"app.gitlab.ports['80']",
+                            "desc":"{{'PORT' | translate}}",
+                            "validator":{
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type":"textfield",
+                    "desc":"{{'GITLAB_SSH_HOST_PORT_DESC' | translate}}",
+                    "subitems":[
+                        {
+                            "key":"app.gitlab.ports['22']",
+                            "desc":"{{'PORT' | translate}}",
+                            "validator":{
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "step_title":"{{'SERVICE_MANAGEMENT' | translate}}",
+            "items":[
+                {
+                    "type":"multiselect",
+                    "desc":"",
+                    "subitems":[
+                        {
+                            "key":"custom.autostart",
+                            "desc":"{{'START_ONBOOT' | translate}}",
+                            "validator":{
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type":"textfield",
+                    "desc":"",
+                    "subitems":[
+                        {
+                            "key":"custom.entrypoint",
+                            "desc":"{{'SERVICE_ENTRY' | translate}}",
+                            "validator":{
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "env": {
+        "gitlab": {
+            "environment": {
+                "GITLAB_PORT": "app.gitlab.ports.80",
+                "GITLAB_SSH_PORT": "app.gitlab.ports.22",
+                "GITLAB_HOST": "custom.host"
+            }
+        }
+    }
+}
