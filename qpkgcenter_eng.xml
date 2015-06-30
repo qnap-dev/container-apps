@@ -319,7 +319,7 @@
 		<category>dockerhub</category>
 		<imageType>docker</imageType>
 		<repository>dockerhub</repository>
-		<icon>http://download.qnap.com/QPKG/images/QPKG/container/container_icon.png</icon>
+		<icon>http://download.qnap.com/QPKG/images/QPKG/container/wordpress_icon.png</icon>
 		<location>https://registry.hub.docker.com/u/tutum/wordpress/</location>
 		<description>
 			<![CDATA[Wordpress Docker image - listens in port 80. Includes bundled MySQL server.]]>
@@ -370,7 +370,7 @@
 		<category>application</category>
 		<imageType>app</imageType>
 		<repository>dockerhub</repository>
-		<icon>http://download.qnap.com/QPKG/images/QPKG/container/gitlab_icon.png</icon>
+		<icon>http://download.qnap.com/QPKG/images/QPKG/container/app_gitlab.png</icon>
 		<location>https://registry.hub.docker.com/u/sameersbn/gitlab/</location>
 		<description>
 			<![CDATA[Dockerized gitlab web server.]]>
@@ -387,7 +387,7 @@
 		<category>application</category>
 		<imageType>app</imageType>
 		<repository>dockerhub</repository>
-		<icon>http://download.qnap.com/QPKG/images/QPKG/container/redmine_icon.png</icon>
+		<icon>http://download.qnap.com/QPKG/images/QPKG/container/app_redmine.png</icon>
 		<location>https://registry.hub.docker.com/u/sameersbn/redmine/</location>
 		<description>
 			<![CDATA[Dockerized redmine app server.]]>
@@ -404,7 +404,7 @@
 		<category>application</category>
 		<imageType>app</imageType>
 		<repository>dockerhub</repository>
-		<icon>http://download.qnap.com/QPKG/images/QPKG/container/duckerhub_icon.png</icon>
+		<icon>http://download.qnap.com/QPKG/images/QPKG/container/app_registry.png</icon>
 		<location>https://registry.hub.docker.com/_/registry/</location>
 		<description>
 			<![CDATA[Dockerized registry server.]]>
