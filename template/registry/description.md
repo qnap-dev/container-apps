@@ -10,7 +10,7 @@ Recommend 2GB of RAM for your Host and 2 Cores for best performance!
 On Container Station:
 
 1. Create application registry by [Create Container] → [Create Registry].
-2. Add Registry to searching list by [Preference] → [Registry] → [Add] (https://NAS_IP:5000 then Trust SSL).
+2. Add Registry to searching list by [Preference] → [Registry] → [Add] that URL is https://NAS_IP:5000 and check Trust SSL
 
 On PC:
 
