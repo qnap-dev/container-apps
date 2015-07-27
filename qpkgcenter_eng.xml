@@ -74,7 +74,7 @@
 	</ctstation>
 	<ctstation>
 		<name>Debian</name>
-		<internalName>debian-jessie</internalName>
+		<internalName>debian-jessie-armhf</internalName>
 		<version>8</version>
 		<arch>armhf</arch>
 		<category>qnap</category>
