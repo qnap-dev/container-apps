@@ -20,15 +20,15 @@
 	</ctstation>
 	<ctstation>
 		<name>Debian</name>
-		<internalName>debian-wheezy</internalName>
-		<version>7.8</version>
+		<internalName>debian-jessie</internalName>
+		<version>8</version>
 		<arch>amd64</arch>
 		<category>qnap</category>
 		<imageType>lxc</imageType>
 		<repository>qnap</repository>
 		<icon>http://download.qnap.com/QPKG/images/QPKG/container/debian_icon.png</icon>
-		<size>173363200</size>
-		<location>http://download.qnap.com/QPKG/container/debian-wheezy_7.8_amd64.tar.gz</location>
+		<size>249049088</size>
+		<location>http://download.qnap.com/QPKG/container/debian-jessie_8_amd64.tar.gz</location>
 		<description>
 			<![CDATA[The Debian Project is an association of individuals who have made common cause to create a free operating system.]]>
 		</description>
@@ -67,6 +67,24 @@
 		<location>http://download.qnap.com/QPKG/container/ubuntu-trusty_14.04_armhf.tar.gz</location>
 		<description>
 			<![CDATA[Fast, free and incredibly easy to use, the Ubuntu operating system powers millions of desktop PCs, laptops and servers around the world.]]>
+		</description>
+		<inspect>
+			<![CDATA[{}]]>
+		</inspect>
+	</ctstation>
+	<ctstation>
+		<name>Debian</name>
+		<internalName>debian-jessie</internalName>
+		<version>8</version>
+		<arch>armhf</arch>
+		<category>qnap</category>
+		<imageType>lxc</imageType>
+		<repository>qnap</repository>
+		<icon>http://download.qnap.com/QPKG/images/QPKG/container/debian_icon.png</icon>
+		<size>218013696</size>
+		<location>http://download.qnap.com/QPKG/container/debian-jessie_8_armhf.tar.gz</location>
+		<description>
+			<![CDATA[The Debian Project is an association of individuals who have made common cause to create a free operating system.]]>
 		</description>
 		<inspect>
 			<![CDATA[{}]]>
@@ -365,7 +383,7 @@
 	<ctstation>
 		<name>GitLab</name>
 		<internalName>gitlab</internalName>
-		<version>7.12.2-2</version>
+		<version>7.13.1</version>
 		<arch>amd64</arch>
 		<category>application</category>
 		<imageType>app</imageType>
