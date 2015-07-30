@@ -400,7 +400,7 @@
 	<ctstation>
 		<name>Redmine</name>
 		<internalName>redmine</internalName>
-		<version>3.0.4</version>
+		<version>3.1.0</version>
 		<arch>amd64</arch>
 		<category>application</category>
 		<imageType>app</imageType>
