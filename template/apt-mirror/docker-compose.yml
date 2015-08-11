@@ -1,0 +1,7 @@
+server:
+  image: seterrychen/apt-mirror-http-server:0.0.1
+  ports:
+    - "10081:80"  
+  volumes:
+    - settings/mirror.list:/etc/apt/
+    - /var/spool/apt-mirror
