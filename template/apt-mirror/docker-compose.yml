@@ -3,5 +3,5 @@ server:
   ports:
     - "10081:80"  
   volumes:
-    - /etc/apt
+    - mirror.list:/etc/apt/mirror.list
     - /var/spool/apt-mirror
