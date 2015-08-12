@@ -1,10 +1,9 @@
-Local Apt mirror site
+Local APT mirror site
 ==============================
 
 ## Usage
+Create application "APT mirror HTTP server" by [Create Container] → [Create APT mirror HTTP server].
 
-On Container Station:
-Comming soon...
-
-On PC:
-docker run 
+## Note
+When application start, it will automatically execute ``apt-mirror`` and take some time to download.
+After downloading, you can browse it on http://NAS_IP:10082
