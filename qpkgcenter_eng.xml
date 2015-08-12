@@ -117,7 +117,7 @@
 		<imageType>docker</imageType>
 		<repository>dockerhub</repository>
 		<icon>http://download.qnap.com/QPKG/images/QPKG/container/ubuntu_icon.png</icon>
-		<location>https://registry.hub.docker.com/u/dorowu/ubuntu-desktop-lxde-vnc/</location>
+		<location>https://hub.docker.com/r/dorowu/ubuntu-desktop-lxde-vnc/</location>
 		<description>
 			<![CDATA[Remote desktop Sharing in Ubuntu 14.04.]]>
 		</description>
@@ -134,7 +134,7 @@
 		<imageType>docker</imageType>
 		<repository>dockerhub</repository>
 		<icon>http://download.qnap.com/QPKG/images/QPKG/container/deluge_icon.png</icon>
-		<location>https://registry.hub.docker.com/u/aostanin/deluge/</location>
+		<location>https://hub.docker.com/r/aostanin/deluge/</location>
 		<description>
 			<![CDATA[Deluge is a lightweight, Free Software, cross-platform BitTorrent client.]]>
 		</description>
@@ -151,7 +151,7 @@
 		<imageType>docker</imageType>
 		<repository>dockerhub</repository>
 		<icon>http://download.qnap.com/QPKG/images/QPKG/container/minecraft_icon.png</icon>
-		<location>https://registry.hub.docker.com/u/chrisabrams/docker-minecraft-with-bukkit/</location>
+		<location>https://hub.docker.com/r/chrisabrams/docker-minecraft-with-bukkit/</location>
 		<description>
 			<![CDATA[A Minecraft multiplayer server with Bukkit running in a Docker container.]]>
 		</description>
@@ -168,7 +168,7 @@
 		<imageType>docker</imageType>
 		<repository>dockerhub</repository>
 		<icon>http://download.qnap.com/QPKG/images/QPKG/container/wine_linux_icon.png</icon>
-		<location>https://registry.hub.docker.com/u/colinhuang/wine-with-novnc/</location>
+		<location>https://hub.docker.com/r/colinhuang/wine-with-novnc/</location>
 		<description>
 			<![CDATA[Wine enables Linux users to run Windows applications without a copy of Microsoft Windows.]]>
 		</description>
@@ -185,7 +185,7 @@
 		<imageType>docker</imageType>
 		<repository>dockerhub</repository>
 		<icon>http://download.qnap.com/QPKG/images/QPKG/container/jenkins_icon.png</icon>
-		<location>https://registry.hub.docker.com/_/jenkins/</location>
+		<location>https://hub.docker.com/_/jenkins/</location>
 		<description>
 			<![CDATA[Official Jenkins Docker image.]]>
 		</description>
@@ -202,7 +202,7 @@
 		<imageType>docker</imageType>
 		<repository>dockerhub</repository>
 		<icon>http://download.qnap.com/QPKG/images/QPKG/container/ubuntu_icon.png</icon>
-		<location>https://registry.hub.docker.com/u/armbuild/ubuntu/</location>
+		<location>https://hub.docker.com/r/armbuild/ubuntu/</location>
 		<description>
 			<![CDATA[ARMHF port of ubuntu.]]>
 		</description>
@@ -219,7 +219,7 @@
 		<imageType>docker</imageType>
 		<repository>dockerhub</repository>
 		<icon>http://download.qnap.com/QPKG/images/QPKG/container/fedora_icon.png</icon>
-		<location>https://registry.hub.docker.com/u/armbuild/ocs-distrib-fedora/</location>
+		<location>https://hub.docker.com/r/armbuild/ocs-distrib-fedora/</location>
 		<description>
 			<![CDATA[ARMHF official Fedora image on Online Labs.]]>
 		</description>
@@ -236,7 +236,7 @@
 		<imageType>docker</imageType>
 		<repository>dockerhub</repository>
 		<icon>http://download.qnap.com/QPKG/images/QPKG/container/ubuntu_icon.png</icon>
-		<location>https://registry.hub.docker.com/u/colinhuang/ubuntu-novnc-armhf/</location>
+		<location>https://hub.docker.com/r/colinhuang/ubuntu-novnc-armhf/</location>
 		<description>
 			<![CDATA[ARMHF port of ubuntu with noVNC.]]>
 		</description>
@@ -253,7 +253,7 @@
 		<imageType>docker</imageType>
 		<repository>dockerhub</repository>
 		<icon>http://download.qnap.com/QPKG/images/QPKG/container/ubuntu_icon.png</icon>
-		<location>https://registry.hub.docker.com/_/ubuntu/</location>
+		<location>https://hub.docker.com/_/ubuntu/</location>
 		<description>
 			<![CDATA[Official Ubuntu base image.]]>
 		</description>
@@ -270,7 +270,7 @@
 		<imageType>docker</imageType>
 		<repository>dockerhub</repository>
 		<icon>http://download.qnap.com/QPKG/images/QPKG/container/centos_icon.png</icon>
-		<location>https://registry.hub.docker.com/_/centos/</location>
+		<location>https://hub.docker.com/_/centos/</location>
 		<description>
 			<![CDATA[The official build of CentOS.]]>
 		</description>
@@ -287,7 +287,7 @@
 		<imageType>docker</imageType>
 		<repository>dockerhub</repository>
 		<icon>http://download.qnap.com/QPKG/images/QPKG/container/redis_icon.png</icon>
-		<location>https://registry.hub.docker.com/_/redis/</location>
+		<location>https://hub.docker.com/_/redis/</location>
 		<description>
 			<![CDATA[Redis is an open source key-value store that functions as a data structure server.]]>
 		</description>
@@ -304,7 +304,7 @@
 		<imageType>docker</imageType>
 		<repository>dockerhub</repository>
 		<icon>http://download.qnap.com/QPKG/images/QPKG/container/mysql_icon.png</icon>
-		<location>https://registry.hub.docker.com/u/tutum/mysql/</location>
+		<location>https://hub.docker.com/r/tutum/mysql/</location>
 		<description>
 			<![CDATA[MySQL Server image - listens in port 3306. For the admin account password, either set MYSQL_PASS environment variable, or check the logs for a randomly generated one.]]>
 		</description>
@@ -321,7 +321,7 @@
 		<imageType>docker</imageType>
 		<repository>dockerhub</repository>
 		<icon>http://download.qnap.com/QPKG/images/QPKG/container/nodejs_icon.png</icon>
-		<location>https://registry.hub.docker.com/_/node/</location>
+		<location>https://hub.docker.com/_/node/</location>
 		<description>
 			<![CDATA[Node.js is a JavaScript-based platform for server-side and networking applications.]]>
 		</description>
@@ -338,7 +338,7 @@
 		<imageType>docker</imageType>
 		<repository>dockerhub</repository>
 		<icon>http://download.qnap.com/QPKG/images/QPKG/container/wordpress_icon.png</icon>
-		<location>https://registry.hub.docker.com/u/tutum/wordpress/</location>
+		<location>https://hub.docker.com/r/tutum/wordpress/</location>
 		<description>
 			<![CDATA[Wordpress Docker image - listens in port 80. Includes bundled MySQL server.]]>
 		</description>
@@ -355,7 +355,7 @@
 		<imageType>docker</imageType>
 		<repository>dockerhub</repository>
 		<icon>http://download.qnap.com/QPKG/images/QPKG/container/nginx_icon.png</icon>
-		<location>https://registry.hub.docker.com/_/nginx/</location>
+		<location>https://hub.docker.com/_/nginx/</location>
 		<description>
 			<![CDATA[Official build of Nginx.]]>
 		</description>
@@ -372,7 +372,7 @@
 		<imageType>docker</imageType>
 		<repository>dockerhub</repository>
 		<icon>http://download.qnap.com/QPKG/images/QPKG/container/mongo_icon.png</icon>
-		<location>https://registry.hub.docker.com/_/mongo/</location>
+		<location>https://hub.docker.com/_/mongo/</location>
 		<description>
 			<![CDATA[MongoDB document databases provide high availability and easy scalability.]]>
 		</description>
@@ -383,13 +383,13 @@
 	<ctstation>
 		<name>GitLab</name>
 		<internalName>gitlab</internalName>
-		<version>7.13.1</version>
+		<version>7.13.4</version>
 		<arch>amd64</arch>
 		<category>application</category>
 		<imageType>app</imageType>
 		<repository>dockerhub</repository>
 		<icon>http://download.qnap.com/QPKG/images/QPKG/container/app_gitlab.png</icon>
-		<location>https://registry.hub.docker.com/u/sameersbn/gitlab/</location>
+		<location>https://hub.docker.com/r/sameersbn/gitlab/</location>
 		<description>
 			<![CDATA[Dockerized gitlab web server.]]>
 		</description>
@@ -406,7 +406,7 @@
 		<imageType>app</imageType>
 		<repository>dockerhub</repository>
 		<icon>http://download.qnap.com/QPKG/images/QPKG/container/app_redmine.png</icon>
-		<location>https://registry.hub.docker.com/u/sameersbn/redmine/</location>
+		<location>https://hub.docker.com/r/sameersbn/redmine/</location>
 		<description>
 			<![CDATA[Dockerized redmine app server.]]>
 		</description>
@@ -423,7 +423,7 @@
 		<imageType>app</imageType>
 		<repository>dockerhub</repository>
 		<icon>http://download.qnap.com/QPKG/images/QPKG/container/app_registry.png</icon>
-		<location>https://registry.hub.docker.com/_/registry/</location>
+		<location>https://hub.docker.com/_/registry/</location>
 		<description>
 			<![CDATA[Dockerized registry server.]]>
 		</description>
