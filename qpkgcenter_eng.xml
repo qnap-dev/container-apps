@@ -465,4 +465,21 @@
 			<![CDATA[{}]]>
 		</inspect>
 	</ctstation>
+	<ctstation>
+		<name>GitLab CI</name>
+		<internalName>sameersbn/gitlab-ci</internalName>
+		<version>7.13.1</version>
+		<arch>amd64</arch>
+		<category>qnap</category>
+		<imageType>docker</imageType>
+		<repository>dockerhub</repository>
+		<icon></icon>
+		<location>https://registry.hub.docker.com/u/sameersbn/gitlab-ci/</location>
+		<description>
+			<![CDATA[ARMHF port of Alpine.]]>
+		</description>
+		<inspect>
+			<![CDATA[]]>
+		</inspect>
+	</ctstation>
 </plugins>
