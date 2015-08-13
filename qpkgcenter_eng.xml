@@ -476,7 +476,41 @@
 		<icon></icon>
 		<location>https://registry.hub.docker.com/u/sameersbn/gitlab-ci/</location>
 		<description>
-			<![CDATA[ARMHF port of Alpine.]]>
+			<![CDATA[Dockerized GitLab CI.]]>
+		</description>
+		<inspect>
+			<![CDATA[]]>
+		</inspect>
+	</ctstation>
+	<ctstation>
+		<name>Postgresql</name>
+		<internalName>sameersbn/postgresql</internalName>
+		<version>9.4-3</version>
+		<arch>amd64</arch>
+		<category>qnap</category>
+		<imageType>docker</imageType>
+		<repository>dockerhub</repository>
+		<icon></icon>
+		<location>https://registry.hub.docker.com/u/sameersbn/postgresql/</location>
+		<description>
+			<![CDATA[Dockerized Postgresql.]]>
+		</description>
+		<inspect>
+			<![CDATA[]]>
+		</inspect>
+	</ctstation>
+	<ctstation>
+		<name>Redis</name>
+		<internalName>sameersbn/redis</internalName>
+		<version>latest</version>
+		<arch>amd64</arch>
+		<category>qnap</category>
+		<imageType>docker</imageType>
+		<repository>dockerhub</repository>
+		<icon></icon>
+		<location>https://registry.hub.docker.com/u/sameersbn/redis/</location>
+		<description>
+			<![CDATA[Dockerized Redis.]]>
 		</description>
 		<inspect>
 			<![CDATA[]]>
