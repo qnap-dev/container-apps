@@ -1,0 +1,13 @@
+db:
+  image: mariadb:10.0.21
+  environment:
+    - MYSQL_ROOT_PASSWORD=admin
+    - MYSQL_USER=joomla
+    - MYSQL_PASSWORD=joomla
+    - MYSQL_DATABASE=joomla
+web:
+  image: seterrychen/joomla-without-db
+  links:
+    - db:mariadb
+  ports:
+    - "10082:80"
