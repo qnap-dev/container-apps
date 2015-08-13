@@ -6,7 +6,7 @@ db:
     - MYSQL_PASSWORD=joomla
     - MYSQL_DATABASE=joomla
 web:
-  image: seterrychen/joomla-without-db
+  image: seterrychen/joomla-without-database:0.0.1
   links:
     - db:mariadb
   ports:
