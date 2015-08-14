@@ -434,10 +434,10 @@
 	<ctstation>
 		<name>APT mirror HTTP server</name>
 		<internalName>apt-mirror</internalName>
-		<version>0.0.1</version>
+		<version>0.0.2</version>
 		<arch>amd64</arch>
 		<category>application</category>
-		<imageType>app</imageType>
+		<imageType>docker</imageType>
 		<repository>dockerhub</repository>
 		<icon></icon>
 		<location>https://registry.hub.docker.com/u/seterrychen/apt-mirror-http-server/</location>
