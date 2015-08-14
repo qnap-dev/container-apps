@@ -6,6 +6,7 @@ Create application "Joomla" by [Create Container] → [Create Joomla].
 
 ## Note
 MariaDB setting:
+
 - MariaDB root password: admin
 - MariaDB user account: joomla
 - MariaDB user password: joomla
