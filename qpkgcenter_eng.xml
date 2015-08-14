@@ -433,7 +433,7 @@
 	</ctstation>
 	<ctstation>
 		<name>APT mirror HTTP server</name>
-		<internalName>apt-mirror</internalName>
+		<internalName>seterrychen/apt-mirror-http-server</internalName>
 		<version>0.0.2</version>
 		<arch>amd64</arch>
 		<category>application</category>
