@@ -432,9 +432,9 @@
 		</inspect>
 	</ctstation>
 	<ctstation>
-		<name>APT mirror HTTP server</name>
+		<name>APT mirroring server</name>
 		<internalName>seterrychen/apt-mirror-http-server</internalName>
-		<version>0.0.2</version>
+		<version>0.0.3</version>
 		<arch>amd64</arch>
 		<category>application</category>
 		<imageType>docker</imageType>
@@ -442,7 +442,7 @@
 		<icon></icon>
 		<location>https://registry.hub.docker.com/u/seterrychen/apt-mirror-http-server/</location>
 		<description>
-			<![CDATA[Dockerized APT mirror HTTP server.]]>
+			<![CDATA[A small and efficient tool that lets you mirror a part of or the whole Debian GNU/Linux distribution or any other apt sources.]]>
 		</description>
 		<inspect>
 			<![CDATA[{}]]>
@@ -451,7 +451,7 @@
 	<ctstation>
 		<name>Joomla</name>
 		<internalName>joomla</internalName>
-		<version>0.0.1</version>
+		<version>3.4.3</version>
 		<arch>amd64</arch>
 		<category>application</category>
 		<imageType>app</imageType>
