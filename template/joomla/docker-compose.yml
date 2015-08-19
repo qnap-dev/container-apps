@@ -6,8 +6,13 @@ db:
     - MYSQL_PASSWORD=joomla
     - MYSQL_DATABASE=joomla
 web:
-  image: seterrychen/joomla-without-database:0.0.2
+  image: seterrychen/joomla-without-database:0.0.3
   links:
     - db:mariadb
   ports:
     - "10082:80"
+  environment:
+    - JOOMLA_DB_HOST=db_1
+    - JOOMLA_DB_USER=joomla
+    - JOOMLA_DB_PASSWORD=joomla
+    - JOOMLA_DB_NAME=joomla
