@@ -431,4 +431,21 @@
 			<![CDATA[{}]]>
 		</inspect>
 	</ctstation>
+	<ctstation>
+		<name>Hackpad</name>
+		<internalName>hackpad</internalName>
+		<version>20150824</version>
+		<arch>amd64</arch>
+		<category>application</category>
+		<imageType>app</imageType>
+		<repository>dockerhub</repository>
+		<icon>http://download.qnap.com/QPKG/images/QPKG/container/app_default.png</icon>
+        <location>https://hub.docker.com/r/istepanov/hackpad/</location>
+		<description>
+			<![CDATA[Hackpad is a web-based realtime wiki, based on the open source EtherPad collaborative document editor.]]>
+		</description>
+		<inspect>
+			<![CDATA[{}]]>
+		</inspect>
+	</ctstation>
 </plugins>
