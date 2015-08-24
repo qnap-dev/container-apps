@@ -1,0 +1,13 @@
+{
+    "app": {
+    },
+    "wizard": [
+    ],
+    "env": {
+        "redmine": {
+            "environment": {
+                "REDMINE_PORT": "app.redmine.ports.80"
+            }
+        }
+    }
+}
