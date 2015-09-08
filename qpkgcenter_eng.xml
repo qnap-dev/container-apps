@@ -456,7 +456,7 @@
 		<category>application</category>
 		<imageType>app</imageType>
 		<repository>dockerhub</repository>
-		<icon></icon>
+		<icon>http://download.qnap.com/QPKG/images/QPKG/container/app_default.png</icon>
 		<location>https://hub.docker.com/r/seterrychen/joomla-without-database/</location>
 		<description>
 			<![CDATA[Dockerized Joomla.]]>
