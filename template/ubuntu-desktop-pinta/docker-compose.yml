@@ -1,0 +1,4 @@
+app:
+  image: mangoliou/ubuntu-desktop-pinta:1.0
+  volumes:
+    - /usr/lib/mime:/mnt/mime
