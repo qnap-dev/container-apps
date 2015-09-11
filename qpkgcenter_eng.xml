@@ -245,6 +245,23 @@
 		</inspect>
 	</ctstation>
 	<ctstation>
+		<name>APT mirroring server</name>
+		<internalName>seterrychen/apt-mirror-http-server</internalName>
+		<version>0.0.5</version>
+		<arch>amd64</arch>
+		<category>qnap</category>
+		<imageType>docker</imageType>
+		<repository>dockerhub</repository>
+		<icon></icon>
+		<location>https://hub.docker.com/r/seterrychen/apt-mirror-http-server/</location>
+		<description>
+			<![CDATA[A small and efficient tool that lets you mirror a part of or the whole Debian GNU/Linux distribution or any other apt sources.]]>
+		</description>
+		<inspect>
+			<![CDATA[{}]]>
+		</inspect>
+	</ctstation>
+	<ctstation>
 		<name>Ubuntu</name>
 		<internalName>ubuntu</internalName>
 		<version>14.04</version>
@@ -426,23 +443,6 @@
 		<location>https://hub.docker.com/_/registry/</location>
 		<description>
 			<![CDATA[Dockerized registry server.]]>
-		</description>
-		<inspect>
-			<![CDATA[{}]]>
-		</inspect>
-	</ctstation>
-	<ctstation>
-		<name>APT mirroring server</name>
-		<internalName>seterrychen/apt-mirror-http-server</internalName>
-		<version>0.0.5</version>
-		<arch>amd64</arch>
-		<category>application</category>
-		<imageType>docker</imageType>
-		<repository>dockerhub</repository>
-		<icon></icon>
-		<location>https://hub.docker.com/r/seterrychen/apt-mirror-http-server/</location>
-		<description>
-			<![CDATA[A small and efficient tool that lets you mirror a part of or the whole Debian GNU/Linux distribution or any other apt sources.]]>
 		</description>
 		<inspect>
 			<![CDATA[{}]]>
