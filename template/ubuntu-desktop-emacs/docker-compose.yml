@@ -1,0 +1,4 @@
+app:
+  image: mangoliou/ubuntu-desktop-emacs:1.0
+  volumes:
+    - /usr/lib/mime:/mnt/mime

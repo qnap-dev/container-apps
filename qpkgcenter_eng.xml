@@ -465,4 +465,72 @@
 			<![CDATA[{}]]>
 		</inspect>
 	</ctstation>
+	<ctstation>
+		<name>File Browser</name>
+		<internalName>file-browser</internalName>
+		<version>1.0</version>
+		<arch>amd64</arch>
+		<category>application</category>
+		<imageType>app</imageType>
+		<repository>dockerhub</repository>
+		<icon>http://download.qnap.com/QPKG/images/QPKG/container/app_default.png</icon>
+		<location>https://hub.docker.com/r/mangoliou/file-browser/</location>
+		<description>
+			<![CDATA[The File Browser help you to view different files on web.]]>
+		</description>
+		<inspect>
+			<![CDATA[]]>
+		</inspect>
+	</ctstation>
+	<ctstation>
+		<name>Ubuntu Emacs</name>
+		<internalName>ubuntu-desktop-emacs</internalName>
+		<version>1.0</version>
+		<arch>amd64</arch>
+		<category>application</category>
+		<imageType>app</imageType>
+		<repository>dockerhub</repository>
+		<icon>http://download.qnap.com/QPKG/images/QPKG/container/app_default.png</icon>
+		<location>https://hub.docker.com/r/mangoliou/ubuntu-desktop-emacs/</location>
+		<description>
+			<![CDATA[Ubuntu Desktop Emacs - Install to open plain text files in the File Browser.]]>
+		</description>
+		<inspect>
+			<![CDATA[]]>
+		</inspect>
+	</ctstation>
+	<ctstation>
+		<name>Ubuntu Libreoffice</name>
+		<internalName>ubuntu-desktop-libreoffice</internalName>
+		<version>1.0</version>
+		<arch>amd64</arch>
+		<category>application</category>
+		<imageType>app</imageType>
+		<repository>dockerhub</repository>
+		<icon>http://download.qnap.com/QPKG/images/QPKG/container/app_default.png</icon>
+		<location>https://hub.docker.com/r/mangoliou/ubuntu-desktop-libreoffice/</location>
+		<description>
+			<![CDATA[Ubuntu Desktop Libreoffice - Install to open Microsoft Offices files in the File Browser.]]>
+		</description>
+		<inspect>
+			<![CDATA[]]>
+		</inspect>
+	</ctstation>
+	<ctstation>
+		<name>Ubuntu Pinta</name>
+		<internalName>ubuntu-desktop-pinta</internalName>
+		<version>1.0</version>
+		<arch>amd64</arch>
+		<category>application</category>
+		<imageType>app</imageType>
+		<repository>dockerhub</repository>
+		<icon>http://download.qnap.com/QPKG/images/QPKG/container/app_default.png</icon>
+		<location>https://hub.docker.com/r/mangoliou/ubuntu-desktop-pinta/</location>
+		<description>
+			<![CDATA[Ubuntu Desktop Pinta - Install to open image files in the File Browser.]]>
+		</description>
+		<inspect>
+			<![CDATA[]]>
+		</inspect>
+	</ctstation>
 </plugins>
