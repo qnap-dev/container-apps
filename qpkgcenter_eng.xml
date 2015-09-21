@@ -400,7 +400,7 @@
 	<ctstation>
 		<name>GitLab</name>
 		<internalName>gitlab</internalName>
-		<version>7.13.4</version>
+		<version>7.14.3</version>
 		<arch>amd64</arch>
 		<category>application</category>
 		<imageType>app</imageType>
@@ -417,7 +417,7 @@
 	<ctstation>
 		<name>Redmine</name>
 		<internalName>redmine</internalName>
-		<version>3.1.0</version>
+		<version>3.1.1</version>
 		<arch>amd64</arch>
 		<category>application</category>
 		<imageType>app</imageType>
