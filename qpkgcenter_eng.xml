@@ -187,7 +187,7 @@
 		<icon>http://download.qnap.com/QPKG/images/QPKG/container/jenkins_icon.png</icon>
 		<location>https://hub.docker.com/_/jenkins/</location>
 		<description>
-			<![CDATA[Official Jenkins Docker image.]]>
+			<![CDATA[The official build of Jenkins.]]>
 		</description>
 		<inspect>
 			<![CDATA[]]>
@@ -221,7 +221,7 @@
 		<icon>http://download.qnap.com/QPKG/images/QPKG/container/fedora_icon.png</icon>
 		<location>https://hub.docker.com/r/armbuild/ocs-distrib-fedora/</location>
 		<description>
-			<![CDATA[ARMHF official Fedora image on Online Labs.]]>
+			<![CDATA[Fedora (formerly Fedora Core) is an operating system based on the Linux kernel, developed by the community-supported Fedora Project and owned by Red Hat.]]>
 		</description>
 		<inspect>
 			<![CDATA[]]>
@@ -272,7 +272,7 @@
 		<icon>http://download.qnap.com/QPKG/images/QPKG/container/ubuntu_icon.png</icon>
 		<location>https://hub.docker.com/_/ubuntu/</location>
 		<description>
-			<![CDATA[Official Ubuntu base image.]]>
+			<![CDATA[The official build of Ubuntu.]]>
 		</description>
 		<inspect>
 			<![CDATA[{}]]>
