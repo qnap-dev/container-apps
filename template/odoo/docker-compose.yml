@@ -1,0 +1,12 @@
+db:
+  image: postgres:9.4.4
+  environment:
+    - POSTGRES_USER=odoo
+    - POSTGRES_PASSWORD=odoo
+
+web:
+  image: odoo:8.0
+  links:
+    - db:db
+  ports:
+    - "18069:8069"
