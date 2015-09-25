@@ -482,4 +482,21 @@
 			<![CDATA[]]>
 		</inspect>
 	</ctstation>
+	<ctstation>
+		<name>Odoo</name>
+		<internalName>odoo</internalName>
+		<version>8.0</version>
+		<arch>amd64</arch>
+		<category>application</category>
+		<imageType>app</imageType>
+		<repository>dockerhub</repository>
+		<icon>http://download.qnap.com/QPKG/images/QPKG/container/app_default.png</icon>
+		<location>https://hub.docker.com/_/odoo/</location>
+		<description>
+			<![CDATA[Odoo (formerly OpenERP): open source ERP and Apps to grow your business.]]>
+		</description>
+		<inspect>
+			<![CDATA[{}]]>
+		</inspect>
+	</ctstation>
 </plugins>
