@@ -5,7 +5,7 @@ postgresql:
     - DB_PASS=password
     - DB_NAME=gitlabhq_production
 gitlab:
-  image: sameersbn/gitlab:7.14.3
+  image: sameersbn/gitlab:8.0.2
   links:
     - redis:redisio
     - postgresql:postgresql
@@ -15,5 +15,6 @@ gitlab:
   environment:
     - GITLAB_PORT=10080
     - GITLAB_SSH_PORT=10022
+    - GITLAB_SECRETS_DB_KEY_BASE=qcs-gitlab-app
 redis:
   image: sameersbn/redis:latest
