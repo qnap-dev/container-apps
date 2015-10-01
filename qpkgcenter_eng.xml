@@ -400,7 +400,7 @@
 	<ctstation>
 		<name>GitLab</name>
 		<internalName>gitlab</internalName>
-		<version>8.0.2</version>
+		<version>8.0.3</version>
 		<arch>amd64</arch>
 		<category>application</category>
 		<imageType>app</imageType>
