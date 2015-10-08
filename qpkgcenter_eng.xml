@@ -473,7 +473,7 @@
 		<category>dockerhub</category>
 		<imageType>docker</imageType>
 		<repository>dockerhub</repository>
-		<icon></icon>
+		<icon>https://raw.githubusercontent.com/docker-library/docs/master/postgres/logo.png</icon>
 		<location>https://hub.docker.com/_/postgres/</location>
 		<description>
 			<![CDATA[Official PostgreSQL Docker image. The PostgreSQL object-relational database system provides reliability and data integrity.]]>
