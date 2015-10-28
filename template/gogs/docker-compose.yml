@@ -4,7 +4,7 @@ web:
     - mysql 
   ports: 
     - "3000:3000" 
- 
+
 mysql: 
   image: mysql 
   environment: 
