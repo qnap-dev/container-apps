@@ -1,4 +1,4 @@
-web: 
+gogs: 
   images: gogs/gogs
   links: 
     - mysql 
