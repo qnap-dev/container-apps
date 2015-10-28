@@ -1,5 +1,5 @@
 web: 
-  images: gogs/gogs
+  image: gogs/gogs
   links: 
     - mysql 
   ports: 
