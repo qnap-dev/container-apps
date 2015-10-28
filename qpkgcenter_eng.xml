@@ -550,4 +550,21 @@
 			<![CDATA[]]>
 		</inspect>
 	</ctstation>
+	<ctstation>
+		<name>Gogs</name>
+		<internalName>gogs</internalName>
+		<version>0.6.18 Beta</version>
+		<arch>amd64</arch>
+		<category>application</category>
+		<imageType>app</imageType>
+		<repository>dockerhub</repository>
+		<icon></icon>
+		<location>https://hub.docker.com/r/gogs/gogs/</location>
+		<description>
+			<![CDATA[Gogs (Go Git Service) is a painless self-hosted Git service.]]>
+		</description>
+		<inspect>
+			<![CDATA[]]>
+		</inspect>
+	</ctstation>
 </plugins>
