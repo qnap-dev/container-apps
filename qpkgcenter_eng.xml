@@ -567,4 +567,21 @@
 			<![CDATA[]]>
 		</inspect>
 	</ctstation>
+	<ctstation>
+		<name>SugarCRM</name>
+		<internalName>sugarcrm</internalName>
+		<version>6.5.20</version>
+		<arch>amd64</arch>
+		<category>application</category>
+		<imageType>app</imageType>
+		<repository>dockerhub</repository>
+		<icon></icon>
+		<location>https://hub.docker.com/r/spantree/sugarcrm/</location>
+		<description>
+			<![CDATA[SugarCRM is a software company based in Cupertino, California. It produces the web application Sugar, a customer relationship management (CRM) system that is available in both open-source and commercial open-source applications.]]>
+		</description>
+		<inspect>
+			<![CDATA[]]>
+		</inspect>
+	</ctstation>
 </plugins>
