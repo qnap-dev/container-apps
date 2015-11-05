@@ -247,7 +247,7 @@
 	<ctstation>
 		<name>APT mirroring server</name>
 		<internalName>seterrychen/apt-mirror-http-server</internalName>
-		<version>0.0.5</version>
+		<version>0.0.6</version>
 		<arch>amd64</arch>
 		<category>qnap</category>
 		<imageType>docker</imageType>
