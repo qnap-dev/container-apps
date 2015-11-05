@@ -160,17 +160,17 @@
 		</inspect>
 	</ctstation>
 	<ctstation>
-		<name>Wine with noVNC</name>
-		<internalName>colinhuang/wine-with-novnc</internalName>
+		<name>LibreOffice with noVNC</name>
+		<internalName>colinhuang/ubuntu-libreoffice</internalName>
 		<version>latest</version>
 		<arch>amd64</arch>
 		<category>qnap</category>
 		<imageType>docker</imageType>
 		<repository>dockerhub</repository>
-		<icon>http://download.qnap.com/QPKG/images/QPKG/container/wine_linux_icon.png</icon>
-		<location>https://hub.docker.com/r/colinhuang/wine-with-novnc/</location>
+		<icon>http://download.qnap.com/QPKG/images/QPKG/container/libreoffice_icon.png</icon>
+		<location>https://hub.docker.com/r/colinhuang/ubuntu-libreoffice/</location>
 		<description>
-			<![CDATA[Wine enables Linux users to run Windows applications without using Windows.]]>
+			<![CDATA[LibreOffice is a powerful office suite; Its clean interface and its powerful tools let you unleash your creativity and grow your productivity.]]>
 		</description>
 		<inspect>
 			<![CDATA[]]>
@@ -400,7 +400,7 @@
 	<ctstation>
 		<name>GitLab</name>
 		<internalName>gitlab</internalName>
-		<version>8.0.5</version>
+		<version>8.1.2</version>
 		<arch>amd64</arch>
 		<category>application</category>
 		<imageType>app</imageType>
