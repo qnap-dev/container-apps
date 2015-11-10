@@ -170,7 +170,7 @@
 		<icon>http://download.qnap.com/QPKG/images/QPKG/container/libreoffice_icon.png</icon>
 		<location>https://hub.docker.com/r/colinhuang/ubuntu-libreoffice/</location>
 		<description>
-			<![CDATA[LibreOffice is a powerful office suite; Its clean interface and its powerful tools let you unleash your creativity and grow your productivity.]]>
+			<![CDATA[Ubuntu Desktop is pre-loaded with LibreOffice and Firefox. LibreOffice is a powerful office suite that includes: Writer (word processor), Calc (spreadsheet application), Impress (presentation engine), Draw (drawing and flowcharting application), Base (database and database frontend), and Math (editing mathematics).]]>
 		</description>
 		<inspect>
 			<![CDATA[]]>
@@ -400,7 +400,7 @@
 	<ctstation>
 		<name>GitLab</name>
 		<internalName>gitlab</internalName>
-		<version>8.1.2</version>
+		<version>8.1.3</version>
 		<arch>amd64</arch>
 		<category>application</category>
 		<imageType>app</imageType>
