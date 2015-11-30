@@ -12,7 +12,7 @@ ghost-buster:
     - ./data:/ghost-override
     - ./export.md:/export.md
 nginx:
-  image: e1ee1e11/nginx
+  image: e1ee1e11/nginx:0.1
   restart: always
   container_name: ghost-nginx
   links:
