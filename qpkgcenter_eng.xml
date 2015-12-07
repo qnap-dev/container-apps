@@ -111,7 +111,7 @@
 	<ctstation>
 		<name>Ubuntu desktop with noVNC</name>
 		<internalName>dorowu/ubuntu-desktop-lxde-vnc</internalName>
-		<version>latest</version>
+		<version>release-v1.0</version>
 		<arch>amd64</arch>
 		<category>qnap</category>
 		<imageType>docker</imageType>
