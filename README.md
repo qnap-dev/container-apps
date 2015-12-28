@@ -15,7 +15,7 @@ Using your own image list
 Contributing
 ------------
 
-Want to help add more useful images and applications? Check out our [contributing documentation](https://github.com/ColinHuang/container-apps/blob/master/CONTRIBUTING.md).
+Want to help add more useful images and applications? Check out our [contributing documentation](https://github.com/qnap-dev/container-apps/blob/master/CONTRIBUTING.md).
 
 These instructions may not be complete, please inform us if we should update anything. Better yet, submit a PR and improve them yourself.
 
@@ -31,8 +31,8 @@ Please report *Container Station* issues in [QNAP Helpdesk](https://helpdesk.qna
 Related Projects
 ----------------
 
-* [Docker](https://github.com/docker/docker): Container Station using v1.7.1
-* [Docker Compose](https://github.com/docker/compose): Container Station using v1.4
+* [Docker](https://github.com/docker/docker): Container Station using v1.9
+* [Docker Compose](https://github.com/docker/compose): Container Station using v1.5
 
 
 License

@@ -30,7 +30,7 @@
 		<size>249049088</size>
 		<location>http://download.qnap.com/QPKG/container/debian-jessie_8_amd64.tar.gz</location>
 		<description>
-			<![CDATA[The Debian Project is an association of individuals who have made common cause to create a free operating system.]]>
+			<![CDATA[Debian is a Linux distribution that is composed entirely of free and open-source software (most of which is under the GNU General Public License) and packaged by a group called the Debian project.]]>
 		</description>
 		<inspect>
 			<![CDATA[{}]]>
@@ -136,7 +136,7 @@
 		<icon>http://download.qnap.com/QPKG/images/QPKG/container/deluge_icon.png</icon>
 		<location>https://hub.docker.com/r/aostanin/deluge/</location>
 		<description>
-			<![CDATA[Deluge is a lightweight, Free Software, cross-platform BitTorrent client.]]>
+			<![CDATA[Deluge is a lightweight, free, cross-platform BT client.]]>
 		</description>
 		<inspect>
 			<![CDATA[]]>
@@ -153,24 +153,24 @@
 		<icon>http://download.qnap.com/QPKG/images/QPKG/container/minecraft_icon.png</icon>
 		<location>https://hub.docker.com/r/chrisabrams/docker-minecraft-with-bukkit/</location>
 		<description>
-			<![CDATA[A Minecraft multiplayer server with Bukkit running in a Docker container.]]>
+			<![CDATA[The Minecraft multiplayer server allows multiple players to play Minecraft together.]]>
 		</description>
 		<inspect>
 			<![CDATA[]]>
 		</inspect>
 	</ctstation>
 	<ctstation>
-		<name>Ubuntu with Wine and noVNC</name>
-		<internalName>colinhuang/wine-with-novnc</internalName>
+		<name>LibreOffice with noVNC</name>
+		<internalName>colinhuang/ubuntu-libreoffice</internalName>
 		<version>latest</version>
 		<arch>amd64</arch>
 		<category>qnap</category>
 		<imageType>docker</imageType>
 		<repository>dockerhub</repository>
-		<icon>http://download.qnap.com/QPKG/images/QPKG/container/wine_linux_icon.png</icon>
-		<location>https://hub.docker.com/r/colinhuang/wine-with-novnc/</location>
+		<icon>http://download.qnap.com/QPKG/images/QPKG/container/libreoffice_icon.png</icon>
+		<location>https://hub.docker.com/r/colinhuang/ubuntu-libreoffice/</location>
 		<description>
-			<![CDATA[Wine enables Linux users to run Windows applications without a copy of Microsoft Windows.]]>
+			<![CDATA[Ubuntu Desktop is pre-loaded with LibreOffice and Firefox. LibreOffice is a powerful office suite that includes: Writer (word processor), Calc (spreadsheet application), Impress (presentation engine), Draw (drawing and flowcharting application), Base (database and database frontend), and Math (editing mathematics).]]>
 		</description>
 		<inspect>
 			<![CDATA[]]>
@@ -187,7 +187,7 @@
 		<icon>http://download.qnap.com/QPKG/images/QPKG/container/jenkins_icon.png</icon>
 		<location>https://hub.docker.com/_/jenkins/</location>
 		<description>
-			<![CDATA[Official Jenkins Docker image.]]>
+			<![CDATA[The official build of Jenkins.]]>
 		</description>
 		<inspect>
 			<![CDATA[]]>
@@ -204,7 +204,7 @@
 		<icon>http://download.qnap.com/QPKG/images/QPKG/container/ubuntu_icon.png</icon>
 		<location>https://hub.docker.com/r/armbuild/ubuntu/</location>
 		<description>
-			<![CDATA[ARMHF port of ubuntu.]]>
+			<![CDATA[Fast, free and incredibly easy to use, the Ubuntu operating system powers millions of desktop PCs, laptops and servers around the world.]]>
 		</description>
 		<inspect>
 			<![CDATA[]]>
@@ -221,7 +221,7 @@
 		<icon>http://download.qnap.com/QPKG/images/QPKG/container/fedora_icon.png</icon>
 		<location>https://hub.docker.com/r/armbuild/ocs-distrib-fedora/</location>
 		<description>
-			<![CDATA[ARMHF official Fedora image on Online Labs.]]>
+			<![CDATA[Fedora (formerly Fedora Core) is an operating system based on the Linux kernel, developed by the community-supported Fedora Project and owned by Red Hat.]]>
 		</description>
 		<inspect>
 			<![CDATA[]]>
@@ -238,10 +238,27 @@
 		<icon>http://download.qnap.com/QPKG/images/QPKG/container/ubuntu_icon.png</icon>
 		<location>https://hub.docker.com/r/colinhuang/ubuntu-novnc-armhf/</location>
 		<description>
-			<![CDATA[ARMHF port of ubuntu with noVNC.]]>
+			<![CDATA[Remote desktop Sharing in Ubuntu 14.04.]]>
 		</description>
 		<inspect>
 			<![CDATA[]]>
+		</inspect>
+	</ctstation>
+	<ctstation>
+		<name>APT mirroring server</name>
+		<internalName>seterrychen/apt-mirror-http-server</internalName>
+		<version>0.0.6</version>
+		<arch>amd64</arch>
+		<category>qnap</category>
+		<imageType>docker</imageType>
+		<repository>dockerhub</repository>
+		<icon></icon>
+		<location>https://hub.docker.com/r/seterrychen/apt-mirror-http-server/</location>
+		<description>
+			<![CDATA[A small and efficient tool that lets you mirror a part of or the whole Debian GNU/Linux distribution or any other apt sources.]]>
+		</description>
+		<inspect>
+			<![CDATA[{}]]>
 		</inspect>
 	</ctstation>
 	<ctstation>
@@ -255,7 +272,7 @@
 		<icon>http://download.qnap.com/QPKG/images/QPKG/container/ubuntu_icon.png</icon>
 		<location>https://hub.docker.com/_/ubuntu/</location>
 		<description>
-			<![CDATA[Official Ubuntu base image.]]>
+			<![CDATA[The official build of Ubuntu.]]>
 		</description>
 		<inspect>
 			<![CDATA[{}]]>
@@ -340,7 +357,7 @@
 		<icon>http://download.qnap.com/QPKG/images/QPKG/container/wordpress_icon.png</icon>
 		<location>https://hub.docker.com/r/tutum/wordpress/</location>
 		<description>
-			<![CDATA[Wordpress Docker image - listens in port 80. Includes bundled MySQL server.]]>
+			<![CDATA[WordPress is a rich content management system for creating blogs and websites with plugins, widgets, and themes.]]>
 		</description>
 		<inspect>
 			<![CDATA[{}]]>
@@ -357,7 +374,7 @@
 		<icon>http://download.qnap.com/QPKG/images/QPKG/container/nginx_icon.png</icon>
 		<location>https://hub.docker.com/_/nginx/</location>
 		<description>
-			<![CDATA[Official build of Nginx.]]>
+			<![CDATA[The official build of Nginx.]]>
 		</description>
 		<inspect>
 			<![CDATA[{}]]>
@@ -383,7 +400,7 @@
 	<ctstation>
 		<name>GitLab</name>
 		<internalName>gitlab</internalName>
-		<version>7.13.4</version>
+		<version>8.2.3</version>
 		<arch>amd64</arch>
 		<category>application</category>
 		<imageType>app</imageType>
@@ -391,7 +408,7 @@
 		<icon>http://download.qnap.com/QPKG/images/QPKG/container/app_gitlab.png</icon>
 		<location>https://hub.docker.com/r/sameersbn/gitlab/</location>
 		<description>
-			<![CDATA[Dockerized gitlab web server.]]>
+			<![CDATA[GitLab is a web-based Git repository manager with code reviews, issue tracking, activity feeds and wikis.]]>
 		</description>
 		<inspect>
 			<![CDATA[{}]]>
@@ -400,7 +417,7 @@
 	<ctstation>
 		<name>Redmine</name>
 		<internalName>redmine</internalName>
-		<version>3.1.0</version>
+		<version>3.2.0</version>
 		<arch>amd64</arch>
 		<category>application</category>
 		<imageType>app</imageType>
@@ -408,7 +425,7 @@
 		<icon>http://download.qnap.com/QPKG/images/QPKG/container/app_redmine.png</icon>
 		<location>https://hub.docker.com/r/sameersbn/redmine/</location>
 		<description>
-			<![CDATA[Dockerized redmine app server.]]>
+			<![CDATA[Redmine is a free and open source web-based project management system.]]>
 		</description>
 		<inspect>
 			<![CDATA[{}]]>
@@ -425,31 +442,14 @@
 		<icon>http://download.qnap.com/QPKG/images/QPKG/container/app_registry.png</icon>
 		<location>https://hub.docker.com/_/registry/</location>
 		<description>
-			<![CDATA[Dockerized registry server.]]>
+			<![CDATA[The Registry is a tool for building private registries. It is highly scalable server side application for storing and distributing Docker images.]]>
 		</description>
 		<inspect>
 			<![CDATA[{}]]>
 		</inspect>
 	</ctstation>
 	<ctstation>
-		<name>APT mirroring server</name>
-		<internalName>seterrychen/apt-mirror-http-server</internalName>
-		<version>0.0.5</version>
-		<arch>amd64</arch>
-		<category>application</category>
-		<imageType>docker</imageType>
-		<repository>dockerhub</repository>
-		<icon></icon>
-		<location>https://hub.docker.com/r/seterrychen/apt-mirror-http-server/</location>
-		<description>
-			<![CDATA[A small and efficient tool that lets you mirror a part of or the whole Debian GNU/Linux distribution or any other apt sources.]]>
-		</description>
-		<inspect>
-			<![CDATA[{}]]>
-		</inspect>
-	</ctstation>
-	<ctstation>
-		<name>Joomla</name>
+		<name>Joomla!</name>
 		<internalName>joomla</internalName>
 		<version>3.4.3</version>
 		<arch>amd64</arch>
@@ -459,7 +459,41 @@
 		<icon>http://download.qnap.com/QPKG/images/QPKG/container/app_default.png</icon>
 		<location>https://hub.docker.com/r/seterrychen/joomla-without-database/</location>
 		<description>
-			<![CDATA[Dockerized Joomla.]]>
+			<![CDATA[Joomla! is a free, powerful open source content management system. It is designed for quickly creating online communities, blogs and eCommerce applications.]]>
+		</description>
+		<inspect>
+			<![CDATA[{}]]>
+		</inspect>
+	</ctstation>
+	<ctstation>
+		<name>PostgreSQL</name>
+		<internalName>postgres</internalName>
+		<version>latest</version>
+		<arch>amd64</arch>
+		<category>dockerhub</category>
+		<imageType>docker</imageType>
+		<repository>dockerhub</repository>
+		<icon>https://raw.githubusercontent.com/docker-library/docs/master/postgres/logo.png</icon>
+		<location>https://hub.docker.com/_/postgres/</location>
+		<description>
+			<![CDATA[Official PostgreSQL Docker image. The PostgreSQL object-relational database system provides reliability and data integrity.]]>
+		</description>
+		<inspect>
+			<![CDATA[]]>
+		</inspect>
+	</ctstation>
+	<ctstation>
+		<name>Odoo</name>
+		<internalName>odoo</internalName>
+		<version>8.0</version>
+		<arch>amd64</arch>
+		<category>application</category>
+		<imageType>app</imageType>
+		<repository>dockerhub</repository>
+		<icon>http://download.qnap.com/QPKG/images/QPKG/container/app_default.png</icon>
+		<location>https://hub.docker.com/_/odoo/</location>
+		<description>
+			<![CDATA[Odoo (formerly OpenERP): open source ERP and Apps to grow your business.]]>
 		</description>
 		<inspect>
 			<![CDATA[{}]]>

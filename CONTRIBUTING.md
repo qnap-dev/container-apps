@@ -3,7 +3,7 @@
 1. Click the “Fork” button in the upper-right corner of the GitHub interface.
 2. Add your image and application information. 
 3. Test it on a QNAP NAS by changing your preference application repository settings in Container Station.
-4. Create a pull request (PR).
+4. Create a pull request (PR) to "**test**" branch.
 
 
 # Design

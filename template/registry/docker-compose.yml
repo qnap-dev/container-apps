@@ -1,11 +1,11 @@
 web:
-  image: nginx:1.7
+  image: nginx:1.9
   ports:
     - 5000:5000
   links:
     - app:app
   volumes:
-    - nginx:/etc/nginx
+    - ./nginx:/etc/nginx
     - /etc/docker/tls/server-cert.pem:/etc/ssl/certs/docker-registry
     - /etc/docker/tls/server-key.pem:/etc/ssl/private/docker-registry
 app:
