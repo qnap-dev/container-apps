@@ -1,0 +1,14 @@
+install:
+  extends:
+    file: docker-compose.yml
+    service: image
+  environment:
+    - VERMAGIC=${VERMAGIC}
+    - LIB_FIRMWARE=/lib/firmware
+    - LIB_MODULE=/lib/modules
+    - APP_DIR=${APP_DIR}
+  volumes:
+    - ${LIB_FIRMWARE}:/lib/firmware
+    - ${LIB_MODULE}:/lib/modules
+    - ${APP_DIR}:/app_dir
+  command: /bin/bash /usr/local/bin/myinstall install
