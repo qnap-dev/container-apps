@@ -649,7 +649,7 @@
 			<![CDATA[Tvheadend is an open-source TV streaming and recording server that is compatible with Linux.]]>
 		</description>
 		<inspect>
-			<![CDATA[{}]]>
+			<![CDATA[]]>
 		</inspect>
 	</ctstation>
 	<ctstation>
@@ -666,7 +666,7 @@
 			<![CDATA[Tvheadend is an open-source TV streaming and recording server that is compatible with Linux.]]>
 		</description>
 		<inspect>
-			<![CDATA[{}]]>
+			<![CDATA[]]>
 		</inspect>
 	</ctstation>
 </plugins>
