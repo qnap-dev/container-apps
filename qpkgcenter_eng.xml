@@ -637,7 +637,7 @@
 	</ctstation>
 	<ctstation>
 		<name>Tvheadend</name>
-		<internalName>tv407</internalName>
+		<internalName>Tvheadend</internalName>
 		<version>4.0.7</version>
 		<arch>amd64</arch>
 		<category>application</category>
@@ -654,7 +654,7 @@
 	</ctstation>
 	<ctstation>
 		<name>Tvheadend</name>
-		<internalName>tv407_arm</internalName>
+		<internalName>Tvheadend_arm</internalName>
 		<version>4.0.7</version>
 		<arch>armhf</arch>
 		<category>application</category>
