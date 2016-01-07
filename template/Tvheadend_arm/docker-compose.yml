@@ -1,0 +1,10 @@
+image:
+  image: manuchen/tvheadend_arm:4.0.7
+  ports:
+    - "9981:9981"
+    - "9982:9982"
+  privileged: true
+  volumes:
+    - /root/Videos
+    - /root/.hts
+
