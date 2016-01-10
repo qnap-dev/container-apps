@@ -1,12 +1,12 @@
 web: 
-  image: gogs/gogs
+  image: gogs/gogs:0.7.22
   links: 
     - mysql 
   ports: 
     - "3000:3000" 
  
 mysql: 
-  image: mysql 
+  image: mysql:5.7 
   environment: 
     - MYSQL_ROOT_PASSWORD=gogs 
     - MYSQL_DATABASE=gogs 
