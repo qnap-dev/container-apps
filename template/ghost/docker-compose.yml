@@ -1,0 +1,22 @@
+ghost-buster:
+  image: umputun/ghost-buster-docker
+  restart: always
+  container_name: ghost-buster
+  environment:
+   - BLOG_DOMAIN=http://localhost
+   - NODE_ENV=production
+  ports:
+    - "2368:2368"
+  volumes:
+    - ./static:/ghost/static
+    - ./data:/ghost-override
+    - ./export.md:/export.md
+nginx:
+  image: e1ee1e11/nginx:1.9.4
+  restart: always
+  container_name: ghost-nginx
+  links:
+   - ghost-buster:ghost-buster
+  volumes:
+    - ./static:/ghost/static
+    - ./logs:/var/log/nginx

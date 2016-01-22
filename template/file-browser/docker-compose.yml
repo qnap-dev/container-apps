@@ -1,0 +1,8 @@
+app:
+  image: mangoliou/file-browser:1.0
+  ports:
+    - "5000"
+  volumes:
+    - /share:/guest/folder
+    - /mnt/rf/cd:/guest/mnt
+    - /var/run/qbus.sock:/guest/qbus.sock
