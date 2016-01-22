@@ -1,9 +1,10 @@
 web: 
-  image: gogs/gogs:0.7.22
+  image: e1ee1e11/gogs:0.8.10
   links: 
     - mysql 
   ports: 
     - "3000:3000" 
+    - "3001:22" 
  
 mysql: 
   image: mysql:5.7 

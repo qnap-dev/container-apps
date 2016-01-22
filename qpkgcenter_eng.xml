@@ -553,12 +553,12 @@
 	<ctstation>
 		<name>Gogs</name>
 		<internalName>gogs</internalName>
-		<version>0.6.18 Beta</version>
+		<version>0.8.10</version>
 		<arch>amd64</arch>
 		<category>application</category>
 		<imageType>app</imageType>
 		<repository>dockerhub</repository>
-		<icon></icon>
+		<icon>http://download.qnap.com/QPKG/images/QPKG/container/app_default.png</icon>
 		<location>https://hub.docker.com/r/gogs/gogs/</location>
 		<description>
 			<![CDATA[Gogs (Go Git Service) is a painless self-hosted Git service.]]>
@@ -575,7 +575,7 @@
 		<category>application</category>
 		<imageType>app</imageType>
 		<repository>dockerhub</repository>
-		<icon></icon>
+		<icon>http://download.qnap.com/QPKG/images/QPKG/container/app_default.png</icon>
 		<location>https://hub.docker.com/r/spantree/sugarcrm/</location>
 		<description>
 			<![CDATA[SugarCRM is a software company based in Cupertino, California. It produces the web application Sugar, a customer relationship management (CRM) system that is available in both open-source and commercial open-source applications.]]>
@@ -592,7 +592,7 @@
 		<category>application</category>
 		<imageType>app</imageType>
 		<repository>dockerhub</repository>
-		<icon></icon>
+		<icon>http://download.qnap.com/QPKG/images/QPKG/container/app_default.png</icon>
 		<location>https://hub.docker.com/r/umputun/ghost-buster-docker/</location>
 		<description>
 			<![CDATA[Ghost is a free and open source blogging platform written in JavaScript and distributed under the MIT License, designed to simplify the process of online publishing for individual bloggers as well as online publications.]]>
