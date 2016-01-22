@@ -386,7 +386,7 @@
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_default.png", 
         "displayName": "Gogs", 
         "name": "gogs", 
-        "version": "0.6.18 Beta", 
+        "version": "0.8.10", 
         "location": "https://hub.docker.com/r/gogs/gogs/", 
         "type": "app"
     }, 
