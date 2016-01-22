@@ -312,29 +312,5 @@
         "version": "3.4.3", 
         "location": "https://hub.docker.com/r/seterrychen/joomla-without-database/", 
         "type": "app"
-    },
-    {
-        "description": "Tvheadend is an open-source TV streaming and recording server that is compatible with Linux.", 
-        "repository": "dockerhub", 
-        "arch": "amd64", 
-        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_default.png", 
-        "displayName": "Tvheadend", 
-        "name": "Tvheadend", 
-        "version": "4.0.7", 
-        "location": "https://hub.docker.com/r/manuchen/tvheadend/", 
-        "type": "app",
-        "qcsVersion": "1.4"
-    },
-    {
-        "description": "Tvheadend is an open-source TV streaming and recording server that is compatible with Linux.", 
-        "repository": "dockerhub", 
-        "arch": "armhf", 
-        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_default.png", 
-        "displayName": "Tvheadend", 
-        "name": "Tvheadend_arm", 
-        "version": "4.0.7", 
-        "location": "https://hub.docker.com/r/manuchen/tvheadend_arm/", 
-        "type": "app",
-        "qcsVersion": "1.4"
     }
 ]
