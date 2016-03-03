@@ -226,17 +226,6 @@
         "type": "docker"
     }, 
     {
-        "description": "WordPress is a rich content management system for creating blogs and websites with plugins, widgets, and themes.", 
-        "repository": "dockerhub", 
-        "arch": "amd64", 
-        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/wordpress_icon.png", 
-        "displayName": "WordPress", 
-        "name": "tutum/wordpress", 
-        "version": "latest", 
-        "location": "https://hub.docker.com/r/tutum/wordpress/", 
-        "type": "docker"
-    }, 
-    {
         "description": "The official build of Nginx.", 
         "repository": "dockerhub", 
         "arch": "amd64", 
@@ -303,6 +292,17 @@
         "type": "app"
     }, 
     {
+        "description": "WordPress is a rich content management system for creating blogs and websites with plugins, widgets, and themes.", 
+        "repository": "dockerhub", 
+        "arch": "amd64", 
+        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_wordpress.png", 
+        "displayName": "WordPress", 
+        "name": "wordpress", 
+        "version": "4.4.2", 
+        "location": "https://hub.docker.com/r/library/wordpress/", 
+        "type": "app"
+    }, 
+    {
         "description": "Official PostgreSQL Docker image. The PostgreSQL object-relational database system provides reliability and data integrity.", 
         "repository": "dockerhub", 
         "arch": "amd64", 
@@ -333,17 +333,6 @@
         "name": "file-browser", 
         "version": "1.0", 
         "location": "https://hub.docker.com/r/mangoliou/file-browser/", 
-        "type": "app"
-    }, 
-    {
-        "description": "Odoo (formerly OpenERP): open source ERP and Apps to grow your business.", 
-        "repository": "dockerhub", 
-        "arch": "amd64", 
-        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_default.png", 
-        "displayName": "Odoo", 
-        "name": "odoo", 
-        "version": "8.0", 
-        "location": "https://hub.docker.com/_/odoo/", 
         "type": "app"
     }, 
     {
