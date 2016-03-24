@@ -1,5 +1,49 @@
 [
     {
+        "description": "GitLab is a web-based Git repository manager with code reviews, issue tracking, activity feeds and wikis.", 
+        "repository": "dockerhub", 
+        "arch": "amd64", 
+        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_gitlab.png", 
+        "displayName": "GitLab", 
+        "name": "gitlab", 
+        "version": "8.2.3", 
+        "location": "https://hub.docker.com/r/sameersbn/gitlab/", 
+        "type": "app"
+    }, 
+    {
+        "description": "Redmine is a free and open source web-based project management system.", 
+        "repository": "dockerhub", 
+        "arch": "amd64", 
+        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_redmine.png", 
+        "displayName": "Redmine", 
+        "name": "redmine", 
+        "version": "3.2.0", 
+        "location": "https://hub.docker.com/r/sameersbn/redmine/", 
+        "type": "app"
+    }, 
+    {
+        "description": "The Registry is a tool for building private registries. It is highly scalable server side application for storing and distributing Docker images.", 
+        "repository": "dockerhub", 
+        "arch": "amd64", 
+        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_registry.png", 
+        "displayName": "Registry", 
+        "name": "registry", 
+        "version": "0.9.1", 
+        "location": "https://hub.docker.com/_/registry/", 
+        "type": "app"
+    }, 
+    {
+        "description": "Joomla! is a free, powerful open source content management system. It is designed for quickly creating online communities, blogs and eCommerce applications.", 
+        "repository": "dockerhub", 
+        "arch": "amd64", 
+        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_default.png", 
+        "displayName": "Joomla!", 
+        "name": "joomla", 
+        "version": "3.4.3", 
+        "location": "https://hub.docker.com/r/seterrychen/joomla-without-database/", 
+        "type": "app"
+    },
+    {
         "description": "Fast, free and incredibly easy to use, the Ubuntu operating system powers millions of desktop PCs, laptops and servers around the world.", 
         "repository": "qnap", 
         "inspect": "{}", 
@@ -268,49 +312,5 @@
         "version": "latest", 
         "location": "https://hub.docker.com/_/postgres/", 
         "type": "docker"
-    },
-    {
-        "description": "GitLab is a web-based Git repository manager with code reviews, issue tracking, activity feeds and wikis.", 
-        "repository": "dockerhub", 
-        "arch": "amd64", 
-        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_gitlab.png", 
-        "displayName": "GitLab", 
-        "name": "gitlab", 
-        "version": "8.2.3", 
-        "location": "https://hub.docker.com/r/sameersbn/gitlab/", 
-        "type": "app"
-    }, 
-    {
-        "description": "Redmine is a free and open source web-based project management system.", 
-        "repository": "dockerhub", 
-        "arch": "amd64", 
-        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_redmine.png", 
-        "displayName": "Redmine", 
-        "name": "redmine", 
-        "version": "3.2.0", 
-        "location": "https://hub.docker.com/r/sameersbn/redmine/", 
-        "type": "app"
-    }, 
-    {
-        "description": "The Registry is a tool for building private registries. It is highly scalable server side application for storing and distributing Docker images.", 
-        "repository": "dockerhub", 
-        "arch": "amd64", 
-        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_registry.png", 
-        "displayName": "Registry", 
-        "name": "registry", 
-        "version": "0.9.1", 
-        "location": "https://hub.docker.com/_/registry/", 
-        "type": "app"
-    }, 
-    {
-        "description": "Joomla! is a free, powerful open source content management system. It is designed for quickly creating online communities, blogs and eCommerce applications.", 
-        "repository": "dockerhub", 
-        "arch": "amd64", 
-        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_default.png", 
-        "displayName": "Joomla!", 
-        "name": "joomla", 
-        "version": "3.4.3", 
-        "location": "https://hub.docker.com/r/seterrychen/joomla-without-database/", 
-        "type": "app"
     }
 ]
