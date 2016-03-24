@@ -1,5 +1,172 @@
 [
     {
+        "description": "GitLab is a web-based Git repository manager with code reviews, issue tracking, activity feeds and wikis.", 
+        "repository": "dockerhub", 
+        "arch": "amd64", 
+        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_gitlab.png", 
+        "displayName": "GitLab", 
+        "name": "gitlab", 
+        "version": "8.2.3", 
+        "location": "https://hub.docker.com/r/sameersbn/gitlab/", 
+        "type": "app"
+    }, 
+    {
+        "description": "Redmine is a free and open source web-based project management system.", 
+        "repository": "dockerhub", 
+        "arch": "amd64", 
+        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_redmine.png", 
+        "displayName": "Redmine", 
+        "name": "redmine", 
+        "version": "3.2.0", 
+        "location": "https://hub.docker.com/r/sameersbn/redmine/", 
+        "type": "app"
+    }, 
+    {
+        "description": "The Registry is a tool for building private registries. It is highly scalable server side application for storing and distributing Docker images.", 
+        "repository": "dockerhub", 
+        "arch": "amd64", 
+        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_registry.png", 
+        "displayName": "Registry", 
+        "name": "registry", 
+        "version": "0.9.1", 
+        "location": "https://hub.docker.com/_/registry/", 
+        "type": "app"
+    }, 
+    {
+        "description": "Joomla! is a free, powerful open source content management system. It is designed for quickly creating online communities, blogs and eCommerce applications.", 
+        "repository": "dockerhub", 
+        "arch": "amd64", 
+        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_default.png", 
+        "displayName": "Joomla!", 
+        "name": "joomla", 
+        "version": "3.4.3", 
+        "location": "https://hub.docker.com/r/seterrychen/joomla-without-database/", 
+        "type": "app"
+    }, 
+    {
+        "description": "WordPress is a rich content management system for creating blogs and websites with plugins, widgets, and themes.", 
+        "repository": "dockerhub", 
+        "arch": "amd64", 
+        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_wordpress.png", 
+        "displayName": "WordPress", 
+        "name": "wordpress", 
+        "version": "4.4.2", 
+        "location": "https://hub.docker.com/r/library/wordpress/", 
+        "type": "app"
+    }, 
+    {
+        "description": "Odoo (formerly OpenERP): open source ERP and Apps to grow your business.", 
+        "repository": "dockerhub", 
+        "arch": "amd64", 
+        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_default.png", 
+        "displayName": "Odoo", 
+        "name": "odoo", 
+        "version": "8.0", 
+        "location": "https://hub.docker.com/_/odoo/", 
+        "type": "app"
+    }, 
+    {
+        "description": "The File Browser help you to view different files on web.", 
+        "repository": "dockerhub", 
+        "arch": "amd64", 
+        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_default.png", 
+        "displayName": "File Browser", 
+        "name": "file-browser", 
+        "version": "1.0", 
+        "location": "https://hub.docker.com/r/mangoliou/file-browser/", 
+        "type": "app"
+    }, 
+    {
+        "description": "Ubuntu Desktop Emacs - Install to open plain text files in the File Browser.", 
+        "repository": "dockerhub", 
+        "arch": "amd64", 
+        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_default.png", 
+        "displayName": "Ubuntu Emacs", 
+        "name": "ubuntu-desktop-emacs", 
+        "version": "1.0", 
+        "location": "https://hub.docker.com/r/mangoliou/ubuntu-desktop-emacs/", 
+        "type": "app"
+    }, 
+    {
+        "description": "Ubuntu Desktop Libreoffice - Install to open Microsoft Offices files in the File Browser.", 
+        "repository": "dockerhub", 
+        "arch": "amd64", 
+        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_default.png", 
+        "displayName": "Ubuntu Libreoffice", 
+        "name": "ubuntu-desktop-libreoffice", 
+        "version": "1.0", 
+        "location": "https://hub.docker.com/r/mangoliou/ubuntu-desktop-libreoffice/", 
+        "type": "app"
+    }, 
+    {
+        "description": "Ubuntu Desktop Pinta - Install to open image files in the File Browser.", 
+        "repository": "dockerhub", 
+        "arch": "amd64", 
+        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_default.png", 
+        "displayName": "Ubuntu Pinta", 
+        "name": "ubuntu-desktop-pinta", 
+        "version": "1.0", 
+        "location": "https://hub.docker.com/r/mangoliou/ubuntu-desktop-pinta/", 
+        "type": "app"
+    }, 
+    {
+        "description": "Gogs (Go Git Service) is a painless self-hosted Git service.", 
+        "repository": "dockerhub", 
+        "arch": "amd64", 
+        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_default.png", 
+        "displayName": "Gogs", 
+        "name": "gogs", 
+        "version": "0.8.10", 
+        "location": "https://hub.docker.com/r/gogs/gogs/", 
+        "type": "app"
+    }, 
+    {
+        "description": "SugarCRM is a software company based in Cupertino, California. It produces the web application Sugar, a customer relationship management (CRM) system that is available in both open-source and commercial open-source applications.", 
+        "repository": "dockerhub", 
+        "arch": "amd64", 
+        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_default.png", 
+        "displayName": "SugarCRM", 
+        "name": "sugarcrm", 
+        "version": "6.5.20", 
+        "location": "https://hub.docker.com/r/spantree/sugarcrm/", 
+        "type": "app"
+    }, 
+    {
+        "description": "Ghost is a free and open source blogging platform written in JavaScript and distributed under the MIT License, designed to simplify the process of online publishing for individual bloggers as well as online publications.", 
+        "repository": "dockerhub", 
+        "arch": "amd64", 
+        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_default.png", 
+        "displayName": "Ghost", 
+        "name": "ghost", 
+        "version": "0.7.0", 
+        "location": "https://hub.docker.com/r/umputun/ghost-buster-docker/", 
+        "type": "app"
+    }, 
+    {
+        "description": "Tvheadend is an open-source TV streaming and recording server that is compatible with Linux.", 
+        "repository": "dockerhub", 
+        "arch": "amd64", 
+        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_default.png", 
+        "displayName": "Tvheadend", 
+        "name": "Tvheadend", 
+        "version": "4.0.7", 
+        "location": "https://hub.docker.com/r/manuchen/tvheadend/", 
+        "type": "app",
+        "qcsVersion": "1.4"
+    }, 
+    {
+        "description": "Tvheadend is an open-source TV streaming and recording server that is compatible with Linux.", 
+        "repository": "dockerhub", 
+        "arch": "armhf", 
+        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_default.png", 
+        "displayName": "Tvheadend", 
+        "name": "Tvheadend_arm", 
+        "version": "4.0.7", 
+        "location": "https://hub.docker.com/r/manuchen/tvheadend_arm/", 
+        "type": "app",
+        "qcsVersion": "1.4"
+    },
+    {
         "description": "Fast, free and incredibly easy to use, the Ubuntu operating system powers millions of desktop PCs, laptops and servers around the world.", 
         "repository": "qnap", 
         "inspect": "{}", 
@@ -248,61 +415,6 @@
         "type": "docker"
     }, 
     {
-        "description": "GitLab is a web-based Git repository manager with code reviews, issue tracking, activity feeds and wikis.", 
-        "repository": "dockerhub", 
-        "arch": "amd64", 
-        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_gitlab.png", 
-        "displayName": "GitLab", 
-        "name": "gitlab", 
-        "version": "8.2.3", 
-        "location": "https://hub.docker.com/r/sameersbn/gitlab/", 
-        "type": "app"
-    }, 
-    {
-        "description": "Redmine is a free and open source web-based project management system.", 
-        "repository": "dockerhub", 
-        "arch": "amd64", 
-        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_redmine.png", 
-        "displayName": "Redmine", 
-        "name": "redmine", 
-        "version": "3.2.0", 
-        "location": "https://hub.docker.com/r/sameersbn/redmine/", 
-        "type": "app"
-    }, 
-    {
-        "description": "The Registry is a tool for building private registries. It is highly scalable server side application for storing and distributing Docker images.", 
-        "repository": "dockerhub", 
-        "arch": "amd64", 
-        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_registry.png", 
-        "displayName": "Registry", 
-        "name": "registry", 
-        "version": "0.9.1", 
-        "location": "https://hub.docker.com/_/registry/", 
-        "type": "app"
-    }, 
-    {
-        "description": "Joomla! is a free, powerful open source content management system. It is designed for quickly creating online communities, blogs and eCommerce applications.", 
-        "repository": "dockerhub", 
-        "arch": "amd64", 
-        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_default.png", 
-        "displayName": "Joomla!", 
-        "name": "joomla", 
-        "version": "3.4.3", 
-        "location": "https://hub.docker.com/r/seterrychen/joomla-without-database/", 
-        "type": "app"
-    }, 
-    {
-        "description": "WordPress is a rich content management system for creating blogs and websites with plugins, widgets, and themes.", 
-        "repository": "dockerhub", 
-        "arch": "amd64", 
-        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_wordpress.png", 
-        "displayName": "WordPress", 
-        "name": "wordpress", 
-        "version": "4.4.2", 
-        "location": "https://hub.docker.com/r/library/wordpress/", 
-        "type": "app"
-    }, 
-    {
         "description": "Official PostgreSQL Docker image. The PostgreSQL object-relational database system provides reliability and data integrity.", 
         "repository": "dockerhub", 
         "arch": "amd64", 
@@ -312,117 +424,5 @@
         "version": "latest", 
         "location": "https://hub.docker.com/_/postgres/", 
         "type": "docker"
-    }, 
-    {
-        "description": "Odoo (formerly OpenERP): open source ERP and Apps to grow your business.", 
-        "repository": "dockerhub", 
-        "arch": "amd64", 
-        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_default.png", 
-        "displayName": "Odoo", 
-        "name": "odoo", 
-        "version": "8.0", 
-        "location": "https://hub.docker.com/_/odoo/", 
-        "type": "app"
-    }, 
-    {
-        "description": "The File Browser help you to view different files on web.", 
-        "repository": "dockerhub", 
-        "arch": "amd64", 
-        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_default.png", 
-        "displayName": "File Browser", 
-        "name": "file-browser", 
-        "version": "1.0", 
-        "location": "https://hub.docker.com/r/mangoliou/file-browser/", 
-        "type": "app"
-    }, 
-    {
-        "description": "Ubuntu Desktop Emacs - Install to open plain text files in the File Browser.", 
-        "repository": "dockerhub", 
-        "arch": "amd64", 
-        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_default.png", 
-        "displayName": "Ubuntu Emacs", 
-        "name": "ubuntu-desktop-emacs", 
-        "version": "1.0", 
-        "location": "https://hub.docker.com/r/mangoliou/ubuntu-desktop-emacs/", 
-        "type": "app"
-    }, 
-    {
-        "description": "Ubuntu Desktop Libreoffice - Install to open Microsoft Offices files in the File Browser.", 
-        "repository": "dockerhub", 
-        "arch": "amd64", 
-        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_default.png", 
-        "displayName": "Ubuntu Libreoffice", 
-        "name": "ubuntu-desktop-libreoffice", 
-        "version": "1.0", 
-        "location": "https://hub.docker.com/r/mangoliou/ubuntu-desktop-libreoffice/", 
-        "type": "app"
-    }, 
-    {
-        "description": "Ubuntu Desktop Pinta - Install to open image files in the File Browser.", 
-        "repository": "dockerhub", 
-        "arch": "amd64", 
-        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_default.png", 
-        "displayName": "Ubuntu Pinta", 
-        "name": "ubuntu-desktop-pinta", 
-        "version": "1.0", 
-        "location": "https://hub.docker.com/r/mangoliou/ubuntu-desktop-pinta/", 
-        "type": "app"
-    }, 
-    {
-        "description": "Gogs (Go Git Service) is a painless self-hosted Git service.", 
-        "repository": "dockerhub", 
-        "arch": "amd64", 
-        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_default.png", 
-        "displayName": "Gogs", 
-        "name": "gogs", 
-        "version": "0.8.10", 
-        "location": "https://hub.docker.com/r/gogs/gogs/", 
-        "type": "app"
-    }, 
-    {
-        "description": "SugarCRM is a software company based in Cupertino, California. It produces the web application Sugar, a customer relationship management (CRM) system that is available in both open-source and commercial open-source applications.", 
-        "repository": "dockerhub", 
-        "arch": "amd64", 
-        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_default.png", 
-        "displayName": "SugarCRM", 
-        "name": "sugarcrm", 
-        "version": "6.5.20", 
-        "location": "https://hub.docker.com/r/spantree/sugarcrm/", 
-        "type": "app"
-    }, 
-    {
-        "description": "Ghost is a free and open source blogging platform written in JavaScript and distributed under the MIT License, designed to simplify the process of online publishing for individual bloggers as well as online publications.", 
-        "repository": "dockerhub", 
-        "arch": "amd64", 
-        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_default.png", 
-        "displayName": "Ghost", 
-        "name": "ghost", 
-        "version": "0.7.0", 
-        "location": "https://hub.docker.com/r/umputun/ghost-buster-docker/", 
-        "type": "app"
-    }, 
-    {
-        "description": "Tvheadend is an open-source TV streaming and recording server that is compatible with Linux.", 
-        "repository": "dockerhub", 
-        "arch": "amd64", 
-        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_default.png", 
-        "displayName": "Tvheadend", 
-        "name": "Tvheadend", 
-        "version": "4.0.7", 
-        "location": "https://hub.docker.com/r/manuchen/tvheadend/", 
-        "type": "app",
-        "qcsVersion": "1.4"
-    }, 
-    {
-        "description": "Tvheadend is an open-source TV streaming and recording server that is compatible with Linux.", 
-        "repository": "dockerhub", 
-        "arch": "armhf", 
-        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_default.png", 
-        "displayName": "Tvheadend", 
-        "name": "Tvheadend_arm", 
-        "version": "4.0.7", 
-        "location": "https://hub.docker.com/r/manuchen/tvheadend_arm/", 
-        "type": "app",
-        "qcsVersion": "1.4"
     }
 ]
