@@ -1,0 +1,86 @@
+[
+    {
+        "description": "Node-RED visual tool for wiring the Internet of Things", 
+        "repository": "dockerhub", 
+        "arch": "amd64", 
+        "icon": "", 
+        "displayName": "Node-RED", 
+        "name": "node-red", 
+        "version": "0.13.2", 
+        "location": "https://hub.docker.com/r/cpswan/node-red/", 
+        "type": "iot",
+        "qcsVersion": "1.5"
+    },
+    {
+        "description": "A simple docker image with both Kafka and Zookeeper", 
+        "repository": "dockerhub", 
+        "arch": "amd64", 
+        "icon": "", 
+        "displayName": "Kafka", 
+        "name": "spotify/kafka", 
+        "version": "latest", 
+        "location": "https://hub.docker.com/r/spotify/kafka/", 
+        "type": "iot",
+        "qcsVersion": "1.5"
+    },
+    {
+        "description": "RabbitMQ is a highly reliable enterprise messaging system based on the emerging AMQP standard", 
+        "repository": "dockerhub", 
+        "arch": "amd64", 
+        "icon": "", 
+        "displayName": "RabbitMQ", 
+        "name": "rabbitmq", 
+        "version": "3.6", 
+        "location": "https://hub.docker.com/_/rabbitmq/", 
+        "type": "iot",
+        "qcsVersion": "1.5"
+    },
+    {
+        "description": "MQTT Mosquitto 1.5.8 build on ubuntu 14.4", 
+        "repository": "dockerhub", 
+        "arch": "amd64", 
+        "icon": "", 
+        "displayName": "MQTT", 
+        "name": "ansi/mosquitto", 
+        "version": "latest", 
+        "location": "https://hub.docker.com/r/ansi/mosquitto/", 
+        "type": "iot",
+        "qcsVersion": "1.5"
+    },
+    {
+        "description": "Run Dashing in a Docker container", 
+        "repository": "dockerhub", 
+        "arch": "amd64", 
+        "icon": "", 
+        "displayName": "Freeboard", 
+        "name": "frvi/dashing", 
+        "version": "lateest", 
+        "location": "https://hub.docker.com/r/frvi/dashing/", 
+        "type": "iot",
+        "qcsVersion": "1.5"
+    },
+    {
+        "description": "Redis is an open source key-value store that functions as a data structure server", 
+        "repository": "dockerhub", 
+        "arch": "amd64", 
+        "icon": "", 
+        "displayName": "Redis", 
+        "name": "redis", 
+        "version": "3", 
+        "location": "https://hub.docker.com/_/redis/", 
+        "type": "iot",
+        "qcsVersion": "1.5"
+    },
+    {
+        "description": "MongoDB document databases provide high availability and easy scalability", 
+        "repository": "dockerhub", 
+        "arch": "amd64", 
+        "icon": "", 
+        "displayName": "MongoDB", 
+        "name": "mongo", 
+        "version": "3.2", 
+        "location": "https://hub.docker.com/_/mongo/", 
+        "type": "iot",
+        "qcsVersion": "1.5"
+    }
+]
