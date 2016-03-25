@@ -52,7 +52,7 @@
         "repository": "dockerhub", 
         "arch": "amd64", 
         "icon": "", 
-        "displayName": "Freeboard", 
+        "displayName": "Dashing", 
         "name": "frvi/dashing", 
         "version": "latest", 
         "location": "https://hub.docker.com/r/frvi/dashing/", 
