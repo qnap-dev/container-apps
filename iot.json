@@ -5,7 +5,7 @@
         "arch": "amd64", 
         "icon": "", 
         "displayName": "Node-RED", 
-        "name": "node-red", 
+        "name": "cpswan/node-red", 
         "version": "0.13.2", 
         "location": "https://hub.docker.com/r/cpswan/node-red/", 
         "type": "iot",
