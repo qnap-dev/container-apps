@@ -1,9 +1,3 @@
-Joomla with MariaDB
-==============================
-
-## Usage
-Create application "Joomla" by [Create Container] → [Create Joomla].
-
 ## Note
 MariaDB setting:
 

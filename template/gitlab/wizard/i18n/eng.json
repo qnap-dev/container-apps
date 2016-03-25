@@ -1,5 +1,5 @@
 {
-  "GITLAB_NAME": "GitLab!",
+  "GITLAB_NAME": "GitLab",
   "PASSWORD": "Password",
   "GITLAB_PASSWORD_DESC": "The password for the root user. Defaults to 5iveL!fe.",
   "GITLAB_WEB_HOST_PORT_DESC": "The port of the GitLab server. Defaults to 10080.",
