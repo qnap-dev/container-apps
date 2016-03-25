@@ -54,7 +54,7 @@
         "icon": "", 
         "displayName": "Freeboard", 
         "name": "frvi/dashing", 
-        "version": "lateest", 
+        "version": "latest", 
         "location": "https://hub.docker.com/r/frvi/dashing/", 
         "type": "iot",
         "qcsVersion": "1.5"
