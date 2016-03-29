@@ -133,7 +133,7 @@
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/ubuntu_icon.png", 
         "displayName": "Ubuntu desktop with noVNC", 
         "name": "dorowu/ubuntu-desktop-lxde-vnc", 
-        "version": "latest", 
+        "version": "release-v1.0", 
         "location": "https://hub.docker.com/r/dorowu/ubuntu-desktop-lxde-vnc/", 
         "type": "docker"
     }, 
@@ -166,7 +166,7 @@
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/libreoffice_icon.png", 
         "displayName": "LibreOffice with noVNC", 
         "name": "colinhuang/ubuntu-libreoffice", 
-        "version": "latest", 
+        "version": "1.0", 
         "location": "https://hub.docker.com/r/colinhuang/ubuntu-libreoffice/", 
         "type": "docker"
     }, 
@@ -177,7 +177,7 @@
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/jenkins_icon.png", 
         "displayName": "Jenkins", 
         "name": "jenkins", 
-        "version": "latest", 
+        "version": "1.642.2", 
         "location": "https://hub.docker.com/_/jenkins/", 
         "type": "docker"
     }, 
@@ -210,7 +210,7 @@
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/ubuntu_icon.png", 
         "displayName": "Ubuntu with noVNC", 
         "name": "colinhuang/ubuntu-novnc-armhf", 
-        "version": "latest", 
+        "version": "1.0", 
         "location": "https://hub.docker.com/r/colinhuang/ubuntu-novnc-armhf/", 
         "type": "docker"
     }, 
@@ -254,7 +254,7 @@
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/redis_icon.png", 
         "displayName": "Redis", 
         "name": "redis", 
-        "version": "latest", 
+        "version": "3", 
         "location": "https://hub.docker.com/_/redis/", 
         "type": "docker"
     }, 
@@ -265,7 +265,7 @@
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/mysql_icon.png", 
         "displayName": "MySQL", 
         "name": "tutum/mysql", 
-        "version": "latest", 
+        "version": "5.6", 
         "location": "https://hub.docker.com/r/tutum/mysql/", 
         "type": "docker"
     }, 
@@ -276,7 +276,7 @@
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/nodejs_icon.png", 
         "displayName": "Node.js", 
         "name": "node", 
-        "version": "latest", 
+        "version": "5.9", 
         "location": "https://hub.docker.com/_/node/", 
         "type": "docker"
     }, 
@@ -298,7 +298,7 @@
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/nginx_icon.png", 
         "displayName": "Nginx", 
         "name": "nginx", 
-        "version": "latest", 
+        "version": "1.9", 
         "location": "https://hub.docker.com/_/nginx/", 
         "type": "docker"
     }, 
@@ -309,7 +309,7 @@
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/mongo_icon.png", 
         "displayName": "MongoDB", 
         "name": "mongo", 
-        "version": "latest", 
+        "version": "3.2", 
         "location": "https://hub.docker.com/_/mongo/", 
         "type": "docker"
     }, 
@@ -320,7 +320,7 @@
         "icon": "https://raw.githubusercontent.com/docker-library/docs/master/postgres/logo.png", 
         "displayName": "PostgreSQL", 
         "name": "postgres", 
-        "version": "latest", 
+        "version": "9.5", 
         "location": "https://hub.docker.com/_/postgres/", 
         "type": "docker"
     }
