@@ -39,7 +39,7 @@
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_joomla.png",
         "displayName": "Joomla!",
         "name": "joomla",
-        "version": "3.4.3",
+        "version": "3.5.0",
         "location": "https://hub.docker.com/r/seterrychen/joomla-without-database/",
         "type": "app"
     },

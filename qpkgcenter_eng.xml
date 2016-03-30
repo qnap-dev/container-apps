@@ -451,7 +451,7 @@
 	<ctstation>
 		<name>Joomla!</name>
 		<internalName>joomla</internalName>
-		<version>3.4.3</version>
+		<version>3.5.0</version>
 		<arch>amd64</arch>
 		<category>application</category>
 		<imageType>app</imageType>
