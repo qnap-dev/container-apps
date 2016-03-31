@@ -126,7 +126,7 @@
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/iot_mongo.png",
         "displayName": "mongo-express", 
         "name": "dorowu/qiot-mongo-express_amd64", 
-        "version": "0.1", 
+        "version": "0.2", 
         "location": "https://hub.docker.com/r/dorowu/qiot-mongo-express_amd64", 
         "type": "iot",
         "qcsVersion": "1.5"
