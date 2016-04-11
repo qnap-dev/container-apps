@@ -7,6 +7,6 @@ wordpress:
     - "10085:3306"
 
 db:
-  image: mariadb:10.1.12
+  image: mariadb:10.1.13
   environment:
     MYSQL_ROOT_PASSWORD: example
