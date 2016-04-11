@@ -55,6 +55,17 @@
         "type": "app"
     },
     {
+        "description": "WordPress is a rich content management system for creating blogs and websites with plugins, widgets, and themes.", 
+        "repository": "dockerhub", 
+        "arch": "amd64", 
+        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_wordpress.png", 
+        "displayName": "WordPress", 
+        "name": "wordpress", 
+        "version": "4.4.2", 
+        "location": "https://hub.docker.com/r/library/wordpress/", 
+        "type": "app"
+    }, 
+    {
         "description": "Fast, free and incredibly easy to use, the Ubuntu operating system powers millions of desktop PCs, laptops and servers around the world.", 
         "repository": "qnap", 
         "inspect": "{}", 
@@ -278,17 +289,6 @@
         "name": "node", 
         "version": "5.9", 
         "location": "https://hub.docker.com/_/node/", 
-        "type": "docker"
-    }, 
-    {
-        "description": "WordPress is a rich content management system for creating blogs and websites with plugins, widgets, and themes.", 
-        "repository": "dockerhub", 
-        "arch": "amd64", 
-        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/wordpress_icon.png", 
-        "displayName": "WordPress", 
-        "name": "tutum/wordpress", 
-        "version": "latest", 
-        "location": "https://hub.docker.com/r/tutum/wordpress/", 
         "type": "docker"
     }, 
     {
