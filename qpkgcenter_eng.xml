@@ -347,23 +347,6 @@
 		</inspect>
 	</ctstation>
 	<ctstation>
-		<name>WordPress</name>
-		<internalName>tutum/wordpress</internalName>
-		<version>latest</version>
-		<arch>amd64</arch>
-		<category>dockerhub</category>
-		<imageType>docker</imageType>
-		<repository>dockerhub</repository>
-		<icon>http://download.qnap.com/QPKG/images/QPKG/container/wordpress_icon.png</icon>
-		<location>https://hub.docker.com/r/tutum/wordpress/</location>
-		<description>
-			<![CDATA[WordPress is a rich content management system for creating blogs and websites with plugins, widgets, and themes.]]>
-		</description>
-		<inspect>
-			<![CDATA[{}]]>
-		</inspect>
-	</ctstation>
-	<ctstation>
 		<name>Nginx</name>
 		<internalName>nginx</internalName>
 		<version>latest</version>
@@ -460,6 +443,23 @@
 		<location>https://hub.docker.com/r/seterrychen/joomla-without-database/</location>
 		<description>
 			<![CDATA[Joomla! is a free, powerful open source content management system. It is designed for quickly creating online communities, blogs and eCommerce applications.]]>
+		</description>
+		<inspect>
+			<![CDATA[{}]]>
+		</inspect>
+	</ctstation>
+	<ctstation>
+		<name>WordPress</name>
+		<internalName>wordpress</internalName>
+		<version>4.4.2</version>
+		<arch>amd64</arch>
+		<category>dockerhub</category>
+		<imageType>app</imageType>
+		<repository>dockerhub</repository>
+		<icon>http://download.qnap.com/QPKG/images/QPKG/container/app_wordpress.png</icon>
+		<location>https://hub.docker.com/r/library/wordpress/</location>
+		<description>
+			<![CDATA[WordPress is a rich content management system for creating blogs and websites with plugins, widgets, and themes.]]>
 		</description>
 		<inspect>
 			<![CDATA[{}]]>
