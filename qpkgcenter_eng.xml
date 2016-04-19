@@ -451,9 +451,9 @@
 	<ctstation>
 		<name>WordPress</name>
 		<internalName>wordpress</internalName>
-		<version>4.4.2</version>
+		<version>4.5</version>
 		<arch>amd64</arch>
-		<category>dockerhub</category>
+		<category>application</category>
 		<imageType>app</imageType>
 		<repository>dockerhub</repository>
 		<icon>http://download.qnap.com/QPKG/images/QPKG/container/app_wordpress.png</icon>
