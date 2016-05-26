@@ -7,7 +7,7 @@ postgresql:
     - DB_NAME=gitlabhq_production
 gitlab:
   restart: always
-  image: sameersbn/gitlab:8.2.3
+  image: sameersbn/gitlab:8.7.6
   links:
     - redis:redisio
     - postgresql:postgresql
