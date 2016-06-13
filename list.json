@@ -299,9 +299,9 @@
         "arch": "armhf", 
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/ubuntu_icon.png", 
         "displayName": "Ubuntu", 
-        "name": "armbuild/ubuntu", 
-        "version": "14.04", 
-        "location": "https://hub.docker.com/r/armbuild/ubuntu/", 
+        "name": "multiarch/ubuntu-core", 
+        "version": "armhf-xenial", 
+        "location": "https://hub.docker.com/r/multiarch/ubuntu-core/", 
         "type": "docker"
     }, 
     {
@@ -344,7 +344,7 @@
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/ubuntu_icon.png", 
         "displayName": "Ubuntu", 
         "name": "ubuntu", 
-        "version": "14.04", 
+        "version": "16.04", 
         "location": "https://hub.docker.com/_/ubuntu/", 
         "type": "docker"
     }, 
