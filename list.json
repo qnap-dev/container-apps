@@ -224,9 +224,9 @@
         "arch": "amd64", 
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/fedora_icon.png", 
         "displayName": "Fedora", 
-        "name": "fedora-heisenbug", 
-        "version": "20", 
-        "location": "http://download.qnap.com/QPKG/container/fedora-heisenbug_20_amd64.tar.gz", 
+        "name": "fedora-twentyfour", 
+        "version": "24", 
+        "location": "http://qnap.dorowu.com/gitlab/uploads/colin/fedora-twentyfour_24_amd64.tar.gz", 
         "type": "lxc"
     }, 
     {
