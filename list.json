@@ -200,7 +200,21 @@
         "displayName": "Debian", 
         "name": "debian-jessie", 
         "version": "8", 
+        "hideSinceVersion": "1.6",
         "location": "http://download.qnap.com/QPKG/container/debian-jessie_8_amd64.tar.gz", 
+        "type": "lxc"
+    }, 
+    {
+        "description": "Debian is a Linux distribution that is composed entirely of free and open-source software (most of which is under the GNU General Public License) and packaged by a group called the Debian project.", 
+        "repository": "qnap", 
+        "inspect": "{}", 
+        "arch": "amd64", 
+        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/debian_icon.png", 
+        "displayName": "Debian", 
+        "name": "debian-jessie", 
+        "version": "8", 
+        "qcsVersion": "1.6",
+        "location": "http://qnap.dorowu.com/gitlab/uploads/colin/debian-jessie_8_amd64.tar.gz", 
         "type": "lxc"
     }, 
     {
@@ -236,7 +250,21 @@
         "displayName": "Debian", 
         "name": "debian-jessie-armhf", 
         "version": "8", 
+        "hideSinceVersion": "1.6",
         "location": "http://download.qnap.com/QPKG/container/debian-jessie_8_armhf.tar.gz", 
+        "type": "lxc"
+    }, 
+    {
+        "description": "The Debian Project is an association of individuals who have made common cause to create a free operating system.", 
+        "repository": "qnap", 
+        "inspect": "{}", 
+        "arch": "armhf", 
+        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/debian_icon.png", 
+        "displayName": "Debian", 
+        "name": "debian-jessie-armhf", 
+        "version": "8", 
+        "qcsVersion": "1.6",
+        "location": "http://qnap.dorowu.com/gitlab/uploads/colin/debian-jessie_8_armhf.tar.gz", 
         "type": "lxc"
     }, 
     {
