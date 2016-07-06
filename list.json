@@ -188,7 +188,7 @@
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/jenkins_icon.png", 
         "displayName": "Jenkins", 
         "name": "jenkins", 
-        "version": "1.642.2", 
+        "version": "1.651.3", 
         "location": "https://hub.docker.com/_/jenkins/", 
         "type": "docker"
     }, 
@@ -287,7 +287,7 @@
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/nodejs_icon.png", 
         "displayName": "Node.js", 
         "name": "node", 
-        "version": "5.9", 
+        "version": "6", 
         "location": "https://hub.docker.com/_/node/", 
         "type": "docker"
     }, 
@@ -298,7 +298,7 @@
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/nginx_icon.png", 
         "displayName": "Nginx", 
         "name": "nginx", 
-        "version": "1.9", 
+        "version": "1.11", 
         "location": "https://hub.docker.com/_/nginx/", 
         "type": "docker"
     }, 
