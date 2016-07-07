@@ -268,18 +268,6 @@
         "type": "lxc"
     }, 
     {
-        "description": "Fedora (formerly Fedora Core) is an operating system based on the Linux kernel, developed by the community-supported Fedora Project and owned by Red Hat.", 
-        "repository": "qnap", 
-        "inspect": "{}", 
-        "arch": "armhf", 
-        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/fedora_icon.png", 
-        "displayName": "Fedora", 
-        "name": "fedora-heisenbug-armhf", 
-        "version": "20", 
-        "location": "http://download.qnap.com/QPKG/container/fedora-heisenbug_20_armhf.tar.gz", 
-        "type": "lxc"
-    }, 
-    {
         "description": "Remote desktop Sharing in Ubuntu 14.04.", 
         "repository": "dockerhub", 
         "arch": "amd64", 
