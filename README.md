@@ -31,8 +31,8 @@ Please report *Container Station* issues in [QNAP Helpdesk](https://helpdesk.qna
 Related Projects
 ----------------
 
-* [Docker](https://github.com/docker/docker): Container Station using v1.9
-* [Docker Compose](https://github.com/docker/compose): Container Station using v1.5
+* [Docker](https://github.com/docker/docker): Container Station using v1.11
+* [Docker Compose](https://github.com/docker/compose): Container Station using v1.7
 
 
 License
