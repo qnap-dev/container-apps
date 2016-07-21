@@ -6,7 +6,7 @@
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_gitlab.png",
         "displayName": "GitLab",
         "name": "gitlab",
-        "version": "8.2.3",
+        "version": "8.9.6",
         "location": "https://hub.docker.com/r/sameersbn/gitlab/",
         "type": "app"
     }, 
