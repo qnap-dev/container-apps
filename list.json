@@ -17,7 +17,7 @@
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_redmine.png",
         "displayName": "Redmine",
         "name": "redmine",
-        "version": "3.2.0",
+        "version": "3.3.0",
         "location": "https://hub.docker.com/r/sameersbn/redmine/",
         "type": "app"
     }, 
