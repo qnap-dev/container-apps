@@ -192,17 +192,6 @@
         "type": "docker"
     }, 
     {
-        "description": "Fedora (formerly Fedora Core) is an operating system based on the Linux kernel, developed by the community-supported Fedora Project and owned by Red Hat.", 
-        "repository": "dockerhub", 
-        "arch": "armhf", 
-        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/fedora_icon.png", 
-        "displayName": "Fedora", 
-        "name": "armbuild/ocs-distrib-fedora", 
-        "version": "21", 
-        "location": "https://hub.docker.com/r/armbuild/ocs-distrib-fedora/", 
-        "type": "docker"
-    }, 
-    {
         "description": "Remote desktop Sharing in Ubuntu 14.04.", 
         "repository": "dockerhub", 
         "arch": "armhf", 
