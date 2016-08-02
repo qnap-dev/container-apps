@@ -78,6 +78,19 @@
         "type": "lxc"
     }, 
     {
+        "description": "Fast, free and incredibly easy to use, the Ubuntu operating system powers millions of desktop PCs, laptops and servers around the world.", 
+        "repository": "qnap", 
+        "inspect": "{}", 
+        "arch": "amd64", 
+        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/ubuntu_icon.png", 
+        "displayName": "Ubuntu", 
+        "name": "ubuntu-xenial", 
+        "version": "16.04", 
+        "kernelVersion": "3.19",
+        "location": "http://download.qnap.com/QPKG/container/ubuntu-xenial_16.04_amd64.tar.gz", 
+        "type": "lxc"
+    }, 
+    {
         "description": "Debian is a Linux distribution that is composed entirely of free and open-source software (most of which is under the GNU General Public License) and packaged by a group called the Debian project.", 
         "repository": "qnap", 
         "inspect": "{}", 
@@ -96,9 +109,9 @@
         "arch": "amd64", 
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/fedora_icon.png", 
         "displayName": "Fedora", 
-        "name": "fedora-heisenbug", 
-        "version": "20", 
-        "location": "http://download.qnap.com/QPKG/container/fedora-heisenbug_20_amd64.tar.gz", 
+        "name": "fedora-twentyfour", 
+        "version": "24", 
+        "location": "http://download.qnap.com/QPKG/container/fedora-twentyfour_24_amd64.tar.gz", 
         "type": "lxc"
     }, 
     {
