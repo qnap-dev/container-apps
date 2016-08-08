@@ -400,17 +400,6 @@
         "type": "docker"
     }, 
     {
-        "description": "A minimal Docker image based on Alpine Linux with a complete package index and only 5 MB in size!", 
-        "repository": "dockerhub", 
-        "arch": "armhf", 
-        "icon": "", 
-        "displayName": "Alpine", 
-        "name": "armhf/alpine", 
-        "version": "3.4", 
-        "location": "https://hub.docker.com/r/armhf/alpine", 
-        "type": "docker"
-    }, 
-    {
         "description": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine", 
         "repository": "dockerhub", 
         "arch": "armhf", 
