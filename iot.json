@@ -234,7 +234,7 @@
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/iot_default.png",
         "displayName": "Dashing", 
         "name": "qnapnas/qiot-dashing_armhf", 
-        "version": "0.1", 
+        "version": "0.4", 
         "location": "https://hub.docker.com/r/qnapnas/qiot-dashing_armhf/", 
         "type": "iot",
         "qcsVersion": "1.5"
