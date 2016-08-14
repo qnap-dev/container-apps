@@ -189,7 +189,7 @@
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/jenkins_icon.png",
         "displayName": "Jenkins",
         "name": "jenkins",
-        "version": "1.651.3",
+        "version": "2.7.2",
         "location": "https://hub.docker.com/_/jenkins/",
         "type": "docker"
     },
