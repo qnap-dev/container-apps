@@ -255,7 +255,7 @@
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/redis_icon.png", 
         "displayName": "Redis", 
         "name": "redis", 
-        "version": "2.8", 
+        "version": "2.6", 
         "location": "https://hub.docker.com/_/redis/", 
         "type": "docker"
     }, 
