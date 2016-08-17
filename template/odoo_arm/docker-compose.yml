@@ -1,5 +1,5 @@
 db:
-  image: e1ee1e11/postgresql_armhf:9.4.8
+  image: e1ee1e11/postgresql_armhf:9.4.8-1
   environment:
     - POSTGRES_USER=openerp_8
     - POSTGRES_PASSWORD=qwerty
