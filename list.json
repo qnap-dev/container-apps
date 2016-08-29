@@ -115,6 +115,17 @@
         "type": "lxc"
     }, 
     {
+        "description": "Odoo (formerly OpenERP): open source ERP and Apps to grow your business.",
+        "repository": "dockerhub",
+        "arch": "armhf",
+        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_odoo.png",
+        "displayName": "Odoo",
+        "name": "odoo_arm",
+        "version": "8",
+        "location": "https://hub.docker.com/r/dmisdani/arm-odoo/",
+        "type": "app"
+    },
+    {
         "description": "Fast, free and incredibly easy to use, the Ubuntu operating system powers millions of desktop PCs, laptops and servers around the world.", 
         "repository": "qnap", 
         "inspect": "{}", 
