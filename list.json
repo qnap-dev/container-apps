@@ -293,7 +293,7 @@
         "type": "docker"
     }, 
     {
-        "description": "irssi - The IRC client of the future", 
+        "description": "The IRC client of the future", 
         "repository": "dockerhub", 
         "arch": "armhf", 
         "icon": "", 

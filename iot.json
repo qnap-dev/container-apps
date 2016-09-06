@@ -19,7 +19,7 @@
         "displayName": "Ponte", 
         "name": "qnapnas/qiot-ponte_amd64", 
         "version": "0.1", 
-        "location": "https://hub.docker.com/r/qnapnas/qiot-ponte_amd64", 
+        "location": "https://hub.docker.com/r/qnapnas/qiot-ponte_amd64/", 
         "type": "iot",
         "qcsVersion": "1.5"
     },
@@ -103,7 +103,7 @@
         "displayName": "Redis Commander", 
         "name": "qnapnas/qiot-redis-commander_amd64", 
         "version": "0.1", 
-        "location": "https://hub.docker.com/r/qnapnas/qiot-redis-commander_amd64", 
+        "location": "https://hub.docker.com/r/qnapnas/qiot-redis-commander_amd64/", 
         "type": "iot",
         "qcsVersion": "1.5"
     },
@@ -115,7 +115,7 @@
         "displayName": "MongoDB", 
         "name": "qnapnas/qiot-mongodb_amd64", 
         "version": "3.2", 
-        "location": "https://hub.docker.com/r/qnapnas/qiot-mongodb_amd64", 
+        "location": "https://hub.docker.com/r/qnapnas/qiot-mongodb_amd64/", 
         "type": "iot",
         "qcsVersion": "1.5"
     },
@@ -127,7 +127,7 @@
         "displayName": "mongo-express", 
         "name": "qnapnas/qiot-mongo-express_amd64", 
         "version": "0.2", 
-        "location": "https://hub.docker.com/r/qnapnas/qiot-mongo-express_amd64", 
+        "location": "https://hub.docker.com/r/qnapnas/qiot-mongo-express_amd64/", 
         "type": "iot",
         "qcsVersion": "1.5"
     },
@@ -139,7 +139,7 @@
         "displayName": "mqtt-spy", 
         "name": "qnapnas/qiot-mqtt-spy_amd64", 
         "version": "0.1", 
-        "location": "https://hub.docker.com/r/qnapnas/qiot-mqtt-spy_amd64", 
+        "location": "https://hub.docker.com/r/qnapnas/qiot-mqtt-spy_amd64/", 
         "type": "iot",
         "qcsVersion": "1.5"
     },
@@ -147,11 +147,11 @@
         "description": "A damn-sexy, open source real-time dashboard builder for IOT and other web mashups", 
         "repository": "dockerhub", 
         "arch": "amd64", 
-        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/iot_default.png",
+        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/iot_freeboard.png",
         "displayName": "freeboard", 
         "name": "qnapnas/qiot-freeboard_amd64", 
         "version": "0.1", 
-        "location": "https://hub.docker.com/r/qnapnas/qiot-freeboard_amd64", 
+        "location": "https://hub.docker.com/r/qnapnas/qiot-freeboard_amd64/", 
         "type": "iot",
         "qcsVersion": "1.5"
     },
@@ -175,7 +175,7 @@
         "displayName": "Ponte", 
         "name": "qnapnas/qiot-ponte_armhf", 
         "version": "0.1", 
-        "location": "https://hub.docker.com/r/qnapnas/qiot-ponte_armhf", 
+        "location": "https://hub.docker.com/r/qnapnas/qiot-ponte_armhf/", 
         "type": "iot",
         "qcsVersion": "1.5"
     },
@@ -259,7 +259,7 @@
         "displayName": "Redis Commander", 
         "name": "qnapnas/qiot-redis-commander_armhf", 
         "version": "0.1", 
-        "location": "https://hub.docker.com/r/qnapnas/qiot-redis-commander_armhf", 
+        "location": "https://hub.docker.com/r/qnapnas/qiot-redis-commander_armhf/", 
         "type": "iot",
         "qcsVersion": "1.5"
     },
@@ -271,7 +271,7 @@
         "displayName": "MongoDB", 
         "name": "qnapnas/qiot-mongodb_armhf", 
         "version": "3.2", 
-        "location": "https://hub.docker.com/r/qnapnas/qiot-mongodb_armhf", 
+        "location": "https://hub.docker.com/r/qnapnas/qiot-mongodb_armhf/", 
         "type": "iot",
         "qcsVersion": "1.5"
     },
@@ -283,7 +283,7 @@
         "displayName": "mongo-express", 
         "name": "qnapnas/qiot-mongo-express_armhf", 
         "version": "0.2", 
-        "location": "https://hub.docker.com/r/qnapnas/qiot-mongo-express_armhf", 
+        "location": "https://hub.docker.com/r/qnapnas/qiot-mongo-express_armhf/", 
         "type": "iot",
         "qcsVersion": "1.5"
     },
@@ -291,11 +291,11 @@
         "description": "A damn-sexy, open source real-time dashboard builder for IOT and other web mashups", 
         "repository": "dockerhub", 
         "arch": "armhf", 
-        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/iot_default.png",
+        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/iot_freeboard.png",
         "displayName": "freeboard", 
         "name": "qnapnas/qiot-freeboard_armhf", 
         "version": "0.1", 
-        "location": "https://hub.docker.com/r/qnapnas/qiot-freeboard_armhf", 
+        "location": "https://hub.docker.com/r/qnapnas/qiot-freeboard_armhf/", 
         "type": "iot",
         "qcsVersion": "1.5"
     }
