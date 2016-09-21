@@ -270,7 +270,7 @@
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/iot_mongo.png",
         "displayName": "MongoDB", 
         "name": "qnapnas/qiot-mongodb_armhf", 
-        "version": "3.2", 
+        "version": "2.4.10",
         "location": "https://hub.docker.com/r/qnapnas/qiot-mongodb_armhf/", 
         "type": "iot",
         "qcsVersion": "1.5"
