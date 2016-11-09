@@ -3,12 +3,16 @@ db:
   environment:
     - POSTGRES_USER=openerp_8
     - POSTGRES_PASSWORD=qwerty
+  volumes:
+    - ${PWD}/flash/postgres_folder:/media/postgres_folder
 
 web:
   image: dmisdani/arm-odoo:8.0
+  user: openerp_user
+  command: /opt/openerp_8/odoo/openerp-server -c /opt/openerp_8/odoo/conf/openerp-server.conf --db_host db
   links:
     - db:db
   volumes:
-    - /home/ubuntu/odoo_addons:/opt/openerp_8/my_addons
+    - ${PWD}/odoo_addons:/opt/openerp_8/my_addons
   ports:
     - "18069:8069"
