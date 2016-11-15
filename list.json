@@ -50,7 +50,7 @@
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_odoo.png",
         "displayName": "Odoo",
         "name": "odoo",
-        "version": "9",
+        "version": "10",
         "location": "https://hub.docker.com/_/odoo/",
         "type": "app"
     },

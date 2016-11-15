@@ -1,11 +1,11 @@
 db:
-  image: postgres:9.4.4
+  image: postgres:9.6
   environment:
     - POSTGRES_USER=odoo
     - POSTGRES_PASSWORD=odoo
 
 web:
-  image: odoo:9
+  image: odoo:10
   links:
     - db:db
   ports:
