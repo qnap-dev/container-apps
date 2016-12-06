@@ -501,7 +501,7 @@
 	</ctstation>
 	<ctstation>
 		<name>Odoo</name>
-		<internalName>odoo_arm</internalName>
+		<internalName>odooarm</internalName>
 		<version>8.0</version>
 		<arch>armhf</arch>
 		<category>application</category>

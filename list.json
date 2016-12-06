@@ -120,7 +120,7 @@
         "arch": "armhf",
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_odoo.png",
         "displayName": "Odoo",
-        "name": "odoo_arm",
+        "name": "odooarm",
         "version": "8",
         "location": "https://hub.docker.com/r/dmisdani/arm-odoo/",
         "type": "app"
