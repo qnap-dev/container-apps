@@ -1,7 +1,7 @@
 web:
   image: nginx:1.9
   ports:
-    - 5000:5000
+    - 6088:5000
   links:
     - app:app
   volumes:
