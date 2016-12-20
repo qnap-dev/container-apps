@@ -54,7 +54,7 @@
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/iot_rabbit_mq.png",
         "displayName": "RabbitMQ", 
         "name": "qnapnas/qiot-rabbitmq_amd64", 
-        "version": "0.1", 
+        "version": "3.6.6-management", 
         "location": "https://hub.docker.com/r/qnapnas/qiot-rabbitmq_amd64/", 
         "type": "iot",
         "qcsVersion": "1.5"
