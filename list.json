@@ -61,7 +61,7 @@
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_wordpress.png", 
         "displayName": "WordPress", 
         "name": "wordpress", 
-        "version": "4.5", 
+        "version": "4.7", 
         "location": "https://hub.docker.com/r/library/wordpress/", 
         "type": "app"
     }, 
