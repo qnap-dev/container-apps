@@ -111,7 +111,6 @@
         "displayName": "Fedora", 
         "name": "fedora-twentyfour", 
         "version": "24", 
-        "kernelVersion": "4.2.8",
         "location": "http://download.qnap.com/QPKG/container/fedora-twentyfour_24_amd64.tar.gz", 
         "type": "lxc"
     }, 
