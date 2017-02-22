@@ -226,7 +226,6 @@
         "displayName": "Fedora", 
         "name": "fedora-twentyfour", 
         "version": "24", 
-        "kernelVersion": "4.2.8",
         "location": "http://qnap.dorowu.com/gitlab/uploads/colin/fedora-twentyfour_24_amd64.tar.gz", 
         "type": "lxc"
     }, 
