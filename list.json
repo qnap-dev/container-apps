@@ -24,6 +24,16 @@
         "type": "app"
     },
     {
+        "description": "Privileged shell",
+        "repository": "dockerhub",
+        "arch": "amd64",
+        "displayName": "Super Shell",
+        "name": "supershell",
+        "version": "1",
+        "location": "https://hub.docker.com/r/dorowu/admin/",
+        "type": "app"
+    },
+    {
         "description": "Redmine is a free and open source web-based project management system.",
         "repository": "dockerhub",
         "arch": "amd64",
