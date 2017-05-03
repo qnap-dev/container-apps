@@ -1,0 +1,40 @@
+{
+  "api_version": "v1",
+  "title": "{{GITLAB_NAME}}",
+  "wizard": [
+    {
+      "title": "{{GITLAB_CONFIGURE}}",
+      "schema": {
+        "http_port": {
+          "type": "integer",
+          "title": "HTTP Port",
+          "description": "{{GITLAB_WEB_HOST_PORT_DESC}}",
+		  "required": true
+        },
+        "ssh_port": {
+          "type": "integer",
+          "title": "SSH Port",
+          "description": "{{GITLAB_SSH_HOST_PORT_DESC}}",
+		  "required": true
+        }
+      },
+      "form": [
+        "*"
+      ]
+    }
+  ],
+  "binding": {
+    "type": "yaml",
+    "file": "docker-compose.yml",
+    "data": {
+      "http_port": [
+        "gitlab.ports[0]",
+        "gitlab.environment.GITLAB_PORT"
+      ],
+      "ssh_port": [
+        "gitlab.environment.GITLAB_SSH_PORT",
+        "gitlab.ports[1]"
+      ]
+    }
+  }
+}
