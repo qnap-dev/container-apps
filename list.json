@@ -1,5 +1,15 @@
 [
     {
+        "description": "Simple management UI for Docker.",
+        "repository": "dockerhub",
+        "arch": "amd64",
+        "displayName": "Portainer",
+        "name": "portainer",
+        "version": "1.12.4",
+        "location": "https://hub.docker.com/r/portainer/portainer/",
+        "type": "app"
+    },
+    {
         "description": "GitLab is a web-based Git repository manager with code reviews, issue tracking, activity feeds and wikis.",
         "repository": "dockerhub",
         "arch": "amd64",
