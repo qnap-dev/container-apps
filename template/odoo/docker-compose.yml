@@ -1,5 +1,5 @@
 db:
-  image: postgres:9.6
+  image: postgres:9.4
   environment:
     - POSTGRES_USER=odoo
     - POSTGRES_PASSWORD=odoo
