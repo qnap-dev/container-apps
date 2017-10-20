@@ -1,11 +1,11 @@
 postgresql:
-  image: sameersbn/postgresql:9.4-23
+  image: sameersbn/postgresql:9.6-2
   environment:
     - DB_USER=redmine
     - DB_PASS=password
     - DB_NAME=redmine_production
 redmine:
-  image: sameersbn/redmine:3.3.0-1
+  image: sameersbn/redmine:3.4.2
   links:
     - postgresql:postgresql
   environment:

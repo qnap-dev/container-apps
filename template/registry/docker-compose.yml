@@ -1,5 +1,5 @@
 web:
-  image: nginx:1.9
+  image: nginx:1.13.5
   ports:
     - 6088:5000
   links:
@@ -9,7 +9,7 @@ web:
     - /etc/docker/tls/server-cert.pem:/etc/ssl/certs/docker-registry
     - /etc/docker/tls/server-key.pem:/etc/ssl/private/docker-registry
 app:
-  image: registry:0.9.1
+  image: registry:2.6.2
   links:
     - cache:cache
   volumes_from:
@@ -24,7 +24,7 @@ app:
     CACHE_LRU_REDIS_PORT: 6379
     GUNICORN_OPTS: "[--preload]"
 cache:
-  image: redis:2.6
+  image: redis:4.0.2
 data:
   image: cogniteev/echo
   volumes:
