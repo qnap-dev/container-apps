@@ -6,7 +6,7 @@
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_gitlab.png",
         "displayName": "GitLab",
         "name": "gitlab",
-        "version": "10.0.3",
+        "version": "10.0.4",
         "location": "https://hub.docker.com/r/sameersbn/gitlab/",
         "type": "app"
     },
@@ -28,7 +28,7 @@
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_registry.png",
         "displayName": "Registry",
         "name": "registry",
-        "version": "2.6.2",
+        "version": "0.9.1",
         "location": "https://hub.docker.com/_/registry/",
         "type": "app"
     },
@@ -39,7 +39,7 @@
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_joomla.png",
         "displayName": "Joomla!",
         "name": "joomla",
-        "version": "3.5.0",
+        "version": "3.8.1",
         "location": "https://hub.docker.com/r/seterrychen/joomla-without-database/",
         "type": "app"
     },
@@ -167,9 +167,9 @@
         "arch": "amd64",
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/deluge_icon.png",
         "displayName": "Deluge",
-        "name": "aostanin/deluge",
-        "version": "latest",
-        "location": "https://hub.docker.com/r/aostanin/deluge/",
+        "name": "linuxserver/deluge",
+        "version": "90",
+        "location": "https://hub.docker.com/r/linuxserver/deluge/",
         "type": "docker"
     },
     {
@@ -178,9 +178,9 @@
         "arch": "amd64",
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/minecraft_icon.png",
         "displayName": "Minecraft",
-        "name": "chrisabrams/docker-minecraft-with-bukkit",
+        "name": "itzg/minecraft-server",
         "version": "latest",
-        "location": "https://hub.docker.com/r/chrisabrams/docker-minecraft-with-bukkit/",
+        "location": "https://hub.docker.com/r/itzg/minecraft-server/",
         "type": "docker"
     },
     {
@@ -222,9 +222,9 @@
         "arch": "armhf",
         "icon": "",
         "displayName": "Ruby",
-        "name": "arm32v7/ruby",
-        "version": "2.4.2",
-        "location": "https://hub.docker.com/r/arm32v7/ruby/",
+        "name": "armhf/ruby",
+        "version": "2.3",
+        "location": "https://hub.docker.com/r/armhf/ruby/",
         "type": "docker"
     },
     {
@@ -277,9 +277,9 @@
         "arch": "armhf",
         "icon": "",
         "displayName": "Node.js",
-        "name": "arm32v7/node",
-        "version": "8.7.0",
-        "location": "https://hub.docker.com/r/arm32v7/node/",
+        "name": "armhf/node",
+        "version": "5.3",
+        "location": "https://hub.docker.com/r/armhf/node/",
         "type": "docker"
     },
     {
