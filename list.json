@@ -211,9 +211,9 @@
         "arch": "armhf",
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/ubuntu_icon.png",
         "displayName": "Ubuntu",
-        "name": "armhf/ubuntu",
+        "name": "arm32v7/ubuntu",
         "version": "xenial",
-        "location": "https://hub.docker.com/r/armhf/ubuntu/",
+        "location": "https://hub.docker.com/r/arm32v7/ubuntu/",
         "type": "docker"
     },
     {
@@ -222,9 +222,9 @@
         "arch": "armhf",
         "icon": "",
         "displayName": "Ruby",
-        "name": "armhf/ruby",
-        "version": "2.4",
-        "location": "https://hub.docker.com/r/armhf/ruby/",
+        "name": "arm32v7/ruby",
+        "version": "2.4.2",
+        "location": "https://hub.docker.com/r/arm32v7/ruby/",
         "type": "docker"
     },
     {
@@ -233,9 +233,9 @@
         "arch": "armhf",
         "icon": "",
         "displayName": "Busybox",
-        "name": "armhf/busybox",
-        "version": "latest",
-        "location": "https://hub.docker.com/r/armhf/busybox/",
+        "name": "arm32v7/busybox",
+        "version": "1.27.2",
+        "location": "https://hub.docker.com/r/arm32v7/busybox/",
         "type": "docker"
     },
     {
@@ -244,9 +244,9 @@
         "arch": "armhf",
         "icon": "",
         "displayName": "Python",
-        "name": "armhf/python",
-        "version": "3.6",
-        "location": "https://hub.docker.com/r/armhf/python/",
+        "name": "arm32v7/python",
+        "version": "3.6.3",
+        "location": "https://hub.docker.com/r/arm32v7/python/",
         "type": "docker"
     },
     {
@@ -266,9 +266,9 @@
         "arch": "armhf",
         "icon": "",
         "displayName": "PHP",
-        "name": "armhf/php",
-        "version": "7.1",
-        "location": "https://hub.docker.com/r/armhf/php/",
+        "name": "arm32v7/php",
+        "version": "7.1.10",
+        "location": "https://hub.docker.com/r/arm32v7/php/",
         "type": "docker"
     },
     {
@@ -277,9 +277,9 @@
         "arch": "armhf",
         "icon": "",
         "displayName": "Node.js",
-        "name": "armhf/node",
-        "version": "7.9.0",
-        "location": "https://hub.docker.com/r/armhf/node/",
+        "name": "arm32v7/node",
+        "version": "8.7.0",
+        "location": "https://hub.docker.com/r/arm32v7/node/",
         "type": "docker"
     },
     {
@@ -288,9 +288,9 @@
         "arch": "armhf",
         "icon": "",
         "displayName": "Go",
-        "name": "armhf/golang",
-        "version": "1.8.1",
-        "location": "https://hub.docker.com/r/armhf/golang/",
+        "name": "arm32v7/golang",
+        "version": "1.9.1",
+        "location": "https://hub.docker.com/r/arm32v7/golang/",
         "type": "docker"
     },
     {
@@ -299,9 +299,9 @@
         "arch": "armhf",
         "icon": "",
         "displayName": "Irssi",
-        "name": "armhf/irssi",
-        "version": "1.0.2-debian",
-        "location": "https://hub.docker.com/r/armhf/irssi/",
+        "name": "arm32v7/irssi",
+        "version": "1.0.4",
+        "location": "https://hub.docker.com/r/arm32v7/irssi/",
         "type": "docker"
     },
     {
