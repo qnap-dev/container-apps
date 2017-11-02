@@ -178,9 +178,9 @@
         "arch": "amd64",
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/minecraft_icon.png",
         "displayName": "Minecraft",
-        "name": "itzg/minecraft-server",
+        "name": "terrychu/minecraft-server",
         "version": "latest",
-        "location": "https://hub.docker.com/r/itzg/minecraft-server/",
+        "location": "https://hub.docker.com/r/terrychu/minecraft-server/",
         "type": "docker"
     },
     {
@@ -365,9 +365,9 @@
         "arch": "amd64",
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/mysql_icon.png",
         "displayName": "MySQL",
-        "name": "mysql",
+        "name": "terrychu/mysql",
         "version": "8.0.3",
-        "location": "https://hub.docker.com/_/mysql/",
+        "location": "https://hub.docker.com/r/terrychu/mysql/",
         "type": "docker"
     },
     {
