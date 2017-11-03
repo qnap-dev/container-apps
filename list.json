@@ -61,7 +61,7 @@
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_wordpress.png",
         "displayName": "WordPress",
         "name": "wordpress",
-        "version": "4.8.2",
+        "version": "4.8",
         "location": "https://hub.docker.com/r/library/wordpress/",
         "type": "app"
     },
@@ -234,7 +234,7 @@
         "icon": "",
         "displayName": "Busybox",
         "name": "arm32v7/busybox",
-        "version": "1.27.2",
+        "version": "1.27",
         "location": "https://hub.docker.com/r/arm32v7/busybox/",
         "type": "docker"
     },
@@ -245,7 +245,7 @@
         "icon": "",
         "displayName": "Python",
         "name": "arm32v7/python",
-        "version": "3.6.3",
+        "version": "3.6",
         "location": "https://hub.docker.com/r/arm32v7/python/",
         "type": "docker"
     },
@@ -267,7 +267,7 @@
         "icon": "",
         "displayName": "PHP",
         "name": "arm32v7/php",
-        "version": "7.1.10",
+        "version": "7.1",
         "location": "https://hub.docker.com/r/arm32v7/php/",
         "type": "docker"
     },
@@ -289,7 +289,7 @@
         "icon": "",
         "displayName": "Go",
         "name": "arm32v7/golang",
-        "version": "1.9.1",
+        "version": "1.9",
         "location": "https://hub.docker.com/r/arm32v7/golang/",
         "type": "docker"
     },
@@ -300,7 +300,7 @@
         "icon": "",
         "displayName": "Irssi",
         "name": "arm32v7/irssi",
-        "version": "1.0.4",
+        "version": "1.0",
         "location": "https://hub.docker.com/r/arm32v7/irssi/",
         "type": "docker"
     },
@@ -355,7 +355,7 @@
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/redis_icon.png",
         "displayName": "Redis",
         "name": "redis",
-        "version": "4.0.2",
+        "version": "4.0",
         "location": "https://hub.docker.com/_/redis/",
         "type": "docker"
     },
@@ -365,9 +365,9 @@
         "arch": "amd64",
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/mysql_icon.png",
         "displayName": "MySQL",
-        "name": "terrychu/mysql",
-        "version": "8.0.3",
-        "location": "https://hub.docker.com/r/terrychu/mysql/",
+        "name": "mysql",
+        "version": "5.7",
+        "location": "https://hub.docker.com/_/mysql/",
         "type": "docker"
     },
     {
@@ -377,7 +377,7 @@
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/nodejs_icon.png",
         "displayName": "Node.js",
         "name": "node",
-        "version": "8.7.0",
+        "version": "9",
         "location": "https://hub.docker.com/_/node/",
         "type": "docker"
     },
@@ -388,7 +388,7 @@
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/nginx_icon.png",
         "displayName": "Nginx",
         "name": "nginx",
-        "version": "1.13.5",
+        "version": "1.13",
         "location": "https://hub.docker.com/_/nginx/",
         "type": "docker"
     },
@@ -399,7 +399,7 @@
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/mongo_icon.png",
         "displayName": "MongoDB",
         "name": "mongo",
-        "version": "3.5.13",
+        "version": "3.4",
         "location": "https://hub.docker.com/_/mongo/",
         "type": "docker"
     },

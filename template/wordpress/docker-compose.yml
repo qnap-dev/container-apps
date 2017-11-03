@@ -1,11 +1,11 @@
 wordpress:
-  image: wordpress:4.8.2
+  image: wordpress:4.8
   links:
     - db:mysql
   ports:
     - "10084:80"
 
 db:
-  image: mariadb:10.3.2
+  image: mariadb:10.2
   environment:
     MYSQL_ROOT_PASSWORD: example
