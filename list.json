@@ -413,5 +413,127 @@
         "version": "9.5",
         "location": "https://hub.docker.com/_/postgres/",
         "type": "docker"
+    },
+    {
+        "description": "Fast, free and incredibly easy to use, the Ubuntu operating system powers millions of desktop PCs, laptops and servers around the world.",
+        "repository": "dockerhub",
+        "arch": "arm64",
+        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/ubuntu_icon.png",
+        "displayName": "Ubuntu",
+        "name": "arm64v8/ubuntu",
+        "version": "xenial",
+        "location": "https://hub.docker.com/r/arm32v7/ubuntu://hub.docker.com/r/arm64v8/ubuntu/",
+        "type": "docker"
+    },
+    {
+        "description": "Ruby is a dynamic, reflective, object-oriented, general-purpose, open-source programming language.",
+        "repository": "dockerhub",
+        "arch": "arm64",
+        "icon": "",
+        "displayName": "Ruby",
+        "name": "arm64v8/ruby",
+        "version": "2.3",
+        "location": "https://hub.docker.com/r/arm64v8/ruby/",
+        "type": "docker"
+    },
+    {
+        "description": "Busybox base image.",
+        "repository": "dockerhub",
+        "arch": "arm64",
+        "icon": "",
+        "displayName": "Busybox",
+        "name": "arm64v8/busybox",
+        "version": "1.27.2",
+        "location": "https://hub.docker.com/r/arm64v8/busybox/",
+        "type": "docker"
+    },
+    {
+        "description": "Python is an interpreted, interactive, object-oriented, open-source programming language.",
+        "repository": "dockerhub",
+        "arch": "arm64",
+        "icon": "",
+        "displayName": "Python",
+        "name": "arm64v8/python",
+        "version": "3.6.3",
+        "location": "https://hub.docker.com/r/arm64v8/python/",
+        "type": "docker"
+    },
+    {
+        "description": "Perl is a high-level, general-purpose, interpreted, dynamic programming language.",
+        "repository": "dockerhub",
+        "arch": "arm64",
+        "icon": "",
+        "displayName": "Perl",
+        "name": "arm64v8/perl",
+        "version": "5.24.2",
+        "location": "https://hub.docker.com/r/arm64v8/perl/",
+        "type": "docker"
+    },
+    {
+        "description": "While designed for web development, the PHP scripting language also provides general-purpose use.",
+        "repository": "dockerhub",
+        "arch": "arm64",
+        "icon": "",
+        "displayName": "PHP",
+        "name": "arm64v8/php",
+        "version": "7.1.11",
+        "location": "https://hub.docker.com/r/arm64v8/php/",
+        "type": "docker"
+    },
+    {
+        "description": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine",
+        "repository": "dockerhub",
+        "arch": "arm64",
+        "icon": "",
+        "displayName": "Node.js",
+        "name": "arm64v8/node",
+        "version": "9.0.0",
+        "location": "https://hub.docker.com/r/arm64v8/node/",
+        "type": "docker"
+    },
+    {
+        "description": "Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.",
+        "repository": "dockerhub",
+        "arch": "arm64",
+        "icon": "",
+        "displayName": "Go",
+        "name": "arm64v8/golang",
+        "version": "1.9.2",
+        "location": "https://hub.docker.com/r/arm64v8/golang/",
+        "type": "docker"
+    },
+    {
+        "description": "Remote desktop Sharing in Ubuntu 16.04.",
+        "repository": "dockerhub",
+        "arch": "arm64",
+        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/ubuntu_icon.png",
+        "displayName": "Ubuntu with noVNC",
+        "name": "yen3/docker-ubuntu-novnc-arm64v8",
+        "version": "1.0",
+        "location": "https://hub.docker.com/r/yen3/docker-ubuntu-novnc-arm64v8/",
+        "type": "docker"
+    },
+    {
+        "description": "Fast, free and incredibly easy to use, the Ubuntu operating system powers millions of desktop PCs, laptops and servers around the world.",
+        "repository": "qnap",
+        "inspect": "{}",
+        "arch": "arm64",
+        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/ubuntu_icon.png",
+        "displayName": "Ubuntu",
+        "name": "ubuntu-trusty-arm64",
+        "version": "14.04",
+        "location": "https://www.dropbox.com/s/4h16jv3i7s8cxbl/ubuntu-trusty_14.04_arm64.tar.gz?dl=1",
+        "type": "lxc"
+    },
+    {
+        "description": "The IRC client of the future",
+        "repository": "dockerhub",
+        "arch": "arm64",
+        "icon": "",
+        "displayName": "Irssi",
+        "name": "arm64v8/irssi",
+        "version": "1.0.5",
+        "location": "https://hub.docker.com/r/arm64v8/irssi/",
+        "type": "docker"
     }
 ]
