@@ -360,14 +360,14 @@
         "type": "docker"
     },
     {
-        "description": "MySQL Server image - listens in port 3306. For the admin account password, either set MYSQL_PASS environment variable, or check the logs for a randomly generated one.",
+        "description": "MySQL Server image - listens in port 3306. For the root account password, either set MYSQL_ROOT_PASSWORD environment variable, or check the logs for a randomly generated one.",
         "repository": "dockerhub",
         "arch": "amd64",
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/mysql_icon.png",
         "displayName": "MySQL",
-        "name": "mysql",
-        "version": "5.7",
-        "location": "https://hub.docker.com/_/mysql/",
+        "name": "terrychu/mysql",
+        "version": "5.7.20",
+        "location": "https://hub.docker.com/r/terrychu/mysql/",
         "type": "docker"
     },
     {
