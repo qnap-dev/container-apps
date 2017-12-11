@@ -74,7 +74,7 @@
         "displayName": "Ubuntu",
         "name": "ubuntu-trusty",
         "version": "14.04",
-        "location": "http://download.qnap.com/QPKG/container/ubuntu-trusty_14.04_20171121_amd64.tar.gz",
+        "location": "http://download.qnap.com/QPKG/container/ubuntu-trusty_14.04_20171130_amd64.tar.gz",
         "type": "lxc"
     },
     {
@@ -87,7 +87,7 @@
         "name": "ubuntu-xenial",
         "version": "16.04",
         "kernelVersion": "3.19",
-        "location": "http://download.qnap.com/QPKG/container/ubuntu-xenial_16.04_20171121_amd64.tar.gz",
+        "location": "http://download.qnap.com/QPKG/container/ubuntu-xenial_16.04_20171130_amd64.tar.gz",
         "type": "lxc"
     },
     {
@@ -135,7 +135,7 @@
         "displayName": "Ubuntu",
         "name": "ubuntu-trusty-armhf",
         "version": "14.04",
-        "location": "http://download.qnap.com/QPKG/container/ubuntu-trusty_14.04_20171121_armhf.tar.gz",
+        "location": "http://download.qnap.com/QPKG/container/ubuntu-trusty_14.04_20171130_armhf.tar.gz",
         "type": "lxc"
     },
     {
