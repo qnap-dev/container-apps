@@ -1,18 +1,18 @@
 [
     {
-        "description": "", 
+        "description": "This is a photo recognition demo version generated using CAFFE deep learning framework.", 
         "repository": "dockerhub", 
         "arch": "amd64", 
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/ai_default.png",
-        "displayName": "CAFFE Demo", 
+        "displayName": "CAFFE Demo (GPU version)", 
         "name": "qnapdev/caffedemo", 
-        "version": "0.1beta", 
-        "location": "https://hub.docker.com/r/qnapdev/caffedemo/", 
+        "version": "0.1beta-gpu", 
+        "location": "https://hub.docker.com/r/qnapnas/caffedemo/", 
         "type": "ai",
         "qcsVersion": "1.8"
     },
     {
-        "description": "Official CAFFE images (GPU version)", 
+        "description": "CAFFE (Convolutional Architecture for Fast Feature Embedding) is a deep learning framework. This is official CAFFE image (GPU version).", 
         "repository": "dockerhub", 
         "arch": "amd64", 
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/ai_default.png",
@@ -24,7 +24,7 @@
         "qcsVersion": "1.8"
     },
     {
-        "description": "Official CAFFE images (CPU version)", 
+        "description": "CAFFE (Convolutional Architecture for Fast Feature Embedding) is a deep learning framework. This is official CAFFE image (CPU version)", 
         "repository": "dockerhub", 
         "arch": "amd64", 
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/ai_default.png",
@@ -36,7 +36,7 @@
         "qcsVersion": "1.8"
     },
     {
-        "description": "CNTK images from http://github.com/Microsoft/CNTK-docker (GPU version)", 
+        "description": "Microsoft Cognitive Toolkit (CNTK) is an open source deep-learning toolkit.", 
         "repository": "dockerhub", 
         "arch": "amd64", 
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/ai_default.png",
@@ -48,7 +48,7 @@
         "qcsVersion": "1.8"
     },
     {
-        "description": "CNTK images from http://github.com/Microsoft/CNTK-docker (CPU version)", 
+        "description": "Microsoft Cognitive Toolkit (CNTK) is an open source deep-learning toolkit.", 
         "repository": "dockerhub", 
         "arch": "amd64", 
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/ai_default.png",
@@ -60,7 +60,7 @@
         "qcsVersion": "1.8"
     },
     {
-        "description": "MXNet with the Python package (GPU version)", 
+        "description": "MXNet is a deep learning framework used to train and deploy deep neural networks. This is MXNet with the Python package (GPU version)", 
         "repository": "dockerhub", 
         "arch": "amd64", 
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/ai_mxnet.png",
@@ -72,7 +72,7 @@
         "qcsVersion": "1.8"
     },
     {
-        "description": "MXNet with the Python package (CPU version)", 
+        "description": "MXNet is a deep learning framework used to train and deploy deep neural networks. This is MXNet with the Python package (CPU version)", 
         "repository": "dockerhub", 
         "arch": "amd64", 
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/ai_mxnet.png",
@@ -84,7 +84,7 @@
         "qcsVersion": "1.8"
     },
     {
-        "description": "Official docker images for deep learning framework TensorFlow (GPU version)", 
+        "description": "TensorFlow is an open-source software library for Machine Intelligence. This is official docker image for deep learning framework TensorFlow (GPU version)", 
         "repository": "dockerhub", 
         "arch": "amd64", 
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/ai_tensorflow.png",
@@ -96,7 +96,7 @@
         "qcsVersion": "1.8"
     },
     {
-        "description": "Official docker images for deep learning framework TensorFlow (CPU version)", 
+        "description": "TensorFlow is an open-source software library for Machine Intelligence. This is official docker image for deep learning framework TensorFlow (CPU version)", 
         "repository": "dockerhub", 
         "arch": "amd64", 
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/ai_tensorflow.png",
