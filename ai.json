@@ -5,7 +5,7 @@
         "arch": "amd64", 
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/ai_default.png",
         "displayName": "CAFFE Demo (GPU version)", 
-        "name": "qnapdev/caffedemo", 
+        "name": "qnapnas/caffedemo", 
         "version": "0.1beta-gpu", 
         "location": "https://hub.docker.com/r/qnapnas/caffedemo/", 
         "type": "ai",
