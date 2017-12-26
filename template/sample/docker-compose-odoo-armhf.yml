@@ -1,0 +1,17 @@
+db:
+  image: e1ee1e11/postgresql_armhf:9.4.8-1
+  environment:
+    - POSTGRES_USER=openerp_8
+    - POSTGRES_PASSWORD=qwerty
+  volumes:
+    - ${PWD}/flash/postgres_folder:/media/postgres_folder
+
+web:
+  image: e1ee1e11/arm-odoo:8.0
+  user: openerp_user
+  links:
+    - db:db
+  volumes:
+    - ${PWD}/odoo_addons:/opt/openerp_8/my_addons
+  ports:
+    - "18069:8069"
