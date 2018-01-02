@@ -298,5 +298,29 @@
         "location": "https://hub.docker.com/r/qnapnas/qiot-freeboard_armhf/",
         "type": "iot",
         "qcsVersion": "1.5"
+    },
+    {
+        "description": "A vendor and technology agnostic open source automation software for home.",
+        "repository": "dockerhub",
+        "arch": "amd64",
+        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/iot_openhab.png",
+        "displayName": "openHAB",
+        "name": "openhab/openhab",
+        "version": "2.2.0-amd64-alpine",
+        "location": "https://hub.docker.com/r/openhab/openhab/",
+        "type": "iot",
+        "qcsVersion": "1.8"
+    },
+    {
+        "description": "A vendor and technology agnostic open source automation software for home.",
+        "repository": "dockerhub",
+        "arch": "armhf",
+        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/iot_openhab.png",
+        "displayName": "openHAB",
+        "name": "openhab/openhab",
+        "version": "2.2.0-armhf-alpine",
+        "location": "https://hub.docker.com/r/openhab/openhab/",
+        "type": "iot",
+        "qcsVersion": "1.8"
     }
 ]
