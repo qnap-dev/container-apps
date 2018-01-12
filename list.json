@@ -28,7 +28,7 @@
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_registry.png",
         "displayName": "Registry",
         "name": "registry",
-        "version": "0.9.1",
+        "version": "2.6.2",
         "location": "https://hub.docker.com/_/registry/",
         "type": "app"
     },
