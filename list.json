@@ -526,6 +526,18 @@
         "type": "lxc"
     },
     {
+        "description": "Fast, free and incredibly easy to use, the Ubuntu operating system powers millions of desktop PCs, laptops and servers around the world.",
+        "repository": "qnap",
+        "inspect": "{}",
+        "arch": "arm64",
+        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/ubuntu_icon.png",
+        "displayName": "Ubuntu",
+        "name": "ubuntu-xenial-arm64",
+        "version": "16.04",
+        "location": "https://www.dropbox.com/s/iw8cb3n7q1jg7gl/ubuntu-xenial-arm64.tar.gz?dl=0",
+        "type": "lxc"
+    },
+    {
         "description": "The IRC client of the future",
         "repository": "dockerhub",
         "arch": "arm64",
