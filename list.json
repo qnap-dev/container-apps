@@ -522,7 +522,7 @@
         "displayName": "Ubuntu",
         "name": "ubuntu-trusty-arm64",
         "version": "14.04",
-        "location": "https://www.dropbox.com/s/4h16jv3i7s8cxbl/ubuntu-trusty_14.04_arm64.tar.gz?dl=1",
+        "location": "https://www.dropbox.com/s/jakb9lvm7wqmsg7/ubuntu-trusty-arm64.tar.gz?dl=0",
         "type": "lxc"
     },
     {
