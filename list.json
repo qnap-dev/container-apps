@@ -535,5 +535,16 @@
         "version": "1.0.5",
         "location": "https://hub.docker.com/r/arm64v8/irssi/",
         "type": "docker"
-    }
+    },
+	{
+		"description": "Connect your home with SUPLA.",
+		"repository": "dockerhub",
+		"arch": "amd64",
+		"icon": "https://secure.gravatar.com/avatar/198763e6f37c4890ad7bd07fd68fa708.jpg?s=80&r=g&d=mm",
+		"displayName": "SUPLA Cloud",
+		"name": "supla",
+		"version": "2.1.6",
+		"location": "https://hub.docker.com/r/supla/supla-cloud/",
+		"type": "app"
+	}
 ]

@@ -1,0 +1,55 @@
+supla-cloud:
+  restart: always
+  image: supla/supla-cloud
+  ports:
+    - "9998:80"
+    - "9999:443"
+  environment:
+    CLOUD_DOMAIN: your-qnap-domain-or-ip.com
+    ADMIN_EMAIL: user@supla.org
+    FIRST_USER_EMAIL: user@supla.org
+    FIRST_USER_PASSWORD: pass
+    DB_PASSWORD: password
+    SECRET: notsosecret
+    SUPLA_PROTOCOL: https
+    MAILER_HOST: ""
+    MAILER_PORT: 465
+    MAILER_USER: ""
+    MAILER_PASSWORD: ""
+    MAILER_ENCRYPTION: ssl
+    MAILER_FROM: ""
+    RECAPTCHA_ENABLED: false
+    RECAPTCHA_PUBLIC_KEY: ""
+    RECAPTCHA_PRIVATE_KEY: ""
+    VOLUMES_DIR: ${PWD}
+  volumes:
+    - ${PWD}/ssl/cloud:/etc/apache2/ssl:z
+    - ${PWD}/server:/supla-server:z
+  links:
+    - supla-db:supla-db
+    - supla-server:supla-server
+
+supla-db:
+  restart: always
+  image: mysql:5.7.20
+  environment:
+    MYSQL_ROOT_PASSWORD: password
+    MYSQL_DATABASE: supla
+    MYSQL_USER: supla
+    MYSQL_PASSWORD: password
+  volumes:
+    - /var/lib/mysql
+
+supla-server:
+  restart: always
+  image: supla/supla-server
+  environment:
+    DB_PASSWORD: password
+  volumes:
+    - ${PWD}/ssl/server:/etc/supla-server/ssl:z
+    - ${PWD}/server:/tmp:z
+  ports:
+    - "2016:2016"
+    - "2015:2015"
+  links:
+    - supla-db:supla-db

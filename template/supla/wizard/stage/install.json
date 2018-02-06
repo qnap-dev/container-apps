@@ -1,0 +1,205 @@
+{
+  "api_version": "v1",
+  "title": "{{SUPLA_NAME}}",
+  "wizard": [
+    {
+      "title": "{{SUPLA_CONFIGURE}}",
+      "schema": {
+        "cloud_domain": {
+          "type": "string",
+          "title": "{{CLOUD_DOMAIN_TITLE}}",
+          "description": "{{CLOUD_DOMAIN_DESCRIPTION}}",
+          "required": true,
+          "minLength": 5,
+          "maxLength": 32
+        },
+        "first_user_email": {
+          "type": "string",
+          "title": "{{FIRST_USER_EMAIL_TITLE}}",
+          "description": "{{FIRST_USER_EMAIL_DESCRIPTION}}",
+          "required": true,
+          "minLength": 4,
+          "maxLength": 32
+        },
+        "first_user_password": {
+          "type": "string",
+          "title": "{{FIRST_USER_PASSWORD_TITLE}}",
+          "description": "",
+          "required": true,
+          "minLength": 4,
+          "maxLength": 32
+        },
+        "http_port": {
+          "type": "integer",
+          "title": "HTTP port",
+          "required": true,
+          "maximum": 65535
+        },
+        "https_port": {
+          "type": "integer",
+          "title": "HTTPS port",
+          "required": true,
+          "maximum": 65535
+        },
+        "protocol": {
+          "type": "string",
+          "title": "{{PROTOCOL_TITLE}}",
+          "description": "{{PROTOCOL_DESCRIPTION}}",
+          "required": true,
+          "minLength": 4,
+          "maxLength": 5
+        }
+      },
+      "form": [
+        "*"
+      ]
+    },
+    {
+      "title": "{{SUPLA_CONFIGURE_PASSWORDS}}",
+      "schema": {
+        "db_password": {
+          "type": "string",
+          "title": "{{DB_PASSWORD_TITLE}}",
+          "description": "",
+          "required": true,
+          "minLength": 8,
+          "maxLength": 64
+        },
+        "secret": {
+          "type": "string",
+          "title": "{{SECRET_TITLE}}",
+          "description": "{{SECRET_DESCRIPTION}}",
+          "required": true,
+          "minLength": 8,
+          "maxLength": 64
+        }
+      },
+      "form": [
+        "*"
+      ]
+    },
+    {
+      "title": "{{SUPLA_CONFIGURE_MAILER}}",
+      "schema": {
+        "mailer_host": {
+          "type": "string",
+          "title": "Host",
+          "description": ""
+        },
+        "mailer_port": {
+          "type": "integer",
+          "title": "Port",
+          "maximum": 65535
+        },
+        "mailer_user": {
+          "type": "string",
+          "title": "{{MAILER_USERNAME_TITLE}}",
+          "description": ""
+        },
+        "mailer_password": {
+          "type": "string",
+          "title": "{{MAILER_PASSWORD_TITLE}}",
+          "description": ""
+        },
+        "mailer_encryption": {
+          "type": "string",
+          "title": "{{MAILER_ENCRYPTION_TITLE}}",
+          "description": "",
+          "maxLength": 5
+        },
+        "mailer_from": {
+          "type": "string",
+          "title": "{{MAILER_FROM_TITLE}}",
+          "description": ""
+        }
+      },
+      "form": [
+        "*"
+      ]
+    },
+    {
+      "title": "{{SUPLA_CONFIGURE_RECAPTCHA}}",
+      "schema": {
+        "recaptcha_enabled": {
+          "type": "boolean",
+          "title": "{{RECAPTCHA_ENABLED_TITLE}}",
+          "description": ""
+        },
+        "recaptcha_public_key": {
+          "type": "string",
+          "title": "{{RECAPTCHA_PUBLIC_KEY_TITLE}}",
+          "description": ""
+        },
+        "recaptcha_private_key": {
+          "type": "string",
+          "title": "{{RECAPTCHA_PRIVATE_KEY_TITLE}}",
+          "description": ""
+        }
+      },
+      "form": [
+        "*"
+      ]
+    }
+  ],
+  "binding": {
+    "type": "yaml",
+    "file": "docker-compose.yml",
+    "data": {
+      "cloud_domain": [
+        "supla-cloud.environment.CLOUD_DOMAIN"
+      ],
+      "first_user_email": [
+        "supla-cloud.environment.FIRST_USER_EMAIL",
+        "supla-cloud.environment.ADMIN_EMAIL"
+      ],
+      "first_user_password": [
+        "supla-cloud.environment.FIRST_USER_PASSWORD"
+      ],
+      "http_port": [
+        "supla-cloud.ports[0]"
+      ],
+      "https_port": [
+        "supla-cloud.ports[1]"
+      ],
+      "db_password": [
+        "supla-cloud.environment.DB_PASSWORD",
+        "supla-server.environment.DB_PASSWORD",
+        "supla-db.environment.MYSQL_ROOT_PASSWORD",
+        "supla-db.environment.MYSQL_PASSWORD"
+      ],
+      "secret": [
+        "supla-cloud.environment.SECRET"
+      ],
+      "protocol": [
+        "supla-cloud.environment.SUPLA_PROTOCOL"
+      ],
+      "mailer_host": [
+        "supla-cloud.environment.MAILER_HOST"
+      ],
+      "mailer_port": [
+        "supla-cloud.environment.MAILER_PORT"
+      ],
+      "mailer_user": [
+        "supla-cloud.environment.MAILER_USER"
+      ],
+      "mailer_password": [
+        "supla-cloud.environment.MAILER_PASSWORD"
+      ],
+      "mailer_encryption": [
+        "supla-cloud.environment.MAILER_ENCRYPTION"
+      ],
+      "mailer_from": [
+        "supla-cloud.environment.MAILER_FROM"
+      ],
+      "recaptcha_enabled": [
+        "supla-cloud.environment.RECAPTCHA_ENABLED"
+      ],
+      "recaptcha_public_key": [
+        "supla-cloud.environment.RECAPTCHA_PUBLIC_KEY"
+      ],
+      "recaptcha_private_key": [
+        "supla-cloud.environment.RECAPTCHA_PRIVATE_KEY"
+      ]
+    }
+  }
+}
