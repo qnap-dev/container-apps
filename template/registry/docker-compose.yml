@@ -1,31 +1,27 @@
-web:
-  image: nginx:1.9
-  ports:
-    - 6088:5000
-  links:
-    - app:app
-  volumes:
-    - ./nginx:/etc/nginx
-    - /etc/docker/tls/server-cert.pem:/etc/ssl/certs/docker-registry
-    - /etc/docker/tls/server-key.pem:/etc/ssl/private/docker-registry
-app:
-  image: registry:0.9.1
-  links:
-    - cache:cache
-  volumes_from:
-    - data
-  environment:
-    SETTINGS_FLAVOR: local
-    SEARCH_BACKEND: sqlalchemy
-    STORAGE_PATH: /data/registry
-    CACHE_REDIS_HOST: cache
-    CACHE_REDIS_PORT: 6379
-    CACHE_LRU_REDIS_HOST: cache
-    CACHE_LRU_REDIS_PORT: 6379
-    GUNICORN_OPTS: "[--preload]"
-cache:
-  image: redis:2.6
-data:
-  image: cogniteev/echo
-  volumes:
-   - /data/registry
+version: '2'
+
+services:
+  web:
+    image: nginx:1.13
+    ports:
+      - 6088:5000
+    volumes:
+      - ./nginx:/etc/nginx
+      - /etc/docker/tls/server-cert.pem:/etc/ssl/certs/docker-registry
+      - /etc/docker/tls/server-key.pem:/etc/ssl/private/docker-registry
+
+  app:
+    image: registry:2.6.2
+    volumes:
+      - registry-data:/data/registry
+    environment:
+      - REGISTRY_STORAGE_FILESYSTEM_ROOTDIRECTORY=/data/registry
+      - REGISTRY_HTTP_SECRET=qnap-sw2-registry
+      - REGISTRY_STORAGE_CACHE_BLOBDESCRIPTOR=redis
+      - REGISTRY_REDIS_ADDR=cache:6379
+
+  cache:
+    image: redis:4.0
+
+volumes:
+  registry-data:

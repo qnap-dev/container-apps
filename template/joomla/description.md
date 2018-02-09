@@ -6,4 +6,4 @@ MariaDB setting:
 - MariaDB user password: joomla
 - MariaDB database name: joomla
 
-Browse to http://NAS:10082 to setup your Joomla and fill database host name **db_1**.
+Browse to http://NAS:10082 to setup your Joomla and fill database host name **db**.
