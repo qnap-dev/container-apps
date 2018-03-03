@@ -3,7 +3,7 @@
   "PASSWORD": "Password",
   "GITLAB_PASSWORD_DESC": "The password for the root user. Defaults to 5iveL!fe.",
   "GITLAB_WEB_HOST_PORT_DESC": "The port of the GitLab server. Defaults to 10080.",
-  "GITLAB_SSH_HOST_PORT_DESC": "The ssh port number. Defaults to 10022.",
+  "GITLAB_SSH_HOST_PORT_DESC": "The ssh port number. Defaults to 10022.<div>Please note that HTTP Port and SSH Port must be different.</div>",
   "GITLAB_CONFIGURE": "Configure Gitlab",
 
   "SERVICE_MANAGEMENT": "Service Management",

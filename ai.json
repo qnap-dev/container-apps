@@ -1,0 +1,110 @@
+[
+    {
+        "description": "This is a photo recognition demo version generated using CAFFE deep learning framework.", 
+        "repository": "dockerhub", 
+        "arch": "amd64", 
+        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/ai_default.png",
+        "displayName": "CAFFE Demo - GPU", 
+        "name": "qnapnas/caffedemo", 
+        "version": "0.1beta-gpu", 
+        "location": "https://hub.docker.com/r/qnapnas/caffedemo/", 
+        "type": "ai",
+        "qcsVersion": "1.8"
+    },
+    {
+        "description": "CAFFE (Convolutional Architecture for Fast Feature Embedding) is a deep learning framework. This is official CAFFE image.", 
+        "repository": "dockerhub", 
+        "arch": "amd64", 
+        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/ai_default.png",
+        "displayName": "CAFFE - GPU",
+        "name": "bvlc/caffe", 
+        "version": "gpu",
+        "location": "https://hub.docker.com/r/bvlc/caffe/", 
+        "type": "ai",
+        "qcsVersion": "1.8"
+    },
+    {
+        "description": "CAFFE (Convolutional Architecture for Fast Feature Embedding) is a deep learning framework. This is official CAFFE image.", 
+        "repository": "dockerhub", 
+        "arch": "amd64", 
+        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/ai_default.png",
+        "displayName": "CAFFE - CPU",
+        "name": "bvlc/caffe", 
+        "version": "cpu",
+        "location": "https://hub.docker.com/r/bvlc/caffe/", 
+        "type": "ai",
+        "qcsVersion": "1.8"
+    },
+    {
+        "description": "Microsoft Cognitive Toolkit (CNTK) is an open source deep-learning toolkit.", 
+        "repository": "dockerhub", 
+        "arch": "amd64", 
+        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/ai_default.png",
+        "displayName": "CNTK - GPU", 
+        "name": "microsoft/cntk", 
+        "version": "2.3-gpu-python3.5-cuda8.0-cudnn6.0", 
+        "location": "https://hub.docker.com/r/microsoft/cntk/", 
+        "type": "ai",
+        "qcsVersion": "1.8"
+    },
+    {
+        "description": "Microsoft Cognitive Toolkit (CNTK) is an open source deep-learning toolkit.", 
+        "repository": "dockerhub", 
+        "arch": "amd64", 
+        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/ai_default.png",
+        "displayName": "CNTK - CPU", 
+        "name": "microsoft/cntk", 
+        "version": "2.3-cpu-python3.5", 
+        "location": "https://hub.docker.com/r/microsoft/cntk/", 
+        "type": "ai",
+        "qcsVersion": "1.8"
+    },
+    {
+        "description": "MXNet is a deep learning framework used to train and deploy deep neural networks. This is MXNet with the Python package.",
+        "repository": "dockerhub", 
+        "arch": "amd64", 
+        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/ai_mxnet.png",
+        "displayName": "MXNet - GPU", 
+        "name": "mxnet/python", 
+        "version": "gpu_1.0.0", 
+        "location": "https://hub.docker.com/r/mxnet/python/", 
+        "type": "ai",
+        "qcsVersion": "1.8"
+    },
+    {
+        "description": "MXNet is a deep learning framework used to train and deploy deep neural networks. This is MXNet with the Python package.", 
+        "repository": "dockerhub", 
+        "arch": "amd64", 
+        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/ai_mxnet.png",
+        "displayName": "MXNet - CPU", 
+        "name": "mxnet/python", 
+        "version": "1.0.0", 
+        "location": "https://hub.docker.com/r/mxnet/python/", 
+        "type": "ai",
+        "qcsVersion": "1.8"
+    },
+    {
+        "description": "TensorFlow is an open-source software library for Machine Intelligence. This is official docker image for deep learning framework TensorFlow.", 
+        "repository": "dockerhub", 
+        "arch": "amd64", 
+        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/ai_tensorflow.png",
+        "displayName": "TensorFlow - GPU", 
+        "name": "tensorflow/tensorflow", 
+        "version": "1.4.1-gpu-py3", 
+        "location": "https://hub.docker.com/r/tensorflow/tensorflow/", 
+        "type": "ai",
+        "qcsVersion": "1.8"
+    },
+    {
+        "description": "TensorFlow is an open-source software library for Machine Intelligence. This is official docker image for deep learning framework TensorFlow.", 
+        "repository": "dockerhub", 
+        "arch": "amd64", 
+        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/ai_tensorflow.png",
+        "displayName": "TensorFlow - CPU", 
+        "name": "tensorflow/tensorflow", 
+        "version": "1.4.1-py3", 
+        "location": "https://hub.docker.com/r/tensorflow/tensorflow/", 
+        "type": "ai",
+        "qcsVersion": "1.8"
+    }
+]
