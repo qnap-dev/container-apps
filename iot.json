@@ -306,7 +306,7 @@
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/iot_openhab.png",
         "displayName": "openHAB",
         "name": "openhab/openhab",
-        "version": "2.2.0-amd64-alpine",
+        "version": "2.2.0-amd64-debian",
         "location": "https://hub.docker.com/r/openhab/openhab/",
         "type": "iot",
         "qcsVersion": "1.8"
