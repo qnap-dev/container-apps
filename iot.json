@@ -322,5 +322,29 @@
         "location": "https://hub.docker.com/r/openhab/openhab/",
         "type": "iot",
         "qcsVersion": "1.8"
+    },
+    {
+        "description": "LoRaGateWay, PHP, MySQL, myphpadmin, Dashboard",
+        "repository": "dockerhub",
+        "arch": "amd64",
+        "icon": "http://qnap.dorowu.com/gitlab/uploads/alex/icon/iot_ifroglab.png",
+        "displayName": "iFrogLab/LoRaGateway",
+        "name": "ifroglab/loragateway",
+        "version": "latest",
+        "location": "https://hub.docker.com/r/ifroglab/loragateway/",
+        "type": "iot",
+        "qcsVersion": "1.8"
+    },
+    {
+        "description": "Open-source home automation platform running on Python 3.",
+        "repository": "dockerhub",
+        "arch": "amd64",
+        "icon": "http://qnap.dorowu.com/gitlab/uploads/alex/icon/iot_homeassistant.png",
+        "displayName": "Home Assistant",
+        "name": "homeassistant/home-assistant",
+        "version": "0.65.5",
+        "location": "https://hub.docker.com/r/homeassistant/home-assistant/",
+        "type": "iot",
+        "qcsVersion": "1.8"
     }
 ]
