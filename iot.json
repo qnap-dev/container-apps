@@ -339,11 +339,23 @@
         "description": "Open-source home automation platform running on Python 3.",
         "repository": "dockerhub",
         "arch": "amd64",
-        "icon": "http://qnap.dorowu.com/gitlab/uploads/alex/icon/iot_homeassistant.png",
+        "icon": "http://qnap.dorowu.com/gitlab/uploads/alex/icon/iot_home_assistant.png",
         "displayName": "Home Assistant",
         "name": "homeassistant/home-assistant",
         "version": "0.65.5",
         "location": "https://hub.docker.com/r/homeassistant/home-assistant/",
+        "type": "iot",
+        "qcsVersion": "1.8"
+    },
+    {
+        "description": "Wio Link is designed to simplify your IoT development. It is an ESP8266 based Wi-Fi development board for you to create IoT applications with open-source, plug and play electronics, mobile APPs and RESTful APIs.",
+        "repository": "dockerhub",
+        "arch": "amd64",
+        "icon": "http://qnap.dorowu.com/gitlab/uploads/alex/icon/iot_wiolink.png",
+        "displayName": "Wio Link",
+        "name": "killingjacky/wio_link",
+        "version": "latest",
+        "location": "https://hub.docker.com/r/killingjacky/wio_link/",
         "type": "iot",
         "qcsVersion": "1.8"
     }
