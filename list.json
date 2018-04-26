@@ -1,5 +1,18 @@
 [
     {
+        "description": "Fast, free and incredibly easy to use, the Ubuntu operating system powers millions of desktop PCs, laptops and servers around the world.",
+        "repository": "qnap",
+        "inspect": "{\"Config\": {\"ExposedPorts\": {\"5950/tcp\": {}}}}",
+        "arch": "amd64",
+        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/ubuntu_icon.png",
+        "displayName": "Ubuntu 17.10 Desktop",
+        "name": "ubuntu-artful",
+        "version": "17.10",
+        "kernelVersion": "3.19",
+        "location": "http://qnap-ubuntu.dorowu.com/internal/ubuntu-artful_17.10_amd64.tar.gz",
+        "type": "lxc"
+    },
+    {
         "description": "GitLab is a web-based Git repository manager with code reviews, issue tracking, activity feeds and wikis.",
         "repository": "dockerhub",
         "arch": "amd64",
@@ -8,6 +21,16 @@
         "name": "gitlab",
         "version": "10.0.4",
         "location": "https://hub.docker.com/r/sameersbn/gitlab/",
+        "type": "app"
+    },
+    {
+        "description": "Privileged shell",
+        "repository": "dockerhub",
+        "arch": "amd64",
+        "displayName": "Super Shell",
+        "name": "supershell",
+        "version": "1",
+        "location": "https://hub.docker.com/r/dorowu/admin/",
         "type": "app"
     },
     {

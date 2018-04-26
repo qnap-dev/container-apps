@@ -1,0 +1,12 @@
+app:
+  image: dorowu/supershell:1
+  stdin_open: true
+  tty: true
+  privileged: true
+  pid: "host"
+  net: "host"
+  volumes:
+    - /share:/share:rshared
+    - /var/run/docker.sock:/var/run/docker.sock
+    - /etc:/mnt/nas/etc:ro
+    - /var:/mnt/nas/var:ro
