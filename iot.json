@@ -120,18 +120,6 @@
         "qcsVersion": "1.5"
     },
     {
-        "description": "Web-based MongoDB admin interface, written with Node.js and express",
-        "repository": "dockerhub",
-        "arch": "amd64",
-        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/iot_default.png",
-        "displayName": "mongo-express",
-        "name": "qnapnas/qiot-mongo-express_amd64",
-        "version": "0.2",
-        "location": "https://hub.docker.com/r/qnapnas/qiot-mongo-express_amd64/",
-        "type": "iot",
-        "qcsVersion": "1.5"
-    },
-    {
         "description": "mqtt-spy is an open source utility intended to help you with monitoring activity on MQTT topics",
         "repository": "dockerhub",
         "arch": "amd64",
@@ -272,18 +260,6 @@
         "name": "qnapnas/qiot-mongodb_armhf",
         "version": "2.4.10",
         "location": "https://hub.docker.com/r/qnapnas/qiot-mongodb_armhf/",
-        "type": "iot",
-        "qcsVersion": "1.5"
-    },
-    {
-        "description": "Web-based MongoDB admin interface, written with Node.js and express",
-        "repository": "dockerhub",
-        "arch": "armhf",
-        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/iot_default.png",
-        "displayName": "mongo-express",
-        "name": "qnapnas/qiot-mongo-express_armhf",
-        "version": "0.2",
-        "location": "https://hub.docker.com/r/qnapnas/qiot-mongo-express_armhf/",
         "type": "iot",
         "qcsVersion": "1.5"
     },
