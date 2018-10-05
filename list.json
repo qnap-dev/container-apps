@@ -516,14 +516,14 @@
         "type": "docker"
     },
     {
-        "description": "Remote desktop Sharing in Ubuntu 16.04.",
+        "description": "Remote desktop Sharing in Ubuntu 14.04.",
         "repository": "dockerhub",
         "arch": "arm64",
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/ubuntu_icon.png",
         "displayName": "Ubuntu with noVNC",
-        "name": "yen3/docker-ubuntu-novnc-arm64v8",
-        "version": "1.0",
-        "location": "https://hub.docker.com/r/yen3/docker-ubuntu-novnc-arm64v8/",
+        "name": "terrychu/docker-ubuntu-novnc",
+        "version": "arm64v8-1.0",
+        "location": "https://hub.docker.com/r/terrychu/docker-ubuntu-novnc/",
         "type": "docker"
     },
     {
