@@ -1,5 +1,5 @@
 wordpress:
-  image: wordpress:4.8
+  image: wordpress:4.9.8
   links:
     - db:mysql
   ports:
