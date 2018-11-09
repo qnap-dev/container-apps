@@ -5,7 +5,7 @@ postgresql:
     - DB_PASS=password
     - DB_NAME=redmine_production
 redmine:
-  image: sameersbn/redmine:3.4.2
+  image: sameersbn/redmine:3.4.6
   links:
     - postgresql:postgresql
   environment:

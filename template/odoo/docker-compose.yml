@@ -5,7 +5,7 @@ db:
     - POSTGRES_PASSWORD=odoo
 
 web:
-  image: odoo:11
+  image: odoo:12
   links:
     - db:db
   ports:
