@@ -378,15 +378,9 @@
         "arch": "amd64",
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/mysql_icon.png",
         "displayName": "MySQL",
-<<<<<<< HEAD
         "name": "mysql",
         "version": "8.0.12",
         "location": "https://hub.docker.com/_/mysql/",
-=======
-        "name": "terrychu/mysql",
-        "version": "8.0.12",
-        "location": "https://hub.docker.com/r/terrychu/mysql/",
->>>>>>> lxc-test
         "type": "docker"
     },
     {
