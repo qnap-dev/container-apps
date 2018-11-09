@@ -6,7 +6,7 @@ db:
     - MYSQL_PASSWORD=joomla
     - MYSQL_DATABASE=joomla
 web:
-  image: terrychu/joomla-without-database:3.8.1
+  image: edhongcy/joomla-without-database:3.8.13
   links:
     - db:db
   ports:
