@@ -147,7 +147,7 @@
         "displayName": "Ubuntu",
         "name": "ubuntu-xenial-armhf",
         "version": "16.04",
-        "location": "http://172.17.28.162/~terrychu/ubuntu-xenial_16.04_20180212_armhf.tar.gz",
+        "location": "http://download.qnap.com/QPKG/container/ubuntu-xenial_16.04_20180212_armhf.tar.gz",
         "type": "lxc",
         "kernelVersion": "4.2.8"
     },
