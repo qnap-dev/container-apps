@@ -6,7 +6,7 @@
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_gitlab.png",
         "displayName": "GitLab",
         "name": "gitlab",
-        "version": "10.0.4",
+        "version": "11.4.0",
         "location": "https://hub.docker.com/r/sameersbn/gitlab/",
         "type": "app"
     },
@@ -17,7 +17,7 @@
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_redmine.png",
         "displayName": "Redmine",
         "name": "redmine",
-        "version": "3.4.2",
+        "version": "3.4.6",
         "location": "https://hub.docker.com/r/sameersbn/redmine/",
         "type": "app"
     },
@@ -39,7 +39,7 @@
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_joomla.png",
         "displayName": "Joomla!",
         "name": "joomla",
-        "version": "3.8.1",
+        "version": "3.8.13",
         "location": "https://hub.docker.com/r/seterrychen/joomla-without-database/",
         "type": "app"
     },
@@ -50,7 +50,7 @@
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_odoo.png",
         "displayName": "Odoo",
         "name": "odoo",
-        "version": "11",
+        "version": "12",
         "location": "https://hub.docker.com/_/odoo/",
         "type": "app"
     },
@@ -61,7 +61,7 @@
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/app_wordpress.png",
         "displayName": "WordPress",
         "name": "wordpress",
-        "version": "4.8",
+        "version": "4.9.8",
         "location": "https://hub.docker.com/r/library/wordpress/",
         "type": "app"
     },
@@ -147,7 +147,7 @@
         "displayName": "Ubuntu",
         "name": "ubuntu-xenial-armhf",
         "version": "16.04",
-        "location": "http://172.17.28.162/~terrychu/ubuntu-xenial_16.04_20180212_armhf.tar.gz",
+        "location": "http://download.qnap.com/QPKG/container/ubuntu-xenial_16.04_20180212_armhf.tar.gz",
         "type": "lxc",
         "kernelVersion": "4.2.8"
     },
@@ -164,13 +164,13 @@
         "type": "lxc"
     },
     {
-        "description": "Remote desktop Sharing in Ubuntu 14.04.",
+        "description": "Remote desktop Sharing in Ubuntu 18.04.",
         "repository": "dockerhub",
         "arch": "amd64",
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/ubuntu_icon.png",
         "displayName": "Ubuntu desktop with noVNC",
         "name": "dorowu/ubuntu-desktop-lxde-vnc",
-        "version": "release-v1.2",
+        "version": "bionic",
         "location": "https://hub.docker.com/r/dorowu/ubuntu-desktop-lxde-vnc/",
         "type": "docker"
     },
@@ -181,7 +181,7 @@
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/deluge_icon.png",
         "displayName": "Deluge",
         "name": "linuxserver/deluge",
-        "version": "90",
+        "version": "143",
         "location": "https://hub.docker.com/r/linuxserver/deluge/",
         "type": "docker"
     },
@@ -236,7 +236,7 @@
         "icon": "",
         "displayName": "Ruby",
         "name": "armhf/ruby",
-        "version": "2.3",
+        "version": "2.4",
         "location": "https://hub.docker.com/r/armhf/ruby/",
         "type": "docker"
     },
@@ -247,7 +247,7 @@
         "icon": "",
         "displayName": "Busybox",
         "name": "arm32v7/busybox",
-        "version": "1.27",
+        "version": "1.29.3",
         "location": "https://hub.docker.com/r/arm32v7/busybox/",
         "type": "docker"
     },
@@ -258,7 +258,7 @@
         "icon": "",
         "displayName": "Python",
         "name": "arm32v7/python",
-        "version": "3.6",
+        "version": "3.7",
         "location": "https://hub.docker.com/r/arm32v7/python/",
         "type": "docker"
     },
@@ -280,7 +280,7 @@
         "icon": "",
         "displayName": "PHP",
         "name": "arm32v7/php",
-        "version": "7.1",
+        "version": "7.3-rc",
         "location": "https://hub.docker.com/r/arm32v7/php/",
         "type": "docker"
     },
@@ -291,7 +291,7 @@
         "icon": "",
         "displayName": "Node.js",
         "name": "armhf/node",
-        "version": "5.3",
+        "version": "7.8",
         "location": "https://hub.docker.com/r/armhf/node/",
         "type": "docker"
     },
@@ -302,7 +302,7 @@
         "icon": "",
         "displayName": "Go",
         "name": "arm32v7/golang",
-        "version": "1.9",
+        "version": "1.11.1",
         "location": "https://hub.docker.com/r/arm32v7/golang/",
         "type": "docker"
     },
@@ -313,7 +313,7 @@
         "icon": "",
         "displayName": "Irssi",
         "name": "arm32v7/irssi",
-        "version": "1.0",
+        "version": "1.1.1",
         "location": "https://hub.docker.com/r/arm32v7/irssi/",
         "type": "docker"
     },
@@ -368,7 +368,7 @@
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/redis_icon.png",
         "displayName": "Redis",
         "name": "redis",
-        "version": "4.0",
+        "version": "5.0",
         "location": "https://hub.docker.com/_/redis/",
         "type": "docker"
     },
@@ -378,9 +378,9 @@
         "arch": "amd64",
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/mysql_icon.png",
         "displayName": "MySQL",
-        "name": "terrychu/mysql",
-        "version": "5.7.20",
-        "location": "https://hub.docker.com/r/terrychu/mysql/",
+        "name": "mysql",
+        "version": "8.0.12",
+        "location": "https://hub.docker.com/_/mysql/",
         "type": "docker"
     },
     {
@@ -390,7 +390,7 @@
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/nodejs_icon.png",
         "displayName": "Node.js",
         "name": "node",
-        "version": "9",
+        "version": "10.13.0",
         "location": "https://hub.docker.com/_/node/",
         "type": "docker"
     },
@@ -401,7 +401,7 @@
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/nginx_icon.png",
         "displayName": "Nginx",
         "name": "nginx",
-        "version": "1.13",
+        "version": "1.14",
         "location": "https://hub.docker.com/_/nginx/",
         "type": "docker"
     },
@@ -412,7 +412,7 @@
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/mongo_icon.png",
         "displayName": "MongoDB",
         "name": "mongo",
-        "version": "3.4",
+        "version": "4.1.4",
         "location": "https://hub.docker.com/_/mongo/",
         "type": "docker"
     },
@@ -423,7 +423,7 @@
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/postgresql_icon.png",
         "displayName": "PostgreSQL",
         "name": "postgres",
-        "version": "10.0",
+        "version": "11.0",
         "location": "https://hub.docker.com/_/postgres/",
         "type": "docker"
     },
@@ -435,7 +435,7 @@
         "displayName": "Ubuntu",
         "name": "arm64v8/ubuntu",
         "version": "xenial",
-        "location": "https://hub.docker.com/r/arm32v7/ubuntu://hub.docker.com/r/arm64v8/ubuntu/",
+        "location": "https://hub.docker.com/r/arm64v8/ubuntu/",
         "type": "docker"
     },
     {
@@ -445,7 +445,7 @@
         "icon": "",
         "displayName": "Ruby",
         "name": "arm64v8/ruby",
-        "version": "2.3",
+        "version": "2.6-rc",
         "location": "https://hub.docker.com/r/arm64v8/ruby/",
         "type": "docker"
     },
@@ -456,7 +456,7 @@
         "icon": "",
         "displayName": "Busybox",
         "name": "arm64v8/busybox",
-        "version": "1.27.2",
+        "version": "1.29.3",
         "location": "https://hub.docker.com/r/arm64v8/busybox/",
         "type": "docker"
     },
@@ -467,7 +467,7 @@
         "icon": "",
         "displayName": "Python",
         "name": "arm64v8/python",
-        "version": "3.6.3",
+        "version": "3.7",
         "location": "https://hub.docker.com/r/arm64v8/python/",
         "type": "docker"
     },
@@ -478,7 +478,7 @@
         "icon": "",
         "displayName": "Perl",
         "name": "arm64v8/perl",
-        "version": "5.24.2",
+        "version": "5.28",
         "location": "https://hub.docker.com/r/arm64v8/perl/",
         "type": "docker"
     },
@@ -489,7 +489,7 @@
         "icon": "",
         "displayName": "PHP",
         "name": "arm64v8/php",
-        "version": "7.1.11",
+        "version": "7.3-rc",
         "location": "https://hub.docker.com/r/arm64v8/php/",
         "type": "docker"
     },
@@ -500,7 +500,7 @@
         "icon": "",
         "displayName": "Node.js",
         "name": "arm64v8/node",
-        "version": "9.0.0",
+        "version": "11.1.0",
         "location": "https://hub.docker.com/r/arm64v8/node/",
         "type": "docker"
     },
@@ -511,7 +511,7 @@
         "icon": "",
         "displayName": "Go",
         "name": "arm64v8/golang",
-        "version": "1.9.2",
+        "version": "1.11.1",
         "location": "https://hub.docker.com/r/arm64v8/golang/",
         "type": "docker"
     },
@@ -557,7 +557,7 @@
         "icon": "",
         "displayName": "Irssi",
         "name": "arm64v8/irssi",
-        "version": "1.0.5",
+        "version": "1.1.1",
         "location": "https://hub.docker.com/r/arm64v8/irssi/",
         "type": "docker"
     }
