@@ -378,9 +378,9 @@
         "arch": "amd64",
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/mysql_icon.png",
         "displayName": "MySQL",
-        "name": "mysql",
+        "name": "edhongcy/mysql",
         "version": "8.0.12",
-        "location": "https://hub.docker.com/_/mysql/",
+        "location": "https://hub.docker.com/r/edhongcy/mysql/",
         "type": "docker"
     },
     {
