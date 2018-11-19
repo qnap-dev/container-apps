@@ -74,7 +74,7 @@
         "displayName": "Ubuntu",
         "name": "ubuntu-bionic",
         "version": "18.04",
-        "location": "http://172.17.47.23/ubuntu-bionic_18.04_amd64.tar.gz",
+        "location": "http://download.qnap.com/QPKG/container/ubuntu-bionic_18.04_20181116_amd64.tar.gz",
         "type": "lxc"
     },
     {
