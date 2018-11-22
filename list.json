@@ -97,9 +97,9 @@
         "arch": "amd64",
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/debian_icon.png",
         "displayName": "Debian",
-        "name": "debian-jessie",
-        "version": "8",
-        "location": "http://download.qnap.com/QPKG/container/debian-jessie_8_amd64.tar.gz",
+        "name": "debian-buster",
+        "version": "10",
+        "location": "http://172.17.47.23/debian-buster_10_amd64.tar.gz",
         "type": "lxc"
     },
     {
