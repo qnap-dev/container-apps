@@ -230,6 +230,17 @@
         "type": "docker"
     },
     {
+        "description": "Fast, free and incredibly easy to use, the Ubuntu operating system powers millions of desktop PCs, laptops and servers around the world.",
+        "repository": "dockerhub",
+        "arch": "armhf",
+        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/ubuntu_icon.png",
+        "displayName": "Ubuntu",
+        "name": "arm32v7/ubuntu",
+        "version": "bionic",
+        "location": "https://hub.docker.com/r/arm32v7/ubuntu/",
+        "type": "docker"
+    },
+    {
         "description": "Ruby is a dynamic, reflective, object-oriented, general-purpose, open-source programming language.",
         "repository": "dockerhub",
         "arch": "armhf",
@@ -351,6 +362,17 @@
         "type": "docker"
     },
     {
+        "description": "The official build of Ubuntu.",
+        "repository": "dockerhub",
+        "arch": "amd64",
+        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/ubuntu_icon.png",
+        "displayName": "Ubuntu",
+        "name": "ubuntu",
+        "version": "18.04",
+        "location": "https://hub.docker.com/_/ubuntu/",
+        "type": "docker"
+    },
+    {
         "description": "The official build of CentOS.",
         "repository": "dockerhub",
         "arch": "amd64",
@@ -435,6 +457,17 @@
         "displayName": "Ubuntu",
         "name": "arm64v8/ubuntu",
         "version": "xenial",
+        "location": "https://hub.docker.com/r/arm64v8/ubuntu/",
+        "type": "docker"
+    },
+    {
+        "description": "Fast, free and incredibly easy to use, the Ubuntu operating system powers millions of desktop PCs, laptops and servers around the world.",
+        "repository": "dockerhub",
+        "arch": "arm64",
+        "icon": "http://download.qnap.com/QPKG/images/QPKG/container/ubuntu_icon.png",
+        "displayName": "Ubuntu",
+        "name": "arm64v8/ubuntu",
+        "version": "bionic",
         "location": "https://hub.docker.com/r/arm64v8/ubuntu/",
         "type": "docker"
     },
