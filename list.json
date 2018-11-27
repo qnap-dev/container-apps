@@ -109,10 +109,10 @@
         "arch": "amd64",
         "icon": "http://download.qnap.com/QPKG/images/QPKG/container/fedora_icon.png",
         "displayName": "Fedora",
-        "name": "fedora-twentyfour",
-        "version": "24",
+        "name": "fedora-twentyeight",
+        "version": "28",
         "kernelVersion": "4.2.8",
-        "location": "http://download.qnap.com/QPKG/container/fedora-twentyfour_24_amd64.tar.gz",
+        "location": "http://172.17.47.23/fedora-twentyeight_28_amd64.tar.gz",
         "type": "lxc"
     },
     {
