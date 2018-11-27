@@ -112,7 +112,7 @@
         "name": "fedora-twentyeight",
         "version": "28",
         "kernelVersion": "4.2.8",
-        "location": "http://172.17.47.23/fedora-twentyeight_28_amd64.tar.gz",
+        "location": "http://download.qnap.com/QPKG/container/fedora-twentyeight_28_amd64.tar.gz",
         "type": "lxc"
     },
     {
