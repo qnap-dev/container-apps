@@ -246,9 +246,9 @@
         "arch": "armhf",
         "icon": "",
         "displayName": "Ruby",
-        "name": "armhf/ruby",
-        "version": "2.4",
-        "location": "https://hub.docker.com/r/armhf/ruby/",
+        "name": "arm32v7/ruby",
+        "version": "2.6",
+        "location": "https://hub.docker.com/r/arm32v7/ruby",
         "type": "docker"
     },
     {
@@ -279,9 +279,9 @@
         "arch": "armhf",
         "icon": "",
         "displayName": "Perl",
-        "name": "perl",
+        "name": "arm32v7/perl",
         "version": "5.28.0",
-        "location": "https://hub.docker.com/_/perl",
+        "location": "https://hub.docker.com/_/arm32v7/perl",
         "type": "docker"
     },
     {
@@ -291,7 +291,7 @@
         "icon": "",
         "displayName": "PHP",
         "name": "arm32v7/php",
-        "version": "7.3-rc",
+        "version": "7.3",
         "location": "https://hub.docker.com/r/arm32v7/php/",
         "type": "docker"
     },
@@ -301,9 +301,9 @@
         "arch": "armhf",
         "icon": "",
         "displayName": "Node.js",
-        "name": "node",
-        "version": "11.1",
-        "location": "https://hub.docker.com/_/node",
+        "name": "arm32v7/node",
+        "version": "11.6.0",
+        "location": "https://hub.docker.com/_/arm32v7/node",
         "type": "docker"
     },
     {
@@ -412,7 +412,7 @@
         "icon": "https://raw.githubusercontent.com/qnap-dev/container-apps/1.10/images/nodejs_icon.png",
         "displayName": "Node.js",
         "name": "node",
-        "version": "10.13.0",
+        "version": "11.6.0",
         "location": "https://hub.docker.com/_/node/",
         "type": "docker"
     },
@@ -478,7 +478,7 @@
         "icon": "",
         "displayName": "Ruby",
         "name": "arm64v8/ruby",
-        "version": "2.6-rc",
+        "version": "2.6",
         "location": "https://hub.docker.com/r/arm64v8/ruby/",
         "type": "docker"
     },
@@ -522,7 +522,7 @@
         "icon": "",
         "displayName": "PHP",
         "name": "arm64v8/php",
-        "version": "7.3-rc",
+        "version": "7.3",
         "location": "https://hub.docker.com/r/arm64v8/php/",
         "type": "docker"
     },
@@ -533,7 +533,7 @@
         "icon": "",
         "displayName": "Node.js",
         "name": "arm64v8/node",
-        "version": "11.1.0",
+        "version": "11.6.0",
         "location": "https://hub.docker.com/r/arm64v8/node/",
         "type": "docker"
     },
