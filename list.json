@@ -29,7 +29,7 @@
         "displayName": "Registry",
         "name": "registry",
         "version": "2.6.2",
-        "location": "https://hub.docker.com/r/registry",
+        "location": "https://hub.docker.com/_/registry",
         "type": "app"
     },
     {
@@ -51,7 +51,7 @@
         "displayName": "Odoo",
         "name": "odoo",
         "version": "12",
-        "location": "https://hub.docker.com/r/odoo",
+        "location": "https://hub.docker.com/_/odoo",
         "type": "app"
     },
     {
@@ -62,7 +62,7 @@
         "displayName": "WordPress",
         "name": "wordpress",
         "version": "4.9.8",
-        "location": "https://hub.docker.com/r/library/wordpress",
+        "location": "https://hub.docker.com/_/wordpress",
         "type": "app"
     },
     {
@@ -215,7 +215,7 @@
         "displayName": "Jenkins",
         "name": "jenkins",
         "version": "2.60.3",
-        "location": "https://hub.docker.com/r/jenkins",
+        "location": "https://hub.docker.com/_/jenkins",
         "type": "docker"
     },
     {
@@ -358,7 +358,7 @@
         "displayName": "Ubuntu",
         "name": "ubuntu",
         "version": "16.04",
-        "location": "https://hub.docker.com/r/ubuntu",
+        "location": "https://hub.docker.com/_/ubuntu",
         "type": "docker"
     },
     {
@@ -369,7 +369,7 @@
         "displayName": "Ubuntu",
         "name": "ubuntu",
         "version": "18.04",
-        "location": "https://hub.docker.com/r/ubuntu",
+        "location": "https://hub.docker.com/_/ubuntu",
         "type": "docker"
     },
     {
@@ -380,7 +380,7 @@
         "displayName": "CentOS",
         "name": "centos",
         "version": "7",
-        "location": "https://hub.docker.com/r/centos",
+        "location": "https://hub.docker.com/_/centos",
         "type": "docker"
     },
     {
@@ -391,7 +391,7 @@
         "displayName": "Redis",
         "name": "redis",
         "version": "5.0",
-        "location": "https://hub.docker.com/r/redis",
+        "location": "https://hub.docker.com/_/redis",
         "type": "docker"
     },
     {
@@ -413,7 +413,7 @@
         "displayName": "Node.js",
         "name": "node",
         "version": "11.6.0",
-        "location": "https://hub.docker.com/r/node",
+        "location": "https://hub.docker.com/_/node",
         "type": "docker"
     },
     {
@@ -424,7 +424,7 @@
         "displayName": "Nginx",
         "name": "nginx",
         "version": "1.14",
-        "location": "https://hub.docker.com/r/nginx",
+        "location": "https://hub.docker.com/_/nginx",
         "type": "docker"
     },
     {
@@ -435,7 +435,7 @@
         "displayName": "MongoDB",
         "name": "mongo",
         "version": "4.1.4",
-        "location": "https://hub.docker.com/r/mongo",
+        "location": "https://hub.docker.com/_/mongo",
         "type": "docker"
     },
     {
@@ -446,7 +446,7 @@
         "displayName": "PostgreSQL",
         "name": "postgres",
         "version": "11.0",
-        "location": "https://hub.docker.com/r/postgres",
+        "location": "https://hub.docker.com/_/postgres",
         "type": "docker"
     },
     {
