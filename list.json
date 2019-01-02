@@ -7,7 +7,7 @@
         "displayName": "GitLab",
         "name": "gitlab",
         "version": "11.4.0",
-        "location": "https://hub.docker.com/r/sameersbn/gitlab/",
+        "location": "https://hub.docker.com/r/sameersbn/gitlab",
         "type": "app"
     },
     {
@@ -18,7 +18,7 @@
         "displayName": "Redmine",
         "name": "redmine",
         "version": "3.4.6",
-        "location": "https://hub.docker.com/r/sameersbn/redmine/",
+        "location": "https://hub.docker.com/r/sameersbn/redmine",
         "type": "app"
     },
     {
@@ -29,7 +29,7 @@
         "displayName": "Registry",
         "name": "registry",
         "version": "2.6.2",
-        "location": "https://hub.docker.com/_/registry/",
+        "location": "https://hub.docker.com/r/registry",
         "type": "app"
     },
     {
@@ -40,7 +40,7 @@
         "displayName": "Joomla!",
         "name": "joomla",
         "version": "3.8.13",
-        "location": "https://hub.docker.com/r/seterrychen/joomla-without-database/",
+        "location": "https://hub.docker.com/r/seterrychen/joomla-without-database",
         "type": "app"
     },
     {
@@ -51,7 +51,7 @@
         "displayName": "Odoo",
         "name": "odoo",
         "version": "12",
-        "location": "https://hub.docker.com/_/odoo/",
+        "location": "https://hub.docker.com/r/odoo",
         "type": "app"
     },
     {
@@ -62,7 +62,7 @@
         "displayName": "WordPress",
         "name": "wordpress",
         "version": "4.9.8",
-        "location": "https://hub.docker.com/r/library/wordpress/",
+        "location": "https://hub.docker.com/r/library/wordpress",
         "type": "app"
     },
     {
@@ -123,7 +123,7 @@
         "displayName": "Odoo",
         "name": "odooarm",
         "version": "8",
-        "location": "https://hub.docker.com/r/dmisdani/arm-odoo/",
+        "location": "https://hub.docker.com/r/dmisdani/arm-odoo",
         "type": "app"
     },
     {
@@ -171,7 +171,7 @@
         "displayName": "Ubuntu desktop with noVNC",
         "name": "dorowu/ubuntu-desktop-lxde-vnc",
         "version": "bionic",
-        "location": "https://hub.docker.com/r/dorowu/ubuntu-desktop-lxde-vnc/",
+        "location": "https://hub.docker.com/r/dorowu/ubuntu-desktop-lxde-vnc",
         "type": "docker"
     },
     {
@@ -182,7 +182,7 @@
         "displayName": "Deluge",
         "name": "linuxserver/deluge",
         "version": "143",
-        "location": "https://hub.docker.com/r/linuxserver/deluge/",
+        "location": "https://hub.docker.com/r/linuxserver/deluge",
         "type": "docker"
     },
     {
@@ -193,7 +193,7 @@
         "displayName": "Minecraft",
         "name": "terrychu/minecraft-server",
         "version": "latest",
-        "location": "https://hub.docker.com/r/terrychu/minecraft-server/",
+        "location": "https://hub.docker.com/r/terrychu/minecraft-server",
         "type": "docker"
     },
     {
@@ -204,7 +204,7 @@
         "displayName": "LibreOffice with noVNC",
         "name": "colinhuang/ubuntu-libreoffice",
         "version": "1.0",
-        "location": "https://hub.docker.com/r/colinhuang/ubuntu-libreoffice/",
+        "location": "https://hub.docker.com/r/colinhuang/ubuntu-libreoffice",
         "type": "docker"
     },
     {
@@ -215,7 +215,7 @@
         "displayName": "Jenkins",
         "name": "jenkins",
         "version": "2.60.3",
-        "location": "https://hub.docker.com/_/jenkins/",
+        "location": "https://hub.docker.com/r/jenkins",
         "type": "docker"
     },
     {
@@ -226,7 +226,7 @@
         "displayName": "Ubuntu",
         "name": "arm32v7/ubuntu",
         "version": "xenial",
-        "location": "https://hub.docker.com/r/arm32v7/ubuntu/",
+        "location": "https://hub.docker.com/r/arm32v7/ubuntu",
         "type": "docker"
     },
     {
@@ -237,7 +237,7 @@
         "displayName": "Ubuntu",
         "name": "arm32v7/ubuntu",
         "version": "bionic",
-        "location": "https://hub.docker.com/r/arm32v7/ubuntu/",
+        "location": "https://hub.docker.com/r/arm32v7/ubuntu",
         "type": "docker"
     },
     {
@@ -259,7 +259,7 @@
         "displayName": "Busybox",
         "name": "arm32v7/busybox",
         "version": "1.29.3",
-        "location": "https://hub.docker.com/r/arm32v7/busybox/",
+        "location": "https://hub.docker.com/r/arm32v7/busybox",
         "type": "docker"
     },
     {
@@ -270,7 +270,7 @@
         "displayName": "Python",
         "name": "arm32v7/python",
         "version": "3.7",
-        "location": "https://hub.docker.com/r/arm32v7/python/",
+        "location": "https://hub.docker.com/r/arm32v7/python",
         "type": "docker"
     },
     {
@@ -281,7 +281,7 @@
         "displayName": "Perl",
         "name": "arm32v7/perl",
         "version": "5.28.0",
-        "location": "https://hub.docker.com/_/arm32v7/perl",
+        "location": "https://hub.docker.com/r/arm32v7/perl",
         "type": "docker"
     },
     {
@@ -292,7 +292,7 @@
         "displayName": "PHP",
         "name": "arm32v7/php",
         "version": "7.3",
-        "location": "https://hub.docker.com/r/arm32v7/php/",
+        "location": "https://hub.docker.com/r/arm32v7/php",
         "type": "docker"
     },
     {
@@ -303,7 +303,7 @@
         "displayName": "Node.js",
         "name": "arm32v7/node",
         "version": "11.6.0",
-        "location": "https://hub.docker.com/_/arm32v7/node",
+        "location": "https://hub.docker.com/r/arm32v7/node",
         "type": "docker"
     },
     {
@@ -314,7 +314,7 @@
         "displayName": "Go",
         "name": "arm32v7/golang",
         "version": "1.11.1",
-        "location": "https://hub.docker.com/r/arm32v7/golang/",
+        "location": "https://hub.docker.com/r/arm32v7/golang",
         "type": "docker"
     },
     {
@@ -325,7 +325,7 @@
         "displayName": "Irssi",
         "name": "arm32v7/irssi",
         "version": "1.1.1",
-        "location": "https://hub.docker.com/r/arm32v7/irssi/",
+        "location": "https://hub.docker.com/r/arm32v7/irssi",
         "type": "docker"
     },
     {
@@ -336,7 +336,7 @@
         "displayName": "Ubuntu with noVNC",
         "name": "colinhuang/ubuntu-novnc-armhf",
         "version": "1.0",
-        "location": "https://hub.docker.com/r/colinhuang/ubuntu-novnc-armhf/",
+        "location": "https://hub.docker.com/r/colinhuang/ubuntu-novnc-armhf",
         "type": "docker"
     },
     {
@@ -347,7 +347,7 @@
         "displayName": "APT mirroring server",
         "name": "seterrychen/apt-mirror-http-server",
         "version": "0.1.2",
-        "location": "https://hub.docker.com/r/seterrychen/apt-mirror-http-server/",
+        "location": "https://hub.docker.com/r/seterrychen/apt-mirror-http-server",
         "type": "docker"
     },
     {
@@ -358,7 +358,7 @@
         "displayName": "Ubuntu",
         "name": "ubuntu",
         "version": "16.04",
-        "location": "https://hub.docker.com/_/ubuntu/",
+        "location": "https://hub.docker.com/r/ubuntu",
         "type": "docker"
     },
     {
@@ -369,7 +369,7 @@
         "displayName": "Ubuntu",
         "name": "ubuntu",
         "version": "18.04",
-        "location": "https://hub.docker.com/_/ubuntu/",
+        "location": "https://hub.docker.com/r/ubuntu",
         "type": "docker"
     },
     {
@@ -380,7 +380,7 @@
         "displayName": "CentOS",
         "name": "centos",
         "version": "7",
-        "location": "https://hub.docker.com/_/centos/",
+        "location": "https://hub.docker.com/r/centos",
         "type": "docker"
     },
     {
@@ -391,7 +391,7 @@
         "displayName": "Redis",
         "name": "redis",
         "version": "5.0",
-        "location": "https://hub.docker.com/_/redis/",
+        "location": "https://hub.docker.com/r/redis",
         "type": "docker"
     },
     {
@@ -402,7 +402,7 @@
         "displayName": "MySQL",
         "name": "edhongcy/mysql",
         "version": "8.0.12",
-        "location": "https://hub.docker.com/r/edhongcy/mysql/",
+        "location": "https://hub.docker.com/r/edhongcy/mysql",
         "type": "docker"
     },
     {
@@ -413,7 +413,7 @@
         "displayName": "Node.js",
         "name": "node",
         "version": "11.6.0",
-        "location": "https://hub.docker.com/_/node/",
+        "location": "https://hub.docker.com/r/node",
         "type": "docker"
     },
     {
@@ -424,7 +424,7 @@
         "displayName": "Nginx",
         "name": "nginx",
         "version": "1.14",
-        "location": "https://hub.docker.com/_/nginx/",
+        "location": "https://hub.docker.com/r/nginx",
         "type": "docker"
     },
     {
@@ -435,7 +435,7 @@
         "displayName": "MongoDB",
         "name": "mongo",
         "version": "4.1.4",
-        "location": "https://hub.docker.com/_/mongo/",
+        "location": "https://hub.docker.com/r/mongo",
         "type": "docker"
     },
     {
@@ -446,7 +446,7 @@
         "displayName": "PostgreSQL",
         "name": "postgres",
         "version": "11.0",
-        "location": "https://hub.docker.com/_/postgres/",
+        "location": "https://hub.docker.com/r/postgres",
         "type": "docker"
     },
     {
@@ -457,7 +457,7 @@
         "displayName": "Ubuntu",
         "name": "arm64v8/ubuntu",
         "version": "xenial",
-        "location": "https://hub.docker.com/r/arm64v8/ubuntu/",
+        "location": "https://hub.docker.com/r/arm64v8/ubuntu",
         "type": "docker"
     },
     {
@@ -468,7 +468,7 @@
         "displayName": "Ubuntu",
         "name": "arm64v8/ubuntu",
         "version": "bionic",
-        "location": "https://hub.docker.com/r/arm64v8/ubuntu/",
+        "location": "https://hub.docker.com/r/arm64v8/ubuntu",
         "type": "docker"
     },
     {
@@ -479,7 +479,7 @@
         "displayName": "Ruby",
         "name": "arm64v8/ruby",
         "version": "2.6",
-        "location": "https://hub.docker.com/r/arm64v8/ruby/",
+        "location": "https://hub.docker.com/r/arm64v8/ruby",
         "type": "docker"
     },
     {
@@ -490,7 +490,7 @@
         "displayName": "Busybox",
         "name": "arm64v8/busybox",
         "version": "1.29.3",
-        "location": "https://hub.docker.com/r/arm64v8/busybox/",
+        "location": "https://hub.docker.com/r/arm64v8/busybox",
         "type": "docker"
     },
     {
@@ -501,7 +501,7 @@
         "displayName": "Python",
         "name": "arm64v8/python",
         "version": "3.7",
-        "location": "https://hub.docker.com/r/arm64v8/python/",
+        "location": "https://hub.docker.com/r/arm64v8/python",
         "type": "docker"
     },
     {
@@ -512,7 +512,7 @@
         "displayName": "Perl",
         "name": "arm64v8/perl",
         "version": "5.28",
-        "location": "https://hub.docker.com/r/arm64v8/perl/",
+        "location": "https://hub.docker.com/r/arm64v8/perl",
         "type": "docker"
     },
     {
@@ -523,7 +523,7 @@
         "displayName": "PHP",
         "name": "arm64v8/php",
         "version": "7.3",
-        "location": "https://hub.docker.com/r/arm64v8/php/",
+        "location": "https://hub.docker.com/r/arm64v8/php",
         "type": "docker"
     },
     {
@@ -534,7 +534,7 @@
         "displayName": "Node.js",
         "name": "arm64v8/node",
         "version": "11.6.0",
-        "location": "https://hub.docker.com/r/arm64v8/node/",
+        "location": "https://hub.docker.com/r/arm64v8/node",
         "type": "docker"
     },
     {
@@ -545,7 +545,7 @@
         "displayName": "Go",
         "name": "arm64v8/golang",
         "version": "1.11.1",
-        "location": "https://hub.docker.com/r/arm64v8/golang/",
+        "location": "https://hub.docker.com/r/arm64v8/golang",
         "type": "docker"
     },
     {
@@ -556,7 +556,7 @@
         "displayName": "Ubuntu with noVNC",
         "name": "terrychu/docker-ubuntu-novnc",
         "version": "arm64v8-1.0",
-        "location": "https://hub.docker.com/r/terrychu/docker-ubuntu-novnc/",
+        "location": "https://hub.docker.com/r/terrychu/docker-ubuntu-novnc",
         "type": "docker"
     },
     {
@@ -603,7 +603,7 @@
         "displayName": "Irssi",
         "name": "arm64v8/irssi",
         "version": "1.1.1",
-        "location": "https://hub.docker.com/r/arm64v8/irssi/",
+        "location": "https://hub.docker.com/r/arm64v8/irssi",
         "type": "docker"
     }
 ]
