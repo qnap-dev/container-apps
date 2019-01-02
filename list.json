@@ -279,9 +279,9 @@
         "arch": "armhf",
         "icon": "",
         "displayName": "Perl",
-        "name": "armhf/perl",
-        "version": "5.24.1",
-        "location": "https://hub.docker.com/r/armhf/perl/",
+        "name": "perl",
+        "version": "5.28.0",
+        "location": "https://hub.docker.com/_/perl",
         "type": "docker"
     },
     {
@@ -301,9 +301,9 @@
         "arch": "armhf",
         "icon": "",
         "displayName": "Node.js",
-        "name": "armhf/node",
-        "version": "7.8",
-        "location": "https://hub.docker.com/r/armhf/node/",
+        "name": "node",
+        "version": "11.1",
+        "location": "https://hub.docker.com/_/node",
         "type": "docker"
     },
     {
