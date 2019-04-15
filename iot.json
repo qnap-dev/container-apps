@@ -24,30 +24,6 @@
         "qcsVersion": "1.5"
     },
     {
-        "description": "A simple docker image with both Kafka and Zookeeper",
-        "repository": "dockerhub",
-        "arch": "amd64",
-        "icon": "https://raw.githubusercontent.com/qnap-dev/container-apps/1.10/images/iot_kafka.png",
-        "displayName": "Kafka",
-        "name": "qnapnas/qiot-kafka_amd64",
-        "version": "0.1",
-        "location": "https://hub.docker.com/r/qnapnas/qiot-kafka_amd64/",
-        "type": "iot",
-        "qcsVersion": "1.5"
-    },
-    {
-        "description": "A tool for managing Apache Kafka",
-        "repository": "dockerhub",
-        "arch": "amd64",
-        "icon": "https://raw.githubusercontent.com/qnap-dev/container-apps/1.10/images/iot_default.png",
-        "displayName": "Kafka Manager",
-        "name": "qnapnas/qiot-kafka-manager_amd64",
-        "version": "0.1",
-        "location": "https://hub.docker.com/r/qnapnas/qiot-kafka-manager_amd64/",
-        "type": "iot",
-        "qcsVersion": "1.5"
-    },
-    {
         "description": "RabbitMQ is a highly reliable enterprise messaging system based on the emerging AMQP standard",
         "repository": "dockerhub",
         "arch": "amd64",
@@ -164,30 +140,6 @@
         "name": "qnapnas/qiot-ponte_armhf",
         "version": "0.1",
         "location": "https://hub.docker.com/r/qnapnas/qiot-ponte_armhf/",
-        "type": "iot",
-        "qcsVersion": "1.5"
-    },
-    {
-        "description": "A simple docker image with both Kafka and Zookeeper",
-        "repository": "dockerhub",
-        "arch": "armhf",
-        "icon": "https://raw.githubusercontent.com/qnap-dev/container-apps/1.10/images/iot_kafka.png",
-        "displayName": "Kafka",
-        "name": "qnapnas/qiot-kafka_armhf",
-        "version": "0.1",
-        "location": "https://hub.docker.com/r/qnapnas/qiot-kafka_armhf/",
-        "type": "iot",
-        "qcsVersion": "1.5"
-    },
-    {
-        "description": "A tool for managing Apache Kafka",
-        "repository": "dockerhub",
-        "arch": "armhf",
-        "icon": "https://raw.githubusercontent.com/qnap-dev/container-apps/1.10/images/iot_default.png",
-        "displayName": "Kafka Manager",
-        "name": "qnapnas/qiot-kafka-manager_armhf",
-        "version": "0.1",
-        "location": "https://hub.docker.com/r/qnapnas/qiot-kafka-manager_armhf/",
         "type": "iot",
         "qcsVersion": "1.5"
     },
