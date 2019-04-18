@@ -1,11 +1,11 @@
 ## Usage
 
-On Container Station:
+On QTS Container Station:
 
 1. Create application registry by [Create Container] → [Create Registry].
 2. Add Registry to searching list by [Preferences] → [Registry] → [Add] that URL is ```https://NAS_IP:6088``` and check Trust SSL.
 
-On PC:
+Others:
 
 - Add certificate to your Docker trusty list:
 ```
