@@ -1,8 +1,8 @@
-version: '2'
+version: '3'
 
 services:
   web:
-    image: nginx:1.13
+    image: nginx:1.15.12-alpine
     ports:
       - 6088:5000
     volumes:
@@ -11,7 +11,7 @@ services:
       - /etc/docker/tls/server-key.pem:/etc/ssl/private/docker-registry
 
   app:
-    image: registry:2.6.2
+    image: registry:2.7.1
     volumes:
       - registry-data:/data/registry
     environment:

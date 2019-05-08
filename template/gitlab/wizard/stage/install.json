@@ -30,12 +30,12 @@
     "file": "docker-compose.yml",
     "data": {
       "http_port": [
-        "gitlab.ports[0]",
-        "gitlab.environment.GITLAB_PORT"
+        "services.gitlab.ports[0]",
+        "services.gitlab.environment.GITLAB_PORT"
       ],
       "ssh_port": [
-        "gitlab.environment.GITLAB_SSH_PORT",
-        "gitlab.ports[1]"
+        "services.gitlab.environment.GITLAB_SSH_PORT",
+        "services.gitlab.ports[1]"
       ]
     }
   }

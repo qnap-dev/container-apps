@@ -1,29 +1,56 @@
-postgresql:
-  restart: always
-  image: sameersbn/postgresql:9.6-2
-  environment:
-    - DB_USER=gitlab
-    - DB_PASS=password
-    - DB_NAME=gitlabhq_production
-    - DB_EXTENSION=pg_trgm
-gitlab:
-  restart: always
-  image: sameersbn/gitlab:11.4.0
-  links:
-    - redis:redisio
-    - postgresql:postgresql
-  ports:
-    - "10080:80"
-    - "10022:22"
-  environment:
-    - DEBUG=false
-    - GITLAB_PORT=10080
-    - GITLAB_SSH_PORT=10022
-    - GITLAB_SECRETS_DB_KEY_BASE=qcs-gitlab-app
-    - GITLAB_SECRETS_OTP_KEY_BASE=qcs-gitlab-app
-    - GITLAB_SECRETS_SECRET_KEY_BASE=qcs-gitlab-app
-redis:
-  restart: always
-  image: sameersbn/redis:latest
-  command:
-    - --loglevel warning
+version: '3'
+
+services:
+  redis:
+    image: sameersbn/redis:4.0.9-1
+    restart: always
+    command:
+      - --loglevel warning
+#    volumes:
+#      - redis_data:/var/lib/redis
+
+  postgresql:
+    image: sameersbn/postgresql:10
+    restart: always
+#    volumes:
+#      - postgresql_data:/var/lib/postgresql
+    environment:
+      DB_USER: gitlab
+      DB_PASS: password
+      DB_NAME: gitlabhq_production
+      DB_EXTENSION: pg_trgm
+
+  gitlab:
+    depends_on:
+      - redis
+      - postgresql
+    image: sameersbn/gitlab:11.10.4
+    restart: always
+#    volumes:
+#      - gitlab_data:/home/git/data
+    ports:
+      - "10080:80"
+      - "10022:22"
+    environment:
+#      DEBUG: false
+
+      DB_ADAPTER: postgresql
+      DB_HOST: postgresql
+      DB_PORT: 5432
+      DB_USER: gitlab
+      DB_PASS: password
+      DB_NAME: gitlabhq_production
+
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+
+      GITLAB_PORT: 10080
+      GITLAB_SSH_PORT: 10022
+      GITLAB_SECRETS_DB_KEY_BASE: qcs-gitlab-app
+      GITLAB_SECRETS_OTP_KEY_BASE: qcs-gitlab-app
+      GITLAB_SECRETS_SECRET_KEY_BASE: qcs-gitlab-app
+
+#volumes:
+#  redis_data:
+#  postgresql_data:
+#  gitlab_data:

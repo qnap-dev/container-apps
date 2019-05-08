@@ -1,18 +1,29 @@
-db:
-  image: mariadb:10.2
-  environment:
-    - MYSQL_ROOT_PASSWORD=admin
-    - MYSQL_USER=joomla
-    - MYSQL_PASSWORD=joomla
-    - MYSQL_DATABASE=joomla
-web:
-  image: edhongcy/joomla-without-database:3.8.13
-  links:
-    - db:db
-  ports:
-    - "10082:80"
-  environment:
-    - DB_HOST=db
-    - DB_USER=joomla
-    - DB_PASSWORD=joomla
-    - DB_NAME=joomla
+version: '3'
+
+services:
+  db:
+    image: mysql:5.7
+    restart: always
+#    volumes:
+#      - db_data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: example
+      MYSQL_DATABASE: joomla
+      MYSQL_USER: joomla
+      MYSQL_PASSWORD: joomla
+
+  joomla:
+    depends_on:
+      - db
+    image: joomla:3.9.5
+    restart: always
+    ports:
+      - "10082:80"
+    volumes:
+      - ./database.xml:/var/www/html/installation/model/forms/database.xml
+    environment:
+      JOOMLA_DB_HOST: db:3306
+      JOOMLA_DB_PASSWORD: example
+
+#volumes:
+#  db_data:

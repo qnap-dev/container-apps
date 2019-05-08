@@ -1,12 +1,21 @@
-db:
-  image: postgres:10.0
-  environment:
-    - POSTGRES_USER=odoo
-    - POSTGRES_PASSWORD=odoo
+version: '3'
 
-web:
-  image: odoo:12
-  links:
-    - db:db
-  ports:
-    - "18069:8069"
+services:
+  db:
+    image: postgres:10
+#    volumes:
+#      - db_data:/var/lib/postgresql
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=odoo
+      - POSTGRES_PASSWORD=odoo
+  
+  web:
+    depends_on:
+      - db
+    image: odoo:12.0
+    ports:
+      - "18069:8069"
+
+#volumes:
+#  db_data:
