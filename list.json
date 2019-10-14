@@ -87,7 +87,7 @@
         "displayName": "Ubuntu",
         "name": "ubuntu-bionic",
         "version": "18.04",
-        "location": "http://download.qnap.com/QPKG/container/ubuntu-bionic_18.04_20190925_amd64.tar.gz",
+        "location": "http://download.qnap.com/QPKG/container/ubuntu-bionic_18.04_20191009_amd64.tar.gz",
         "type": "lxc"
     },
     {
@@ -99,7 +99,7 @@
         "displayName": "Debian",
         "name": "debian-buster",
         "version": "10",
-        "location": "http://download.qnap.com/QPKG/container/debian-buster_10_amd64.tar.gz",
+        "location": "http://download.qnap.com/QPKG/container/debian-buster_10_20191009_amd64.tar.gz",
         "type": "lxc"
     },
     {
@@ -148,7 +148,7 @@
         "displayName": "Ubuntu",
         "name": "ubuntu-bionic-armhf",
         "version": "18.04",
-        "location": "http://download.qnap.com/QPKG/container/ubuntu-bionic_18.04_20190925_armhf.tar.gz",
+        "location": "http://download.qnap.com/QPKG/container/ubuntu-bionic_18.04_20191009_armhf.tar.gz",
         "type": "lxc"
     },
     {
@@ -160,7 +160,7 @@
         "displayName": "Debian",
         "name": "debian-buster-armhf",
         "version": "10",
-        "location": "http://download.qnap.com/QPKG/container/debian-buster_10_armhf.tar.gz",
+        "location": "http://download.qnap.com/QPKG/container/debian-buster_10_20191009_armhf.tar.gz",
         "type": "lxc"
     },
     {
@@ -580,7 +580,7 @@
         "displayName": "Ubuntu",
         "name": "ubuntu-bionic-arm64",
         "version": "18.04",
-        "location": "http://download.qnap.com/QPKG/container/ubuntu-bionic_18.04_20190925_arm64.tar.gz",
+        "location": "http://download.qnap.com/QPKG/container/ubuntu-bionic_18.04_20191009_arm64.tar.gz",
         "type": "lxc"
     },
     {
@@ -592,7 +592,7 @@
         "displayName": "Debian",
         "name": "debian-buster-arm64",
         "version": "10",
-        "location": "http://download.qnap.com/QPKG/container/debian-buster_10_arm64.tar.gz",
+        "location": "http://download.qnap.com/QPKG/container/debian-buster_10_20191009_arm64.tar.gz",
         "type": "lxc"
     },
     {
