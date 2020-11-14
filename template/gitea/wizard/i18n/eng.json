@@ -1,0 +1,6 @@
+{
+  "GITEA_NAME": "Gitea",
+  "GITEA_CONFIGURE": "Configure Gitea",
+  "GITEA_WEB_HOST_PORT_DESC": "The port of the Gitea server. Defaults to 3000.",
+  "GITEA_SSH_HOST_PORT_DESC": "The ssh port number. Defaults to 222.<div>Please note that HTTP Port and SSH Port must be different.</div>"
+}

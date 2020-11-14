@@ -1,0 +1,40 @@
+{
+  "api_version": "v1",
+  "title": "{{GITEA_NAME}}",
+  "wizard": [
+    {
+      "title": "{{GITEA_CONFIGURE}}",
+      "schema": {
+        "http_port": {
+          "type": "integer",
+          "title": "HTTP Port",
+          "description": "{{GITEA_WEB_HOST_PORT_DESC}}",
+		  "required": true,
+          "maximum": 65535
+        },
+        "ssh_port": {
+          "type": "integer",
+          "title": "SSH Port",
+          "description": "{{GITEA_SSH_HOST_PORT_DESC}}",
+		  "required": true,
+          "maximum": 65535
+        }
+      },
+      "form": [
+        "*"
+      ]
+    }
+  ],
+  "binding": {
+    "type": "yaml",
+    "file": "docker-compose.yml",
+    "data": {
+      "http_port": [
+        "services.server.ports[0]"
+      ],
+      "ssh_port": [
+        "services.server.ports[1]"
+      ]
+    }
+  }
+}

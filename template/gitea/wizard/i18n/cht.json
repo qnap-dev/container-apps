@@ -1,0 +1,6 @@
+{
+  "GITEA_NAME": "Gitea",
+  "GITEA_CONFIGURE": "設定 Gitea",
+  "GITEA_WEB_HOST_PORT_DESC": "設定 Gitea 網頁伺服器的 Port，預設是 3000。",
+  "GITEA_SSH_HOST_PORT_DESC": "設定 Gitea SSH 伺服器的 Port，預設是 222。<div>HTTP Port 和 SSH Port 的設定不可相同。</div>"
+}
