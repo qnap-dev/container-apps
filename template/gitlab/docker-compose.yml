@@ -13,12 +13,12 @@ gitlab:
     - redis:redisio
     - postgresql:postgresql
   ports:
-    - "10080:80"
-    - "10022:22"
+    - "12080:80"
+    - "12022:22"
   environment:
     - DEBUG=false
-    - GITLAB_PORT=10080
-    - GITLAB_SSH_PORT=10022
+    - GITLAB_PORT=12080
+    - GITLAB_SSH_PORT=12022
     - GITLAB_SECRETS_DB_KEY_BASE=qcs-gitlab-app
     - GITLAB_SECRETS_OTP_KEY_BASE=qcs-gitlab-app
     - GITLAB_SECRETS_SECRET_KEY_BASE=qcs-gitlab-app
