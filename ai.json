@@ -29,7 +29,7 @@
         "arch": "amd64",
         "icon": "https://raw.githubusercontent.com/qnap-dev/container-apps/2.0/images/ai_default.png",
         "displayName": "CNTK - GPU",
-        "name": "microsoft/cntk",
+        "name": "mcr.microsoft.com/cntk/release",
         "version": "2.6-gpu-python3.5-cuda9.0-cudnn7.0",
         "location": "https://hub.docker.com/r/microsoft/cntk/",
         "type": "ai",
