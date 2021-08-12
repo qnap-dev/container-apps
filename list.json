@@ -186,17 +186,6 @@
         "type": "docker"
     },
     {
-        "description": "The Minecraft multiplayer server allows multiple players to play Minecraft together.",
-        "repository": "dockerhub",
-        "arch": "amd64",
-        "icon": "https://raw.githubusercontent.com/qnap-dev/container-apps/2.0/images/minecraft_icon.png",
-        "displayName": "Minecraft",
-        "name": "terrychu/minecraft-server",
-        "version": "latest",
-        "location": "https://hub.docker.com/r/terrychu/minecraft-server",
-        "type": "docker"
-    },
-    {
         "description": "Ubuntu Desktop is pre-loaded with LibreOffice and Firefox. LibreOffice is a powerful office suite that includes: Writer (word processor), Calc (spreadsheet application), Impress (presentation engine), Draw (drawing and flowcharting application), Base (database and database frontend), and Math (editing mathematics).",
         "repository": "dockerhub",
         "arch": "amd64",
